@@ -1,28 +1,19 @@
-﻿using System;
+﻿using Pokédex.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Pokédex
 {
     public partial class App : Application
     {
-        public App()
-        {
-            InitializeComponent();
-
-            MainPage = new MainPage();
-        }
+        public App() => InitializeComponent();
 
         protected override void OnStart()
         {
+            MainPage = new NavigationPage(new MainPage());
         }
 
-        protected override void OnSleep()
-        {
-        }
+        protected override void OnSleep() { }
 
-        protected override void OnResume()
-        {
-        }
+        protected override void OnResume() { }
     }
 }

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Pokédex.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Pokédex.ViewModels"
+    Title="Pokédex">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Search" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <Style TargetType="StackLayout">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="LightGray" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding PokémonCollection}" SelectionMode="Single">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="2" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame Margin="5,5" HasShadow="True">
+                            <StackLayout>
+                                <Label
+                                    FontSize="Large"
+                                    Text="{Binding Name}"
+                                    TextColor="Black" />
+                                <Image
+                                    HeightRequest="100"
+                                    HorizontalOptions="EndAndExpand"
+                                    Source="{Binding Image}"
+                                    WidthRequest="100" />
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsVisible}" />
+        <Button
+            BackgroundColor="Transparent"
+            Command="{Binding LoadMoreCommand}"
+            Text="Load More Pokémons" />
+    </StackLayout>
+
+</ContentPage>
