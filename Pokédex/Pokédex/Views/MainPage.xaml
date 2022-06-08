@@ -7,7 +7,7 @@
     Title="Pokédex">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Search" />
+        <ToolbarItem Command="{Binding SearchCommand}" Text="Search" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.BindingContext>

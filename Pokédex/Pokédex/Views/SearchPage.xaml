@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Pokédex.Views.SearchPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Pokédex.ViewModels"
+    Title="Search">
+
+    <ContentPage.BindingContext>
+        <vm:SearchViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Margin="15">
+        <SearchBar
+            Placeholder="Search Pokémon"
+            SearchCommand="{Binding SearchPokemonCommand}"
+            Text="{Binding FilterPokemon}"
+            TextTransform="Lowercase" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                FontSize="Title"
+                Text="{Binding Id}" />
+            <Label
+                Grid.Column="1"
+                FontSize="Title"
+                HorizontalOptions="End"
+                Text="{Binding Type}"
+                TextTransform="Uppercase" />
+        </Grid>
+
+        <Image
+            HorizontalOptions="FillAndExpand"
+            Source="{Binding Image}"
+            VerticalOptions="FillAndExpand" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="Title"
+            HorizontalOptions="Center"
+            Text="{Binding Name}"
+            TextTransform="Uppercase" />
+    </StackLayout>
+
+</ContentPage>

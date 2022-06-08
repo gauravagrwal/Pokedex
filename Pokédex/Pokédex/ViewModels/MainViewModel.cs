@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Pokédex.Models;
+using Pokédex.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -31,6 +32,7 @@ namespace Pokédex.ViewModels
 
         #region Commands
         public ICommand LoadMoreCommand { get; }
+        public ICommand SearchCommand { get; }
         #endregion
 
         public MainViewModel()
@@ -41,6 +43,7 @@ namespace Pokédex.ViewModels
             GetPokemons();
 
             LoadMoreCommand = new Command(LoadMoreCommandHandler);
+            SearchCommand = new Command(SearchCommandHandler);
         }
 
         #region Command Handlers
@@ -64,6 +67,11 @@ namespace Pokédex.ViewModels
             });
             IsLoading = false;
             IsVisible = false;
+        }
+
+        async void SearchCommandHandler()
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new SearchPage());
         }
         #endregion
 
