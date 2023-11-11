@@ -30,6 +30,7 @@ namespace Pokédex.ViewModels
         #endregion
 
         public ICommand LoadMoreCommand { get; }
+        public ICommand SearchCommand { get; }
 
         public MainViewModel()
         {
@@ -40,6 +41,8 @@ namespace Pokédex.ViewModels
             GetPokémons();
 
             LoadMoreCommand = new Command(async () => await LoadMoreCommandHandler());
+            SearchCommand = new Command(async () => await SearchCommandHandler());
+
         }
 
         async Task LoadMoreCommandHandler()
@@ -61,6 +64,11 @@ namespace Pokédex.ViewModels
             });
             IsLoading = false;
             IsVisible = false;
+        }
+
+        async Task SearchCommandHandler()
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new Pages.SearchPage());
         }
 
         public void GetPokémons()
