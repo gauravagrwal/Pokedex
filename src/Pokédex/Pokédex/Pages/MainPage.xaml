@@ -3,6 +3,8 @@
     x:Class="Pokédex.Pages.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
+    xmlns:sk="clr-namespace:Xamarin.Forms.Skeleton;assembly=Xamarin.Forms.Skeleton"
     xmlns:vm="clr-namespace:Pokédex.ViewModels"
     Title="Pokédex">
 
@@ -33,7 +35,12 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <CollectionView ItemsSource="{Binding PokémonCollection}" SelectionMode="Single">
+            <CollectionView
+                sk:Skeleton.Animation="{sk:DefaultAnimation Beat}"
+                sk:Skeleton.IsBusy="{Binding IsLoading}"
+                sk:Skeleton.IsParent="True"
+                ItemsSource="{Binding PokémonCollection}"
+                SelectionMode="Single">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2" />
                 </CollectionView.ItemsLayout>
@@ -42,10 +49,11 @@
                         <StackLayout Padding="5">
                             <Frame Margin="5,5" HasShadow="True">
                                 <StackLayout>
-                                    <Label
+                                    <material:MaterialLabel
                                         FontSize="Large"
                                         Text="{Binding Name}"
-                                        TextColor="Black" />
+                                        TextColor="Black"
+                                        Type="BodyMedium" />
                                     <Image
                                         HeightRequest="100"
                                         HorizontalOptions="EndAndExpand"
@@ -59,10 +67,7 @@
             </CollectionView>
 
             <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsVisible}" />
-            <Button
-                BackgroundColor="Transparent"
-                Command="{Binding LoadMoreCommand}"
-                Text="Load More Pokémons" />
+            <material:MaterialButton Command="{Binding LoadMoreCommand}" Text="Load More Pokémons" />
 
         </StackLayout>
     </ContentPage.Content>
