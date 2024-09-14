@@ -2,37 +2,72 @@
 <ContentPage
     x:Class="Pokédex.Pages.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
+    xmlns:sk="clr-namespace:Xamarin.Forms.Skeleton;assembly=Xamarin.Forms.Skeleton"
+    xmlns:vm="clr-namespace:Pokédex.ViewModels"
+    Title="Pokédex">
 
-    <StackLayout>
-        <Frame
-            Padding="24"
-            BackgroundColor="#2196F3"
-            CornerRadius="0">
-            <Label
-                FontSize="36"
-                HorizontalTextAlignment="Center"
-                Text="Welcome to Xamarin.Forms!"
-                TextColor="White" />
-        </Frame>
-        <Label
-            Padding="30,10,30,10"
-            FontSize="Title"
-            Text="Start developing now" />
-        <Label
-            Padding="30,0,30,0"
-            FontSize="16"
-            Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" />
-        <Label Padding="30,24,30,0" FontSize="16">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at " />
-                        <Span FontAttributes="Bold" Text="https://aka.ms/xamarin-quickstart" />
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <Style TargetType="StackLayout">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="LightGray" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView
+                sk:Skeleton.Animation="{sk:DefaultAnimation Beat}"
+                sk:Skeleton.IsBusy="{Binding IsLoading}"
+                sk:Skeleton.IsParent="True"
+                ItemsSource="{Binding PokémonCollection}"
+                SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <Frame Margin="5,5" HasShadow="True">
+                                <StackLayout>
+                                    <material:MaterialLabel
+                                        FontSize="Large"
+                                        Text="{Binding Name}"
+                                        TextColor="Black" />
+                                    <Image
+                                        HeightRequest="100"
+                                        HorizontalOptions="EndAndExpand"
+                                        Source="{Binding Image}"
+                                        WidthRequest="100" />
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsVisible}" />
+            <material:MaterialButton
+                BackgroundColor="Transparent"
+                Command="{Binding LoadMoreCommand}"
+                Text="Load More Pokémons" />
+
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>
