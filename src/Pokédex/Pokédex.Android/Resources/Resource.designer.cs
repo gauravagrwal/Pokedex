@@ -25,6 +25,3421 @@ namespace Pokédex.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_fade_in = global::Pokédex.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_fade_out = global::Pokédex.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Pokédex.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_popup_enter = global::Pokédex.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_popup_exit = global::Pokédex.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Pokédex.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_slide_in_bottom = global::Pokédex.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_slide_in_top = global::Pokédex.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_slide_out_bottom = global::Pokédex.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_slide_out_top = global::Pokédex.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_tooltip_enter = global::Pokédex.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.abc_tooltip_exit = global::Pokédex.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::Pokédex.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::Pokédex.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Pokédex.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Pokédex.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.design_snackbar_in = global::Pokédex.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.design_snackbar_out = global::Pokédex.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.EnterFromLeft = global::Pokédex.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.EnterFromRight = global::Pokédex.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.ExitToLeft = global::Pokédex.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.ExitToRight = global::Pokédex.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::Pokédex.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::Pokédex.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::Pokédex.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animation.mtrl_card_lowers_interpolator = global::Pokédex.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.design_appbar_state_list_animator = global::Pokédex.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.design_fab_hide_motion_spec = global::Pokédex.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.design_fab_show_motion_spec = global::Pokédex.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_btn_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_card_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_chip_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::Pokédex.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::Pokédex.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_extended_fab_state_list_animator = global::Pokédex.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::Pokédex.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::Pokédex.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Pokédex.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Pokédex.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarDivider = global::Pokédex.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarItemBackground = global::Pokédex.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarPopupTheme = global::Pokédex.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarSize = global::Pokédex.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarSplitStyle = global::Pokédex.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarStyle = global::Pokédex.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarTabBarStyle = global::Pokédex.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarTabStyle = global::Pokédex.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarTabTextStyle = global::Pokédex.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarTheme = global::Pokédex.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionBarWidgetTheme = global::Pokédex.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionButtonStyle = global::Pokédex.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionDropDownStyle = global::Pokédex.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionLayout = global::Pokédex.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionMenuTextAppearance = global::Pokédex.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionMenuTextColor = global::Pokédex.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeBackground = global::Pokédex.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Pokédex.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeCloseDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeCopyDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeCutDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeFindDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModePasteDrawable = global::Pokédex.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModePopupWindowStyle = global::Pokédex.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeShareDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeSplitBackground = global::Pokédex.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeStyle = global::Pokédex.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Pokédex.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionOverflowButtonStyle = global::Pokédex.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionOverflowMenuStyle = global::Pokédex.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionProviderClass = global::Pokédex.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionTextColorAlpha = global::Pokédex.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.actionViewClass = global::Pokédex.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.activityChooserViewStyle = global::Pokédex.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Pokédex.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alertDialogCenterButtons = global::Pokédex.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alertDialogStyle = global::Pokédex.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alertDialogTheme = global::Pokédex.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.allowStacking = global::Pokédex.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alpha = global::Pokédex.Droid.Resource.Attribute.alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.alphabeticModifiers = global::Pokédex.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.animationMode = global::Pokédex.Droid.Resource.Attribute.animationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.appBarLayoutStyle = global::Pokédex.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.arrowHeadLength = global::Pokédex.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.arrowShaftLength = global::Pokédex.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Pokédex.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoSizeMaxTextSize = global::Pokédex.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoSizeMinTextSize = global::Pokédex.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoSizePresetSizes = global::Pokédex.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoSizeStepGranularity = global::Pokédex.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.autoSizeTextType = global::Pokédex.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.background = global::Pokédex.Droid.Resource.Attribute.background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundColor = global::Pokédex.Droid.Resource.Attribute.backgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundInsetBottom = global::Pokédex.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundInsetEnd = global::Pokédex.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundInsetStart = global::Pokédex.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundInsetTop = global::Pokédex.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundOverlayColorAlpha = global::Pokédex.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundSplit = global::Pokédex.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundStacked = global::Pokédex.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundTint = global::Pokédex.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.backgroundTintMode = global::Pokédex.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.badgeGravity = global::Pokédex.Droid.Resource.Attribute.badgeGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.badgeStyle = global::Pokédex.Droid.Resource.Attribute.badgeStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.badgeTextColor = global::Pokédex.Droid.Resource.Attribute.badgeTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.barLength = global::Pokédex.Droid.Resource.Attribute.barLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_autoHide = global::Pokédex.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_autoShrink = global::Pokédex.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_expandedOffset = global::Pokédex.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_fitToContents = global::Pokédex.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_halfExpandedRatio = global::Pokédex.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_hideable = global::Pokédex.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_overlapTop = global::Pokédex.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_peekHeight = global::Pokédex.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_saveFlags = global::Pokédex.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.behavior_skipCollapsed = global::Pokédex.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.borderlessButtonStyle = global::Pokédex.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.borderWidth = global::Pokédex.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.bottomAppBarStyle = global::Pokédex.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.bottomNavigationStyle = global::Pokédex.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.bottomSheetDialogTheme = global::Pokédex.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.bottomSheetStyle = global::Pokédex.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxBackgroundColor = global::Pokédex.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxBackgroundMode = global::Pokédex.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxCollapsedPaddingTop = global::Pokédex.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::Pokédex.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::Pokédex.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::Pokédex.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxCornerRadiusTopStart = global::Pokédex.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxStrokeColor = global::Pokédex.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxStrokeWidth = global::Pokédex.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.boxStrokeWidthFocused = global::Pokédex.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonBarButtonStyle = global::Pokédex.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Pokédex.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Pokédex.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Pokédex.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonBarStyle = global::Pokédex.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonCompat = global::Pokédex.Droid.Resource.Attribute.buttonCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonGravity = global::Pokédex.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonIconDimen = global::Pokédex.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonPanelSideLayout = global::Pokédex.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonStyle = global::Pokédex.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonStyleSmall = global::Pokédex.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonTint = global::Pokédex.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.buttonTintMode = global::Pokédex.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardBackgroundColor = global::Pokédex.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardCornerRadius = global::Pokédex.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardElevation = global::Pokédex.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardForegroundColor = global::Pokédex.Droid.Resource.Attribute.cardForegroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardMaxElevation = global::Pokédex.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardPreventCornerOverlap = global::Pokédex.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardUseCompatPadding = global::Pokédex.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cardViewStyle = global::Pokédex.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkboxStyle = global::Pokédex.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedButton = global::Pokédex.Droid.Resource.Attribute.checkedButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedChip = global::Pokédex.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedIcon = global::Pokédex.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedIconEnabled = global::Pokédex.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedIconTint = global::Pokédex.Droid.Resource.Attribute.checkedIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedIconVisible = global::Pokédex.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.checkedTextViewStyle = global::Pokédex.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipBackgroundColor = global::Pokédex.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipCornerRadius = global::Pokédex.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipEndPadding = global::Pokédex.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipGroupStyle = global::Pokédex.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipIcon = global::Pokédex.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipIconEnabled = global::Pokédex.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipIconSize = global::Pokédex.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipIconTint = global::Pokédex.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipIconVisible = global::Pokédex.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipMinHeight = global::Pokédex.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipMinTouchTargetSize = global::Pokédex.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipSpacing = global::Pokédex.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipSpacingHorizontal = global::Pokédex.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipSpacingVertical = global::Pokédex.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipStandaloneStyle = global::Pokédex.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipStartPadding = global::Pokédex.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipStrokeColor = global::Pokédex.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipStrokeWidth = global::Pokédex.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipStyle = global::Pokédex.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.chipSurfaceColor = global::Pokédex.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIcon = global::Pokédex.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconEnabled = global::Pokédex.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconEndPadding = global::Pokédex.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconSize = global::Pokédex.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconStartPadding = global::Pokédex.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconTint = global::Pokédex.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeIconVisible = global::Pokédex.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.closeItemLayout = global::Pokédex.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.collapseContentDescription = global::Pokédex.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.collapsedTitleGravity = global::Pokédex.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Pokédex.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.collapseIcon = global::Pokédex.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.collectionViewStyle = global::Pokédex.Droid.Resource.Attribute.collectionViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.color = global::Pokédex.Droid.Resource.Attribute.color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorAccent = global::Pokédex.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorBackgroundFloating = global::Pokédex.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorButtonNormal = global::Pokédex.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorControlActivated = global::Pokédex.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorControlHighlight = global::Pokédex.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorControlNormal = global::Pokédex.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorError = global::Pokédex.Droid.Resource.Attribute.colorError;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnBackground = global::Pokédex.Droid.Resource.Attribute.colorOnBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnError = global::Pokédex.Droid.Resource.Attribute.colorOnError;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnPrimary = global::Pokédex.Droid.Resource.Attribute.colorOnPrimary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnPrimarySurface = global::Pokédex.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnSecondary = global::Pokédex.Droid.Resource.Attribute.colorOnSecondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorOnSurface = global::Pokédex.Droid.Resource.Attribute.colorOnSurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorPrimary = global::Pokédex.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorPrimaryDark = global::Pokédex.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorPrimarySurface = global::Pokédex.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorPrimaryVariant = global::Pokédex.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorSecondary = global::Pokédex.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorSecondaryVariant = global::Pokédex.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorSurface = global::Pokédex.Droid.Resource.Attribute.colorSurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.colorSwitchThumbNormal = global::Pokédex.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.commitIcon = global::Pokédex.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentDescription = global::Pokédex.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetEnd = global::Pokédex.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetEndWithActions = global::Pokédex.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetLeft = global::Pokédex.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetRight = global::Pokédex.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetStart = global::Pokédex.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentInsetStartWithNavigation = global::Pokédex.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentPadding = global::Pokédex.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentPaddingBottom = global::Pokédex.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentPaddingLeft = global::Pokédex.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentPaddingRight = global::Pokédex.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentPaddingTop = global::Pokédex.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.contentScrim = global::Pokédex.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.controlBackground = global::Pokédex.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.coordinatorLayoutStyle = global::Pokédex.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerFamily = global::Pokédex.Droid.Resource.Attribute.cornerFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerFamilyBottomLeft = global::Pokédex.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerFamilyBottomRight = global::Pokédex.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerFamilyTopLeft = global::Pokédex.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerFamilyTopRight = global::Pokédex.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerRadius = global::Pokédex.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerSize = global::Pokédex.Droid.Resource.Attribute.cornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerSizeBottomLeft = global::Pokédex.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerSizeBottomRight = global::Pokédex.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerSizeTopLeft = global::Pokédex.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.cornerSizeTopRight = global::Pokédex.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterEnabled = global::Pokédex.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterMaxLength = global::Pokédex.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterOverflowTextAppearance = global::Pokédex.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterOverflowTextColor = global::Pokédex.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterTextAppearance = global::Pokédex.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.counterTextColor = global::Pokédex.Droid.Resource.Attribute.counterTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.customNavigationLayout = global::Pokédex.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dayInvalidStyle = global::Pokédex.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.daySelectedStyle = global::Pokédex.Droid.Resource.Attribute.daySelectedStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dayStyle = global::Pokédex.Droid.Resource.Attribute.dayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dayTodayStyle = global::Pokédex.Droid.Resource.Attribute.dayTodayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.defaultQueryHint = global::Pokédex.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dialogCornerRadius = global::Pokédex.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dialogPreferredPadding = global::Pokédex.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dialogTheme = global::Pokédex.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.displayOptions = global::Pokédex.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.divider = global::Pokédex.Droid.Resource.Attribute.divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dividerHorizontal = global::Pokédex.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dividerPadding = global::Pokédex.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dividerVertical = global::Pokédex.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableBottomCompat = global::Pokédex.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableEndCompat = global::Pokédex.Droid.Resource.Attribute.drawableEndCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableLeftCompat = global::Pokédex.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableRightCompat = global::Pokédex.Droid.Resource.Attribute.drawableRightCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableSize = global::Pokédex.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableStartCompat = global::Pokédex.Droid.Resource.Attribute.drawableStartCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableTint = global::Pokédex.Droid.Resource.Attribute.drawableTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableTintMode = global::Pokédex.Droid.Resource.Attribute.drawableTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawableTopCompat = global::Pokédex.Droid.Resource.Attribute.drawableTopCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawerArrowStyle = global::Pokédex.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.drawerLayoutStyle = global::Pokédex.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Pokédex.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.dropDownListViewStyle = global::Pokédex.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.editTextBackground = global::Pokédex.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.editTextColor = global::Pokédex.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.editTextStyle = global::Pokédex.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.elevation = global::Pokédex.Droid.Resource.Attribute.elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.elevationOverlayColor = global::Pokédex.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.elevationOverlayEnabled = global::Pokédex.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconCheckable = global::Pokédex.Droid.Resource.Attribute.endIconCheckable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconContentDescription = global::Pokédex.Droid.Resource.Attribute.endIconContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconDrawable = global::Pokédex.Droid.Resource.Attribute.endIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconMode = global::Pokédex.Droid.Resource.Attribute.endIconMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconTint = global::Pokédex.Droid.Resource.Attribute.endIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.endIconTintMode = global::Pokédex.Droid.Resource.Attribute.endIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.enforceMaterialTheme = global::Pokédex.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.enforceTextAppearance = global::Pokédex.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.ensureMinTouchTargetSize = global::Pokédex.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorEnabled = global::Pokédex.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorIconDrawable = global::Pokédex.Droid.Resource.Attribute.errorIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorIconTint = global::Pokédex.Droid.Resource.Attribute.errorIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorIconTintMode = global::Pokédex.Droid.Resource.Attribute.errorIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorTextAppearance = global::Pokédex.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.errorTextColor = global::Pokédex.Droid.Resource.Attribute.errorTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Pokédex.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expanded = global::Pokédex.Droid.Resource.Attribute.expanded;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleGravity = global::Pokédex.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleMargin = global::Pokédex.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleMarginBottom = global::Pokédex.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleMarginEnd = global::Pokédex.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleMarginStart = global::Pokédex.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleMarginTop = global::Pokédex.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.expandedTitleTextAppearance = global::Pokédex.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.extendedFloatingActionButtonStyle = global::Pokédex.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.extendMotionSpec = global::Pokédex.Droid.Resource.Attribute.extendMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabAlignmentMode = global::Pokédex.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabAnimationMode = global::Pokédex.Droid.Resource.Attribute.fabAnimationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabCradleMargin = global::Pokédex.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::Pokédex.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabCradleVerticalOffset = global::Pokédex.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabCustomSize = global::Pokédex.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fabSize = global::Pokédex.Droid.Resource.Attribute.fabSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fastScrollEnabled = global::Pokédex.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Pokédex.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Pokédex.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Pokédex.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Pokédex.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.firstBaselineToTopHeight = global::Pokédex.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.floatingActionButtonStyle = global::Pokédex.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.font = global::Pokédex.Droid.Resource.Attribute.font;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontFamily = global::Pokédex.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderAuthority = global::Pokédex.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderCerts = global::Pokédex.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderFetchStrategy = global::Pokédex.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderFetchTimeout = global::Pokédex.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderPackage = global::Pokédex.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontProviderQuery = global::Pokédex.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontStyle = global::Pokédex.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontVariationSettings = global::Pokédex.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.fontWeight = global::Pokédex.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.foregroundInsidePadding = global::Pokédex.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.gapBetweenBars = global::Pokédex.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.goIcon = global::Pokédex.Droid.Resource.Attribute.goIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.headerLayout = global::Pokédex.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.height = global::Pokédex.Droid.Resource.Attribute.height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.helperText = global::Pokédex.Droid.Resource.Attribute.helperText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.helperTextEnabled = global::Pokédex.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.helperTextTextAppearance = global::Pokédex.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.helperTextTextColor = global::Pokédex.Droid.Resource.Attribute.helperTextTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hideMotionSpec = global::Pokédex.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hideOnContentScroll = global::Pokédex.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hideOnScroll = global::Pokédex.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hintAnimationEnabled = global::Pokédex.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hintEnabled = global::Pokédex.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hintTextAppearance = global::Pokédex.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hintTextColor = global::Pokédex.Droid.Resource.Attribute.hintTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.homeAsUpIndicator = global::Pokédex.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.homeLayout = global::Pokédex.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::Pokédex.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.icon = global::Pokédex.Droid.Resource.Attribute.icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconEndPadding = global::Pokédex.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconGravity = global::Pokédex.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconifiedByDefault = global::Pokédex.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconPadding = global::Pokédex.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconSize = global::Pokédex.Droid.Resource.Attribute.iconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconStartPadding = global::Pokédex.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconTint = global::Pokédex.Droid.Resource.Attribute.iconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.iconTintMode = global::Pokédex.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.imageButtonStyle = global::Pokédex.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.indeterminateProgressStyle = global::Pokédex.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.initialActivityCount = global::Pokédex.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.insetForeground = global::Pokédex.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.isLightTheme = global::Pokédex.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.isMaterialTheme = global::Pokédex.Droid.Resource.Attribute.isMaterialTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemBackground = global::Pokédex.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemFillColor = global::Pokédex.Droid.Resource.Attribute.itemFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemHorizontalPadding = global::Pokédex.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::Pokédex.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemIconPadding = global::Pokédex.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemIconSize = global::Pokédex.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemIconTint = global::Pokédex.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemMaxLines = global::Pokédex.Droid.Resource.Attribute.itemMaxLines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemPadding = global::Pokédex.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemRippleColor = global::Pokédex.Droid.Resource.Attribute.itemRippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeAppearance = global::Pokédex.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeFillColor = global::Pokédex.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeInsetBottom = global::Pokédex.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeInsetEnd = global::Pokédex.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeInsetStart = global::Pokédex.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemShapeInsetTop = global::Pokédex.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemSpacing = global::Pokédex.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemStrokeColor = global::Pokédex.Droid.Resource.Attribute.itemStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemStrokeWidth = global::Pokédex.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemTextAppearance = global::Pokédex.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemTextAppearanceActive = global::Pokédex.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemTextAppearanceInactive = global::Pokédex.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.itemTextColor = global::Pokédex.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.keylines = global::Pokédex.Droid.Resource.Attribute.keylines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.labelVisibilityMode = global::Pokédex.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.lastBaselineToBottomHeight = global::Pokédex.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout = global::Pokédex.Droid.Resource.Attribute.layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layoutManager = global::Pokédex.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_anchor = global::Pokédex.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_anchorGravity = global::Pokédex.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_behavior = global::Pokédex.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_collapseMode = global::Pokédex.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Pokédex.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_dodgeInsetEdges = global::Pokédex.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_insetEdge = global::Pokédex.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_keyline = global::Pokédex.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_scrollFlags = global::Pokédex.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.layout_scrollInterpolator = global::Pokédex.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.liftOnScroll = global::Pokédex.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.liftOnScrollTargetViewId = global::Pokédex.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.lineHeight = global::Pokédex.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.lineSpacing = global::Pokédex.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Pokédex.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::Pokédex.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::Pokédex.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listDividerAlertDialog = global::Pokédex.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listItemLayout = global::Pokédex.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listLayout = global::Pokédex.Droid.Resource.Attribute.listLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listMenuViewStyle = global::Pokédex.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPopupWindowStyle = global::Pokédex.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemHeight = global::Pokédex.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Pokédex.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Pokédex.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemPaddingEnd = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.listPreferredItemPaddingStart = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.logo = global::Pokédex.Droid.Resource.Attribute.logo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.logoDescription = global::Pokédex.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialAlertDialogTheme = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialAlertDialogTitleTextStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialButtonOutlinedStyle = global::Pokédex.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialButtonStyle = global::Pokédex.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialButtonToggleGroupStyle = global::Pokédex.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarDay = global::Pokédex.Droid.Resource.Attribute.materialCalendarDay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarFullscreenTheme = global::Pokédex.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderConfirmButton = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderDivider = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderLayout = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderSelection = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderTitle = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarHeaderToggleButton = global::Pokédex.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarStyle = global::Pokédex.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCalendarTheme = global::Pokédex.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialCardViewStyle = global::Pokédex.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.materialThemeOverlay = global::Pokédex.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.maxActionInlineWidth = global::Pokédex.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.maxButtonHeight = global::Pokédex.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.maxCharacterCount = global::Pokédex.Droid.Resource.Attribute.maxCharacterCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.maxImageSize = global::Pokédex.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.measureWithLargestChild = global::Pokédex.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.menu = global::Pokédex.Droid.Resource.Attribute.menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.minTouchTargetSize = global::Pokédex.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.multiChoiceItemLayout = global::Pokédex.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.navigationContentDescription = global::Pokédex.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.navigationIcon = global::Pokédex.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.navigationMode = global::Pokédex.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.navigationViewStyle = global::Pokédex.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.number = global::Pokédex.Droid.Resource.Attribute.number;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.numericModifiers = global::Pokédex.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.overlapAnchor = global::Pokédex.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.paddingBottomNoButtons = global::Pokédex.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.paddingEnd = global::Pokédex.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.paddingStart = global::Pokédex.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.paddingTopNoTitle = global::Pokédex.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.panelBackground = global::Pokédex.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.panelMenuListTheme = global::Pokédex.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.panelMenuListWidth = global::Pokédex.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.passwordToggleContentDescription = global::Pokédex.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.passwordToggleDrawable = global::Pokédex.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.passwordToggleEnabled = global::Pokédex.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.passwordToggleTint = global::Pokédex.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.passwordToggleTintMode = global::Pokédex.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.popupMenuBackground = global::Pokédex.Droid.Resource.Attribute.popupMenuBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.popupMenuStyle = global::Pokédex.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.popupTheme = global::Pokédex.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.popupWindowStyle = global::Pokédex.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.preserveIconSpacing = global::Pokédex.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.pressedTranslationZ = global::Pokédex.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.progressBarPadding = global::Pokédex.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.progressBarStyle = global::Pokédex.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.queryBackground = global::Pokédex.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.queryHint = global::Pokédex.Droid.Resource.Attribute.queryHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.radioButtonStyle = global::Pokédex.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.rangeFillColor = global::Pokédex.Droid.Resource.Attribute.rangeFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.ratingBarStyle = global::Pokédex.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.ratingBarStyleIndicator = global::Pokédex.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.ratingBarStyleSmall = global::Pokédex.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.recyclerViewStyle = global::Pokédex.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.reverseLayout = global::Pokédex.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.rippleColor = global::Pokédex.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.scrimAnimationDuration = global::Pokédex.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.scrimBackground = global::Pokédex.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::Pokédex.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.scrollViewStyle = global::Pokédex.Droid.Resource.Attribute.scrollViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.searchHintIcon = global::Pokédex.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.searchIcon = global::Pokédex.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.searchViewStyle = global::Pokédex.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.seekBarStyle = global::Pokédex.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.selectableItemBackground = global::Pokédex.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Pokédex.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shapeAppearance = global::Pokédex.Droid.Resource.Attribute.shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shapeAppearanceLargeComponent = global::Pokédex.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shapeAppearanceMediumComponent = global::Pokédex.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shapeAppearanceSmallComponent = global::Pokédex.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.showAsAction = global::Pokédex.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.showDividers = global::Pokédex.Droid.Resource.Attribute.showDividers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.showMotionSpec = global::Pokédex.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.showText = global::Pokédex.Droid.Resource.Attribute.showText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.showTitle = global::Pokédex.Droid.Resource.Attribute.showTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.shrinkMotionSpec = global::Pokédex.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.singleChoiceItemLayout = global::Pokédex.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.singleLine = global::Pokédex.Droid.Resource.Attribute.singleLine;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.singleSelection = global::Pokédex.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.snackbarButtonStyle = global::Pokédex.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.snackbarStyle = global::Pokédex.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.spanCount = global::Pokédex.Droid.Resource.Attribute.spanCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.spinBars = global::Pokédex.Droid.Resource.Attribute.spinBars;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Pokédex.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.spinnerStyle = global::Pokédex.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.splitTrack = global::Pokédex.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.srcCompat = global::Pokédex.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.stackFromEnd = global::Pokédex.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.startIconCheckable = global::Pokédex.Droid.Resource.Attribute.startIconCheckable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.startIconContentDescription = global::Pokédex.Droid.Resource.Attribute.startIconContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.startIconDrawable = global::Pokédex.Droid.Resource.Attribute.startIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.startIconTint = global::Pokédex.Droid.Resource.Attribute.startIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.startIconTintMode = global::Pokédex.Droid.Resource.Attribute.startIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_above_anchor = global::Pokédex.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_collapsed = global::Pokédex.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_collapsible = global::Pokédex.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_dragged = global::Pokédex.Droid.Resource.Attribute.state_dragged;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_liftable = global::Pokédex.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.state_lifted = global::Pokédex.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.statusBarBackground = global::Pokédex.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.statusBarForeground = global::Pokédex.Droid.Resource.Attribute.statusBarForeground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.statusBarScrim = global::Pokédex.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.strokeColor = global::Pokédex.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.strokeWidth = global::Pokédex.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.subMenuArrow = global::Pokédex.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.submitBackground = global::Pokédex.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.subtitle = global::Pokédex.Droid.Resource.Attribute.subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.subtitleTextAppearance = global::Pokédex.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.subtitleTextColor = global::Pokédex.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.subtitleTextStyle = global::Pokédex.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.suggestionRowLayout = global::Pokédex.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Pokédex.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.switchMinWidth = global::Pokédex.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.switchPadding = global::Pokédex.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.switchStyle = global::Pokédex.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.switchTextAppearance = global::Pokédex.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabBackground = global::Pokédex.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabContentStart = global::Pokédex.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabGravity = global::Pokédex.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIconTint = global::Pokédex.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIconTintMode = global::Pokédex.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicator = global::Pokédex.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::Pokédex.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicatorColor = global::Pokédex.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicatorFullWidth = global::Pokédex.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicatorGravity = global::Pokédex.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabIndicatorHeight = global::Pokédex.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabInlineLabel = global::Pokédex.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabMaxWidth = global::Pokédex.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabMinWidth = global::Pokédex.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabMode = global::Pokédex.Droid.Resource.Attribute.tabMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabPadding = global::Pokédex.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabPaddingBottom = global::Pokédex.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabPaddingEnd = global::Pokédex.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabPaddingStart = global::Pokédex.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabPaddingTop = global::Pokédex.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabRippleColor = global::Pokédex.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabSelectedTextColor = global::Pokédex.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabStyle = global::Pokédex.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabTextAppearance = global::Pokédex.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabTextColor = global::Pokédex.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tabUnboundedRipple = global::Pokédex.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAllCaps = global::Pokédex.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceBody1 = global::Pokédex.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceBody2 = global::Pokédex.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceButton = global::Pokédex.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceCaption = global::Pokédex.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline1 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline2 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline3 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline4 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline5 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceHeadline6 = global::Pokédex.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Pokédex.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceLineHeightEnabled = global::Pokédex.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceListItem = global::Pokédex.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceListItemSecondary = global::Pokédex.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceListItemSmall = global::Pokédex.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceOverline = global::Pokédex.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::Pokédex.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Pokédex.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Pokédex.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Pokédex.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceSubtitle1 = global::Pokédex.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textAppearanceSubtitle2 = global::Pokédex.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textColorAlertDialogListItem = global::Pokédex.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textColorSearchUrl = global::Pokédex.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textEndPadding = global::Pokédex.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textInputStyle = global::Pokédex.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textLocale = global::Pokédex.Droid.Resource.Attribute.textLocale;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.textStartPadding = global::Pokédex.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.theme = global::Pokédex.Droid.Resource.Attribute.theme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.themeLineHeight = global::Pokédex.Droid.Resource.Attribute.themeLineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.thickness = global::Pokédex.Droid.Resource.Attribute.thickness;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.thumbTextPadding = global::Pokédex.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.thumbTint = global::Pokédex.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.thumbTintMode = global::Pokédex.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tickMark = global::Pokédex.Droid.Resource.Attribute.tickMark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tickMarkTint = global::Pokédex.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tickMarkTintMode = global::Pokédex.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tint = global::Pokédex.Droid.Resource.Attribute.tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tintMode = global::Pokédex.Droid.Resource.Attribute.tintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.title = global::Pokédex.Droid.Resource.Attribute.title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleEnabled = global::Pokédex.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMargin = global::Pokédex.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMarginBottom = global::Pokédex.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMarginEnd = global::Pokédex.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMargins = global::Pokédex.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMarginStart = global::Pokédex.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleMarginTop = global::Pokédex.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleTextAppearance = global::Pokédex.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleTextColor = global::Pokédex.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.titleTextStyle = global::Pokédex.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.toolbarId = global::Pokédex.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Pokédex.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.toolbarStyle = global::Pokédex.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tooltipForegroundColor = global::Pokédex.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tooltipFrameBackground = global::Pokédex.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.tooltipText = global::Pokédex.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.track = global::Pokédex.Droid.Resource.Attribute.track;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.trackTint = global::Pokédex.Droid.Resource.Attribute.trackTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.trackTintMode = global::Pokédex.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.ttcIndex = global::Pokédex.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.useCompatPadding = global::Pokédex.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.useMaterialThemeColors = global::Pokédex.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.viewInflaterClass = global::Pokédex.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.voiceIcon = global::Pokédex.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowActionBar = global::Pokédex.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowActionBarOverlay = global::Pokédex.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowActionModeOverlay = global::Pokédex.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowFixedHeightMajor = global::Pokédex.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowFixedHeightMinor = global::Pokédex.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowFixedWidthMajor = global::Pokédex.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowFixedWidthMinor = global::Pokédex.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowMinWidthMajor = global::Pokédex.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowMinWidthMinor = global::Pokédex.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.windowNoTitle = global::Pokédex.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.yearSelectedStyle = global::Pokédex.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.yearStyle = global::Pokédex.Droid.Resource.Attribute.yearStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Attribute.yearTodayStyle = global::Pokédex.Droid.Resource.Attribute.yearTodayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Pokédex.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.MaterialDesignControls.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Pokédex.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.MaterialDesignControls.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Pokédex.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Pokédex.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Pokédex.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::Pokédex.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_btn_colored_text_material = global::Pokédex.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_color_highlight_material = global::Pokédex.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_decor_view_status_guard = global::Pokédex.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_decor_view_status_guard_light = global::Pokédex.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_hint_foreground_material_dark = global::Pokédex.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_hint_foreground_material_light = global::Pokédex.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Pokédex.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Pokédex.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_primary_text_material_dark = global::Pokédex.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_primary_text_material_light = global::Pokédex.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_search_url_text = global::Pokédex.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_search_url_text_normal = global::Pokédex.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_search_url_text_pressed = global::Pokédex.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_search_url_text_selected = global::Pokédex.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_secondary_text_material_dark = global::Pokédex.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_secondary_text_material_light = global::Pokédex.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_btn_checkable = global::Pokédex.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_default = global::Pokédex.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_edittext = global::Pokédex.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_seek_thumb = global::Pokédex.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_spinner = global::Pokédex.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.abc_tint_switch_track = global::Pokédex.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.accent_material_dark = global::Pokédex.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.accent_material_light = global::Pokédex.Droid.Resource.Color.accent_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.androidx_core_ripple_material_light = global::Pokédex.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.androidx_core_secondary_text_default_material_light = global::Pokédex.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.background_floating_material_dark = global::Pokédex.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.background_floating_material_light = global::Pokédex.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.background_material_dark = global::Pokédex.Droid.Resource.Color.background_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.background_material_light = global::Pokédex.Droid.Resource.Color.background_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Pokédex.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_disabled_material_light = global::Pokédex.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Pokédex.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_inverse_material_light = global::Pokédex.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_material_dark = global::Pokédex.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.bright_foreground_material_light = global::Pokédex.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.browser_actions_bg_grey = global::Pokédex.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.browser_actions_divider_color = global::Pokédex.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.browser_actions_text_color = global::Pokédex.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.browser_actions_title_color = global::Pokédex.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.button_material_dark = global::Pokédex.Droid.Resource.Color.button_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.button_material_light = global::Pokédex.Droid.Resource.Color.button_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.cardview_dark_background = global::Pokédex.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.cardview_light_background = global::Pokédex.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.cardview_shadow_end_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.cardview_shadow_start_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.checkbox_themeable_attribute_color = global::Pokédex.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Pokédex.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_box_stroke_color = global::Pokédex.Droid.Resource.Color.design_box_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_background = global::Pokédex.Droid.Resource.Color.design_dark_default_color_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_error = global::Pokédex.Droid.Resource.Color.design_dark_default_color_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_on_background = global::Pokédex.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_on_error = global::Pokédex.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_on_primary = global::Pokédex.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_on_secondary = global::Pokédex.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_on_surface = global::Pokédex.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_primary = global::Pokédex.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_primary_dark = global::Pokédex.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_primary_variant = global::Pokédex.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_secondary = global::Pokédex.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_secondary_variant = global::Pokédex.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_dark_default_color_surface = global::Pokédex.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_background = global::Pokédex.Droid.Resource.Color.design_default_color_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_error = global::Pokédex.Droid.Resource.Color.design_default_color_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_on_background = global::Pokédex.Droid.Resource.Color.design_default_color_on_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_on_error = global::Pokédex.Droid.Resource.Color.design_default_color_on_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_on_primary = global::Pokédex.Droid.Resource.Color.design_default_color_on_primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_on_secondary = global::Pokédex.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_on_surface = global::Pokédex.Droid.Resource.Color.design_default_color_on_surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_primary = global::Pokédex.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_primary_dark = global::Pokédex.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_primary_variant = global::Pokédex.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_secondary = global::Pokédex.Droid.Resource.Color.design_default_color_secondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_secondary_variant = global::Pokédex.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_default_color_surface = global::Pokédex.Droid.Resource.Color.design_default_color_surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_error = global::Pokédex.Droid.Resource.Color.design_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_shadow_end_color = global::Pokédex.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_shadow_mid_color = global::Pokédex.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_shadow_start_color = global::Pokédex.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Pokédex.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Pokédex.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Pokédex.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Pokédex.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_icon_tint = global::Pokédex.Droid.Resource.Color.design_icon_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.design_snackbar_background_color = global::Pokédex.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Pokédex.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.dim_foreground_disabled_material_light = global::Pokédex.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.dim_foreground_material_dark = global::Pokédex.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.dim_foreground_material_light = global::Pokédex.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.error_color_material_dark = global::Pokédex.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.error_color_material_light = global::Pokédex.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.foreground_material_dark = global::Pokédex.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.foreground_material_light = global::Pokédex.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.highlighted_text_material_dark = global::Pokédex.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.highlighted_text_material_light = global::Pokédex.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_blue_grey_800 = global::Pokédex.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_blue_grey_900 = global::Pokédex.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_blue_grey_950 = global::Pokédex.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_deep_teal_200 = global::Pokédex.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_deep_teal_500 = global::Pokédex.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_100 = global::Pokédex.Droid.Resource.Color.material_grey_100;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_300 = global::Pokédex.Droid.Resource.Color.material_grey_300;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_50 = global::Pokédex.Droid.Resource.Color.material_grey_50;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_600 = global::Pokédex.Droid.Resource.Color.material_grey_600;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_800 = global::Pokédex.Droid.Resource.Color.material_grey_800;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_850 = global::Pokédex.Droid.Resource.Color.material_grey_850;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_grey_900 = global::Pokédex.Droid.Resource.Color.material_grey_900;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_background_disabled = global::Pokédex.Droid.Resource.Color.material_on_background_disabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_background_emphasis_high_type = global::Pokédex.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_background_emphasis_medium = global::Pokédex.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_primary_disabled = global::Pokédex.Droid.Resource.Color.material_on_primary_disabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_primary_emphasis_high_type = global::Pokédex.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_primary_emphasis_medium = global::Pokédex.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_surface_disabled = global::Pokédex.Droid.Resource.Color.material_on_surface_disabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_surface_emphasis_high_type = global::Pokédex.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.material_on_surface_emphasis_medium = global::Pokédex.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_bg_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_text_color_disabled = global::Pokédex.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_text_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::Pokédex.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_calendar_item_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_calendar_selected_range = global::Pokédex.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_card_view_foreground = global::Pokédex.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_card_view_ripple = global::Pokédex.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_chip_background_color = global::Pokédex.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_chip_close_icon_tint = global::Pokédex.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_chip_surface_color = global::Pokédex.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_chip_text_color = global::Pokédex.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_choice_chip_background_color = global::Pokédex.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_choice_chip_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_choice_chip_text_color = global::Pokédex.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_error = global::Pokédex.Droid.Resource.Color.mtrl_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_fab_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_filled_background_color = global::Pokédex.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_filled_icon_tint = global::Pokédex.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_filled_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_indicator_text_color = global::Pokédex.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_navigation_item_background_color = global::Pokédex.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_navigation_item_icon_tint = global::Pokédex.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_navigation_item_text_color = global::Pokédex.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_outlined_icon_tint = global::Pokédex.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_outlined_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_popupmenu_overlay_color = global::Pokédex.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_scrim_color = global::Pokédex.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Pokédex.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_tabs_ripple_color = global::Pokédex.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_textinput_disabled_color = global::Pokédex.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Pokédex.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Pokédex.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::Pokédex.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.notification_action_color_filter = global::Pokédex.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.notification_icon_bg_color = global::Pokédex.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.notification_material_background_media_default_color = global::Pokédex.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_dark_material_dark = global::Pokédex.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_dark_material_light = global::Pokédex.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_material_dark = global::Pokédex.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_material_light = global::Pokédex.Droid.Resource.Color.primary_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_text_default_material_dark = global::Pokédex.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_text_default_material_light = global::Pokédex.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_text_disabled_material_dark = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.primary_text_disabled_material_light = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.ripple_material_dark = global::Pokédex.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.ripple_material_light = global::Pokédex.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.secondary_text_default_material_dark = global::Pokédex.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.secondary_text_default_material_light = global::Pokédex.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.secondary_text_disabled_material_dark = global::Pokédex.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.secondary_text_disabled_material_light = global::Pokédex.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Pokédex.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_disabled_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_material_dark = global::Pokédex.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_normal_material_dark = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.switch_thumb_normal_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.test_mtrl_calendar_day = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.test_mtrl_calendar_day_selected = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.tooltip_background_dark = global::Pokédex.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Color.tooltip_background_light = global::Pokédex.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_elevation_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_button_min_height_material = global::Pokédex.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_button_min_width_material = global::Pokédex.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Pokédex.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Pokédex.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::Pokédex.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Pokédex.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Pokédex.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Pokédex.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Pokédex.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Pokédex.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Pokédex.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_control_corner_material = global::Pokédex.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_control_inset_material = global::Pokédex.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_control_padding_material = global::Pokédex.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::Pokédex.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Pokédex.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Pokédex.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Pokédex.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Pokédex.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Pokédex.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Pokédex.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_min_width_major = global::Pokédex.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Pokédex.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_padding_material = global::Pokédex.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Pokédex.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dialog_title_divider_material = global::Pokédex.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Pokédex.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Pokédex.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Pokédex.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Pokédex.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Pokédex.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Pokédex.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Pokédex.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Pokédex.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_floating_window_z = global::Pokédex.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_list_item_height_large_material = global::Pokédex.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_list_item_height_material = global::Pokédex.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_list_item_height_small_material = global::Pokédex.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Pokédex.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_panel_menu_list_width = global::Pokédex.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_progress_bar_height_material = global::Pokédex.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_search_view_preferred_height = global::Pokédex.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_search_view_preferred_width = global::Pokédex.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Pokédex.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Pokédex.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Pokédex.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_switch_padding = global::Pokédex.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_body_1_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_body_2_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_button_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_caption_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_display_1_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_display_2_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_display_3_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_display_4_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_headline_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_large_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_medium_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_menu_header_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_menu_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_small_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_subhead_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_title_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.action_bar_size = global::Pokédex.Droid.Resource.Dimension.action_bar_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.appcompat_dialog_background_inset = global::Pokédex.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.browser_actions_context_menu_max_width = global::Pokédex.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.browser_actions_context_menu_min_padding = global::Pokédex.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Pokédex.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.cardview_default_elevation = global::Pokédex.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.cardview_default_radius = global::Pokédex.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::Pokédex.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_button_inset_vertical_material = global::Pokédex.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::Pokédex.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_button_padding_vertical_material = global::Pokédex.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_control_corner_material = global::Pokédex.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.default_dimension = global::Pokédex.Droid.Resource.Dimension.default_dimension;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.def_drawer_elevation = global::Pokédex.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_appbar_elevation = global::Pokédex.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_elevation = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_height = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_margin = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_navigation_text_size = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_sheet_elevation = global::Pokédex.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Pokédex.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Pokédex.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_border_width = global::Pokédex.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_elevation = global::Pokédex.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_image_size = global::Pokédex.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_size_mini = global::Pokédex.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_size_normal = global::Pokédex.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Pokédex.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Pokédex.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_elevation = global::Pokédex.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_icon_padding = global::Pokédex.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_icon_size = global::Pokédex.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_item_icon_padding = global::Pokédex.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_max_width = global::Pokédex.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_padding_bottom = global::Pokédex.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Pokédex.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Pokédex.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_action_text_color_alpha = global::Pokédex.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Pokédex.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_elevation = global::Pokédex.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Pokédex.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_max_width = global::Pokédex.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_min_width = global::Pokédex.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Pokédex.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Pokédex.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Pokédex.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_snackbar_text_size = global::Pokédex.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_tab_max_width = global::Pokédex.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Pokédex.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_tab_text_size = global::Pokédex.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_tab_text_size_2line = global::Pokédex.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.design_textinput_caption_translate_y = global::Pokédex.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.disabled_alpha_material_dark = global::Pokédex.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.disabled_alpha_material_light = global::Pokédex.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.fastscroll_default_thickness = global::Pokédex.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.fastscroll_margin = global::Pokédex.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.fastscroll_minimum_range = global::Pokédex.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.highlight_alpha_material_colored = global::Pokédex.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.highlight_alpha_material_dark = global::Pokédex.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.highlight_alpha_material_light = global::Pokédex.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.hint_alpha_material_dark = global::Pokédex.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.hint_alpha_material_light = global::Pokédex.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::Pokédex.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::Pokédex.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Pokédex.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Pokédex.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Pokédex.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.material_emphasis_disabled = global::Pokédex.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.material_emphasis_high_type = global::Pokédex.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.material_emphasis_medium = global::Pokédex.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.material_text_view_test_line_height = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.material_text_view_test_line_height_override = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::Pokédex.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::Pokédex.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::Pokédex.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::Pokédex.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::Pokédex.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_text_size = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_badge_with_text_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_bottomappbar_height = global::Pokédex.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_disabled_z = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_focused_z = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_hovered_z = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_icon_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_inset = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_padding_left = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_padding_right = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_padding_top = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_pressed_z = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_stroke_size = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_text_size = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_btn_z = global::Pokédex.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_action_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_action_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_bottom_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_content_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_days_of_week_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_corner = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_today_stroke = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_day_width = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_content_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_text_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_landscape_header_width = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_navigation_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_year_corner = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_year_height = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_calendar_year_width = global::Pokédex.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_checked_icon_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_checked_icon_size = global::Pokédex.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_dragged_z = global::Pokédex.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_card_spacing = global::Pokédex.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_chip_text_size = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_end_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_icon_size = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_min_height = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_min_width = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_start_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_top_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_fab_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_fab_min_touch_target = global::Pokédex.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Pokédex.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Pokédex.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_high_ripple_default_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_large_touch_target = global::Pokédex.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_min_touch_target_size = global::Pokédex.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_item_icon_size = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_shape_corner_size_large_component = global::Pokédex.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::Pokédex.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_shape_corner_size_small_component = global::Pokédex.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_snackbar_margin = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_switch_thumb_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::Pokédex.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.mtrl_toolbar_default_height = global::Pokédex.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_action_icon_size = global::Pokédex.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_action_text_size = global::Pokédex.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_big_circle_margin = global::Pokédex.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_content_margin_start = global::Pokédex.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_large_icon_height = global::Pokédex.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_large_icon_width = global::Pokédex.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_main_column_padding_top = global::Pokédex.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_media_narrow_margin = global::Pokédex.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_right_icon_size = global::Pokédex.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_right_side_padding_top = global::Pokédex.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_small_icon_background_padding = global::Pokédex.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_small_icon_size_as_large = global::Pokédex.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_subtext_size = global::Pokédex.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_top_pad = global::Pokédex.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.notification_top_pad_large_text = global::Pokédex.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Pokédex.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_corner_radius = global::Pokédex.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_margin = global::Pokédex.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Pokédex.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::Pokédex.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_vertical_padding = global::Pokédex.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::Pokédex.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Dimension.tooltip_y_offset_touch = global::Pokédex.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Pokédex.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_borderless_material = global::Pokédex.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_check_material = global::Pokédex.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_check_material_anim = global::Pokédex.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Pokédex.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Pokédex.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_colored_material = global::Pokédex.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Pokédex.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_radio_material = global::Pokédex.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_radio_material_anim = global::Pokédex.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Pokédex.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Pokédex.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Pokédex.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Pokédex.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Pokédex.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_cab_background_top_material = global::Pokédex.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_control_background_material = global::Pokédex.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_dialog_material_background = global::Pokédex.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_edit_text_material = global::Pokédex.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_ab_back_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Pokédex.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_clear_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_go_search_api_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_search_api_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::Pokédex.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_item_background_holo_dark = global::Pokédex.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_item_background_holo_light = global::Pokédex.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_divider_material = global::Pokédex.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_focused_holo = global::Pokédex.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_longpressed_holo = global::Pokédex.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Pokédex.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Pokédex.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_list_selector_holo_light = global::Pokédex.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Pokédex.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Pokédex.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Pokédex.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ratingbar_material = global::Pokédex.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_ratingbar_small_material = global::Pokédex.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Pokédex.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Pokédex.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Pokédex.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::Pokédex.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_seekbar_track_material = global::Pokédex.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Pokédex.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Pokédex.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_switch_thumb_material = global::Pokédex.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_tab_indicator_material = global::Pokédex.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Pokédex.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_textfield_search_material = global::Pokédex.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_text_cursor_material = global::Pokédex.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.abc_vector_test = global::Pokédex.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.avd_hide_password = global::Pokédex.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.avd_show_password = global::Pokédex.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_checkbox_checked_mtrl = global::Pokédex.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::Pokédex.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::Pokédex.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::Pokédex.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_radio_off_mtrl = global::Pokédex.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Pokédex.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_radio_on_mtrl = global::Pokédex.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Pokédex.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.design_fab_background = global::Pokédex.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.design_ic_visibility = global::Pokédex.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.design_ic_visibility_off = global::Pokédex.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.design_password_eye = global::Pokédex.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.design_snackbar_background = global::Pokédex.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.ic_mtrl_checked_circle = global::Pokédex.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::Pokédex.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Pokédex.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::Pokédex.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_dialog_background = global::Pokédex.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_dropdown_arrow = global::Pokédex.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_ic_arrow_drop_down = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_ic_arrow_drop_up = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_ic_cancel = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_ic_error = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_popupmenu_background = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::Pokédex.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.navigation_empty_icon = global::Pokédex.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_action_background = global::Pokédex.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg = global::Pokédex.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg_low = global::Pokédex.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg_low_normal = global::Pokédex.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg_low_pressed = global::Pokédex.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg_normal = global::Pokédex.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_bg_normal_pressed = global::Pokédex.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_icon_background = global::Pokédex.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_template_icon_bg = global::Pokédex.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_template_icon_low_bg = global::Pokédex.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notification_tile_bg = global::Pokédex.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Pokédex.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.test_custom_background = global::Pokédex.Droid.Resource.Drawable.test_custom_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.tooltip_frame_dark = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Drawable.tooltip_frame_light = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_action_clickable_span = global::Pokédex.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_0 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_1 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_10 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_11 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_12 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_13 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_14 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_15 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_16 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_17 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_18 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_19 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_2 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_20 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_21 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_22 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_23 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_24 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_25 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_26 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_27 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_28 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_29 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_3 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_30 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_31 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_4 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_5 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_6 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_7 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_8 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.accessibility_custom_action_9 = global::Pokédex.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action0 = global::Pokédex.Droid.Resource.Id.action0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.actions = global::Pokédex.Droid.Resource.Id.actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar = global::Pokédex.Droid.Resource.Id.action_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_activity_content = global::Pokédex.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_container = global::Pokédex.Droid.Resource.Id.action_bar_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_root = global::Pokédex.Droid.Resource.Id.action_bar_root;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_spinner = global::Pokédex.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_subtitle = global::Pokédex.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_bar_title = global::Pokédex.Droid.Resource.Id.action_bar_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_container = global::Pokédex.Droid.Resource.Id.action_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_context_bar = global::Pokédex.Droid.Resource.Id.action_context_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_divider = global::Pokédex.Droid.Resource.Id.action_divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_image = global::Pokédex.Droid.Resource.Id.action_image;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_menu_divider = global::Pokédex.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_menu_presenter = global::Pokédex.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_mode_bar = global::Pokédex.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_mode_bar_stub = global::Pokédex.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_mode_close_button = global::Pokédex.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.action_text = global::Pokédex.Droid.Resource.Id.action_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.activity_chooser_view_content = global::Pokédex.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.add = global::Pokédex.Droid.Resource.Id.add;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.alertTitle = global::Pokédex.Droid.Resource.Id.alertTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.all = global::Pokédex.Droid.Resource.Id.all;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.ALT = global::Pokédex.Droid.Resource.Id.ALT;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.always = global::Pokédex.Droid.Resource.Id.always;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.async = global::Pokédex.Droid.Resource.Id.async;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.auto = global::Pokédex.Droid.Resource.Id.auto;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.beginning = global::Pokédex.Droid.Resource.Id.beginning;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.blocking = global::Pokédex.Droid.Resource.Id.blocking;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.bottom = global::Pokédex.Droid.Resource.Id.bottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.bottomtab_navarea = global::Pokédex.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.bottomtab_tabbar = global::Pokédex.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.BOTTOM_END = global::Pokédex.Droid.Resource.Id.BOTTOM_END;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.BOTTOM_START = global::Pokédex.Droid.Resource.Id.BOTTOM_START;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.browser_actions_header_text = global::Pokédex.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.browser_actions_menu_items = global::Pokédex.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.browser_actions_menu_item_icon = global::Pokédex.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.browser_actions_menu_item_text = global::Pokédex.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.browser_actions_menu_view = global::Pokédex.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.buttonPanel = global::Pokédex.Droid.Resource.Id.buttonPanel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.cancel_action = global::Pokédex.Droid.Resource.Id.cancel_action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.cancel_button = global::Pokédex.Droid.Resource.Id.cancel_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.center = global::Pokédex.Droid.Resource.Id.center;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.center_horizontal = global::Pokédex.Droid.Resource.Id.center_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.center_vertical = global::Pokédex.Droid.Resource.Id.center_vertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.checkbox = global::Pokédex.Droid.Resource.Id.checkbox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.@checked = global::Pokédex.Droid.Resource.Id.@checked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.chip = global::Pokédex.Droid.Resource.Id.chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.chip_group = global::Pokédex.Droid.Resource.Id.chip_group;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.chronometer = global::Pokédex.Droid.Resource.Id.chronometer;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.clear_text = global::Pokédex.Droid.Resource.Id.clear_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.clip_horizontal = global::Pokédex.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.clip_vertical = global::Pokédex.Droid.Resource.Id.clip_vertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.collapseActionView = global::Pokédex.Droid.Resource.Id.collapseActionView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.confirm_button = global::Pokédex.Droid.Resource.Id.confirm_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.container = global::Pokédex.Droid.Resource.Id.container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.content = global::Pokédex.Droid.Resource.Id.content;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.contentPanel = global::Pokédex.Droid.Resource.Id.contentPanel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.coordinator = global::Pokédex.Droid.Resource.Id.coordinator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.CTRL = global::Pokédex.Droid.Resource.Id.CTRL;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.custom = global::Pokédex.Droid.Resource.Id.custom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.customPanel = global::Pokédex.Droid.Resource.Id.customPanel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.cut = global::Pokédex.Droid.Resource.Id.cut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.date_picker_actions = global::Pokédex.Droid.Resource.Id.date_picker_actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.decor_content_parent = global::Pokédex.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.default_activity_button = global::Pokédex.Droid.Resource.Id.default_activity_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.design_bottom_sheet = global::Pokédex.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.design_menu_item_action_area = global::Pokédex.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.design_menu_item_action_area_stub = global::Pokédex.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.design_menu_item_text = global::Pokédex.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.design_navigation_view = global::Pokédex.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.dialog_button = global::Pokédex.Droid.Resource.Id.dialog_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.disableHome = global::Pokédex.Droid.Resource.Id.disableHome;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.dropdown_menu = global::Pokédex.Droid.Resource.Id.dropdown_menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.edit_query = global::Pokédex.Droid.Resource.Id.edit_query;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.end = global::Pokédex.Droid.Resource.Id.end;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.end_padder = global::Pokédex.Droid.Resource.Id.end_padder;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.enterAlways = global::Pokédex.Droid.Resource.Id.enterAlways;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.enterAlwaysCollapsed = global::Pokédex.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.exitUntilCollapsed = global::Pokédex.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.expanded_menu = global::Pokédex.Droid.Resource.Id.expanded_menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.expand_activities_button = global::Pokédex.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fade = global::Pokédex.Droid.Resource.Id.fade;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fill = global::Pokédex.Droid.Resource.Id.fill;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.filled = global::Pokédex.Droid.Resource.Id.filled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fill_horizontal = global::Pokédex.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fill_vertical = global::Pokédex.Droid.Resource.Id.fill_vertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fitToContents = global::Pokédex.Droid.Resource.Id.fitToContents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.@fixed = global::Pokédex.Droid.Resource.Id.@fixed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.flyoutcontent_appbar = global::Pokédex.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.forever = global::Pokédex.Droid.Resource.Id.forever;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.fragment_container_view_tag = global::Pokédex.Droid.Resource.Id.fragment_container_view_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.FUNCTION = global::Pokédex.Droid.Resource.Id.FUNCTION;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.ghost_view = global::Pokédex.Droid.Resource.Id.ghost_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.ghost_view_holder = global::Pokédex.Droid.Resource.Id.ghost_view_holder;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.group_divider = global::Pokédex.Droid.Resource.Id.group_divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.hideable = global::Pokédex.Droid.Resource.Id.hideable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.home = global::Pokédex.Droid.Resource.Id.home;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.homeAsUp = global::Pokédex.Droid.Resource.Id.homeAsUp;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.icon = global::Pokédex.Droid.Resource.Id.icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.icon_group = global::Pokédex.Droid.Resource.Id.icon_group;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.ifRoom = global::Pokédex.Droid.Resource.Id.ifRoom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.image = global::Pokédex.Droid.Resource.Id.image;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.info = global::Pokédex.Droid.Resource.Id.info;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.italic = global::Pokédex.Droid.Resource.Id.italic;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.item_touch_helper_previous_elevation = global::Pokédex.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.labeled = global::Pokédex.Droid.Resource.Id.labeled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.left = global::Pokédex.Droid.Resource.Id.left;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.line1 = global::Pokédex.Droid.Resource.Id.line1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.line3 = global::Pokédex.Droid.Resource.Id.line3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.listMode = global::Pokédex.Droid.Resource.Id.listMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.list_item = global::Pokédex.Droid.Resource.Id.list_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.main_appbar = global::Pokédex.Droid.Resource.Id.main_appbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.main_tablayout = global::Pokédex.Droid.Resource.Id.main_tablayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.main_toolbar = global::Pokédex.Droid.Resource.Id.main_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.main_viewpager = global::Pokédex.Droid.Resource.Id.main_viewpager;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.masked = global::Pokédex.Droid.Resource.Id.masked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.media_actions = global::Pokédex.Droid.Resource.Id.media_actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.media_controller_compat_view_tag = global::Pokédex.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.message = global::Pokédex.Droid.Resource.Id.message;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.META = global::Pokédex.Droid.Resource.Id.META;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.middle = global::Pokédex.Droid.Resource.Id.middle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mini = global::Pokédex.Droid.Resource.Id.mini;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_grid = global::Pokédex.Droid.Resource.Id.month_grid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_navigation_bar = global::Pokédex.Droid.Resource.Id.month_navigation_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_navigation_fragment_toggle = global::Pokédex.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_navigation_next = global::Pokédex.Droid.Resource.Id.month_navigation_next;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_navigation_previous = global::Pokédex.Droid.Resource.Id.month_navigation_previous;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.month_title = global::Pokédex.Droid.Resource.Id.month_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_days_of_week = global::Pokédex.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_day_selector_frame = global::Pokédex.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_frame = global::Pokédex.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_main_pane = global::Pokédex.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_months = global::Pokédex.Droid.Resource.Id.mtrl_calendar_months;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_selection_frame = global::Pokédex.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_text_input_frame = global::Pokédex.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_calendar_year_selector_frame = global::Pokédex.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_card_checked_layer_id = global::Pokédex.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_child_content_container = global::Pokédex.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::Pokédex.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_fullscreen = global::Pokédex.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_header = global::Pokédex.Droid.Resource.Id.mtrl_picker_header;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_header_selection_text = global::Pokédex.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_header_title_and_selection = global::Pokédex.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_header_toggle = global::Pokédex.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_text_input_date = global::Pokédex.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_text_input_range_end = global::Pokédex.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_text_input_range_start = global::Pokédex.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.mtrl_picker_title_text = global::Pokédex.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.multiply = global::Pokédex.Droid.Resource.Id.multiply;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.navigation_header_container = global::Pokédex.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.never = global::Pokédex.Droid.Resource.Id.never;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.none = global::Pokédex.Droid.Resource.Id.none;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.normal = global::Pokédex.Droid.Resource.Id.normal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.noScroll = global::Pokédex.Droid.Resource.Id.noScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.notification_background = global::Pokédex.Droid.Resource.Id.notification_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.notification_main_column = global::Pokédex.Droid.Resource.Id.notification_main_column;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.notification_main_column_container = global::Pokédex.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.off = global::Pokédex.Droid.Resource.Id.off;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.on = global::Pokédex.Droid.Resource.Id.on;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.outline = global::Pokédex.Droid.Resource.Id.outline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.parallax = global::Pokédex.Droid.Resource.Id.parallax;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.parentPanel = global::Pokédex.Droid.Resource.Id.parentPanel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.parent_matrix = global::Pokédex.Droid.Resource.Id.parent_matrix;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.password_toggle = global::Pokédex.Droid.Resource.Id.password_toggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.peekHeight = global::Pokédex.Droid.Resource.Id.peekHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.pin = global::Pokédex.Droid.Resource.Id.pin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.progress_circular = global::Pokédex.Droid.Resource.Id.progress_circular;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.progress_horizontal = global::Pokédex.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.radio = global::Pokédex.Droid.Resource.Id.radio;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.right = global::Pokédex.Droid.Resource.Id.right;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.right_icon = global::Pokédex.Droid.Resource.Id.right_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.right_side = global::Pokédex.Droid.Resource.Id.right_side;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.rounded = global::Pokédex.Droid.Resource.Id.rounded;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.save_non_transition_alpha = global::Pokédex.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.save_overlay_view = global::Pokédex.Droid.Resource.Id.save_overlay_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scale = global::Pokédex.Droid.Resource.Id.scale;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.screen = global::Pokédex.Droid.Resource.Id.screen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scroll = global::Pokédex.Droid.Resource.Id.scroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scrollable = global::Pokédex.Droid.Resource.Id.scrollable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scrollIndicatorDown = global::Pokédex.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scrollIndicatorUp = global::Pokédex.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.scrollView = global::Pokédex.Droid.Resource.Id.scrollView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_badge = global::Pokédex.Droid.Resource.Id.search_badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_bar = global::Pokédex.Droid.Resource.Id.search_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_button = global::Pokédex.Droid.Resource.Id.search_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_close_btn = global::Pokédex.Droid.Resource.Id.search_close_btn;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_edit_frame = global::Pokédex.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_go_btn = global::Pokédex.Droid.Resource.Id.search_go_btn;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_mag_icon = global::Pokédex.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_plate = global::Pokédex.Droid.Resource.Id.search_plate;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_src_text = global::Pokédex.Droid.Resource.Id.search_src_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.search_voice_btn = global::Pokédex.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.selected = global::Pokédex.Droid.Resource.Id.selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.select_dialog_listview = global::Pokédex.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.shellcontent_appbar = global::Pokédex.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.shellcontent_toolbar = global::Pokédex.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.SHIFT = global::Pokédex.Droid.Resource.Id.SHIFT;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.shortcut = global::Pokédex.Droid.Resource.Id.shortcut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.showCustom = global::Pokédex.Droid.Resource.Id.showCustom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.showHome = global::Pokédex.Droid.Resource.Id.showHome;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.showTitle = global::Pokédex.Droid.Resource.Id.showTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.skipCollapsed = global::Pokédex.Droid.Resource.Id.skipCollapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.slide = global::Pokédex.Droid.Resource.Id.slide;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.sliding_tabs = global::Pokédex.Droid.Resource.Id.sliding_tabs;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.snackbar_action = global::Pokédex.Droid.Resource.Id.snackbar_action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.snackbar_text = global::Pokédex.Droid.Resource.Id.snackbar_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.snap = global::Pokédex.Droid.Resource.Id.snap;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.snapMargins = global::Pokédex.Droid.Resource.Id.snapMargins;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.spacer = global::Pokédex.Droid.Resource.Id.spacer;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.split_action_bar = global::Pokédex.Droid.Resource.Id.split_action_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.src_atop = global::Pokédex.Droid.Resource.Id.src_atop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.src_in = global::Pokédex.Droid.Resource.Id.src_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.src_over = global::Pokédex.Droid.Resource.Id.src_over;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.start = global::Pokédex.Droid.Resource.Id.start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.status_bar_latest_event_content = global::Pokédex.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.stretch = global::Pokédex.Droid.Resource.Id.stretch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.submenuarrow = global::Pokédex.Droid.Resource.Id.submenuarrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.submit_area = global::Pokédex.Droid.Resource.Id.submit_area;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.SYM = global::Pokédex.Droid.Resource.Id.SYM;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tabMode = global::Pokédex.Droid.Resource.Id.tabMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_accessibility_actions = global::Pokédex.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_accessibility_clickable_spans = global::Pokédex.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_accessibility_heading = global::Pokédex.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_accessibility_pane_title = global::Pokédex.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_screen_reader_focusable = global::Pokédex.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_transition_group = global::Pokédex.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_unhandled_key_event_manager = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.tag_unhandled_key_listeners = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.test_checkbox_android_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.test_checkbox_app_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.text = global::Pokédex.Droid.Resource.Id.text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.text2 = global::Pokédex.Droid.Resource.Id.text2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textEnd = global::Pokédex.Droid.Resource.Id.textEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textinput_counter = global::Pokédex.Droid.Resource.Id.textinput_counter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textinput_error = global::Pokédex.Droid.Resource.Id.textinput_error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textinput_helper_text = global::Pokédex.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textSpacerNoButtons = global::Pokédex.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textSpacerNoTitle = global::Pokédex.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.textStart = global::Pokédex.Droid.Resource.Id.textStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.text_input_end_icon = global::Pokédex.Droid.Resource.Id.text_input_end_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.text_input_start_icon = global::Pokédex.Droid.Resource.Id.text_input_start_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.time = global::Pokédex.Droid.Resource.Id.time;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.title = global::Pokédex.Droid.Resource.Id.title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.titleDividerNoCustom = global::Pokédex.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.title_template = global::Pokédex.Droid.Resource.Id.title_template;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.toolbar = global::Pokédex.Droid.Resource.Id.toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.top = global::Pokédex.Droid.Resource.Id.top;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.topPanel = global::Pokédex.Droid.Resource.Id.topPanel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.TOP_END = global::Pokédex.Droid.Resource.Id.TOP_END;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.TOP_START = global::Pokédex.Droid.Resource.Id.TOP_START;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.touch_outside = global::Pokédex.Droid.Resource.Id.touch_outside;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.transition_current_scene = global::Pokédex.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.transition_layout_save = global::Pokédex.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.transition_position = global::Pokédex.Droid.Resource.Id.transition_position;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.transition_scene_layoutid_cache = global::Pokédex.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.transition_transform = global::Pokédex.Droid.Resource.Id.transition_transform;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.@unchecked = global::Pokédex.Droid.Resource.Id.@unchecked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.uniform = global::Pokédex.Droid.Resource.Id.uniform;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.unlabeled = global::Pokédex.Droid.Resource.Id.unlabeled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.up = global::Pokédex.Droid.Resource.Id.up;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.useLogo = global::Pokédex.Droid.Resource.Id.useLogo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.view_offset_helper = global::Pokédex.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.view_tree_saved_state_registry_owner = global::Pokédex.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.visible = global::Pokédex.Droid.Resource.Id.visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.visible_removing_fragment_view_tag = global::Pokédex.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.withText = global::Pokédex.Droid.Resource.Id.withText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Id.wrap_content = global::Pokédex.Droid.Resource.Id.wrap_content;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.abc_config_activityDefaultDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.abc_config_activityShortDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Pokédex.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.bottom_sheet_slide_duration = global::Pokédex.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.cancel_button_image_alpha = global::Pokédex.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.config_tooltipAnimTime = global::Pokédex.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.design_snackbar_text_max_lines = global::Pokédex.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Pokédex.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.hide_password_duration = global::Pokédex.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_badge_max_character_count = global::Pokédex.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::Pokédex.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::Pokédex.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_calendar_header_orientation = global::Pokédex.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_calendar_selection_text_lines = global::Pokédex.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_calendar_year_selector_span = global::Pokédex.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_card_anim_delay_ms = global::Pokédex.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_card_anim_duration_ms = global::Pokédex.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_chip_anim_duration = global::Pokédex.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Pokédex.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.show_password_duration = global::Pokédex.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Pokédex.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::Pokédex.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::Pokédex.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::Pokédex.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::Pokédex.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::Pokédex.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::Pokédex.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.fast_out_slow_in = global::Pokédex.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::Pokédex.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::Pokédex.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.mtrl_linear = global::Pokédex.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.MaterialDesignControls.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::Pokédex.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_bar_title_item = global::Pokédex.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_bar_up_container = global::Pokédex.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_menu_item_layout = global::Pokédex.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_menu_layout = global::Pokédex.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_mode_bar = global::Pokédex.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_action_mode_close_item_material = global::Pokédex.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_activity_chooser_view = global::Pokédex.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Pokédex.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Pokédex.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_alert_dialog_material = global::Pokédex.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_alert_dialog_title_material = global::Pokédex.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_cascading_menu_item_layout = global::Pokédex.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_dialog_title_material = global::Pokédex.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_expanded_menu_layout = global::Pokédex.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Pokédex.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_list_menu_item_icon = global::Pokédex.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_list_menu_item_layout = global::Pokédex.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_list_menu_item_radio = global::Pokédex.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::Pokédex.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_popup_menu_item_layout = global::Pokédex.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_screen_content_include = global::Pokédex.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_screen_simple = global::Pokédex.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Pokédex.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_screen_toolbar = global::Pokédex.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Pokédex.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_search_view = global::Pokédex.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_select_dialog_material = global::Pokédex.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.abc_tooltip = global::Pokédex.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.BottomTabLayout = global::Pokédex.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.browser_actions_context_menu_page = global::Pokédex.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.browser_actions_context_menu_row = global::Pokédex.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.custom_dialog = global::Pokédex.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_bottom_navigation_item = global::Pokédex.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_bottom_sheet_dialog = global::Pokédex.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_layout_snackbar = global::Pokédex.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_layout_snackbar_include = global::Pokédex.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_layout_tab_icon = global::Pokédex.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_layout_tab_text = global::Pokédex.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_menu_item_action_area = global::Pokédex.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_item = global::Pokédex.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_item_header = global::Pokédex.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_item_separator = global::Pokédex.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_item_subheader = global::Pokédex.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_menu = global::Pokédex.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_navigation_menu_item = global::Pokédex.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_text_input_end_icon = global::Pokédex.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.design_text_input_start_icon = global::Pokédex.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.FallbackTabbarDoNotUse = global::Pokédex.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.FallbackToolbarDoNotUse = global::Pokédex.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.FlyoutContent = global::Pokédex.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_dialog = global::Pokédex.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_dialog_actions = global::Pokédex.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_dialog_title = global::Pokédex.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_select_dialog_item = global::Pokédex.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::Pokédex.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::Pokédex.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_day = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_days_of_week = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_day_of_week = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_horizontal = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_month = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_months = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_month_labeled = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_month_navigation = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_vertical = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_calendar_year = global::Pokédex.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_layout_snackbar = global::Pokédex.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_layout_snackbar_include = global::Pokédex.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_actions = global::Pokédex.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_dialog = global::Pokédex.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_fullscreen = global::Pokédex.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_header_dialog = global::Pokédex.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_header_fullscreen = global::Pokédex.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_header_selection_text = global::Pokédex.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_header_title_text = global::Pokédex.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_header_toggle = global::Pokédex.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_text_input_date = global::Pokédex.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.mtrl_picker_text_input_date_range = global::Pokédex.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_action = global::Pokédex.Droid.Resource.Layout.notification_action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_action_tombstone = global::Pokédex.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_media_action = global::Pokédex.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_media_cancel_action = global::Pokédex.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_big_media = global::Pokédex.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_big_media_custom = global::Pokédex.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_big_media_narrow = global::Pokédex.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::Pokédex.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_custom_big = global::Pokédex.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_icon_group = global::Pokédex.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_lines_media = global::Pokédex.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_media = global::Pokédex.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_media_custom = global::Pokédex.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_part_chronometer = global::Pokédex.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.notification_template_part_time = global::Pokédex.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.RootLayout = global::Pokédex.Droid.Resource.Layout.RootLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.select_dialog_item_material = global::Pokédex.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.select_dialog_multichoice_material = global::Pokédex.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.select_dialog_singlechoice_material = global::Pokédex.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.ShellContent = global::Pokédex.Droid.Resource.Layout.ShellContent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Pokédex.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.Tabbar = global::Pokédex.Droid.Resource.Layout.Tabbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_action_chip = global::Pokédex.Droid.Resource.Layout.test_action_chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_design_checkbox = global::Pokédex.Droid.Resource.Layout.test_design_checkbox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_reflow_chipgroup = global::Pokédex.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_toolbar = global::Pokédex.Droid.Resource.Layout.test_toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_toolbar_custom_background = global::Pokédex.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_toolbar_elevation = global::Pokédex.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.test_toolbar_surface = global::Pokédex.Droid.Resource.Layout.test_toolbar_surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.text_view_without_line_height = global::Pokédex.Droid.Resource.Layout.text_view_without_line_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.text_view_with_line_height_from_layout = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.text_view_with_line_height_from_style = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.text_view_with_theme_line_height = global::Pokédex.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Layout.Toolbar = global::Pokédex.Droid.Resource.Layout.Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Plurals.mtrl_badge_content_description = global::Pokédex.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_action_bar_home_description = global::Pokédex.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_action_bar_up_description = global::Pokédex.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_action_menu_overflow_description = global::Pokédex.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_action_mode_done = global::Pokédex.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_activitychooserview_choose_application = global::Pokédex.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_activity_chooser_view_see_all = global::Pokédex.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_capital_off = global::Pokédex.Droid.Resource.String.abc_capital_off;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_capital_on = global::Pokédex.Droid.Resource.String.abc_capital_on;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_alt_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_delete_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_enter_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_function_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_meta_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_shift_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_space_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_menu_sym_shortcut_label = global::Pokédex.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_prepend_shortcut_label = global::Pokédex.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_searchview_description_clear = global::Pokédex.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_searchview_description_query = global::Pokédex.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_searchview_description_search = global::Pokédex.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_searchview_description_submit = global::Pokédex.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_searchview_description_voice = global::Pokédex.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_search_hint = global::Pokédex.Droid.Resource.String.abc_search_hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_shareactionprovider_share_with = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.abc_toolbar_collapse_description = global::Pokédex.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.appbar_scrolling_view_behavior = global::Pokédex.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.bottom_sheet_behavior = global::Pokédex.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.character_counter_content_description = global::Pokédex.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.character_counter_overflowed_content_description = global::Pokédex.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.character_counter_pattern = global::Pokédex.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.chip_text = global::Pokédex.Droid.Resource.String.chip_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.clear_text_end_icon_content_description = global::Pokédex.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.copy_toast_msg = global::Pokédex.Droid.Resource.String.copy_toast_msg;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.error_icon_content_description = global::Pokédex.Droid.Resource.String.error_icon_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.exposed_dropdown_menu_content_description = global::Pokédex.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.fab_transformation_scrim_behavior = global::Pokédex.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.fab_transformation_sheet_behavior = global::Pokédex.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.fallback_menu_item_copy_link = global::Pokédex.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.fallback_menu_item_open_in_browser = global::Pokédex.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.fallback_menu_item_share_link = global::Pokédex.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::Pokédex.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.icon_content_description = global::Pokédex.Droid.Resource.String.icon_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.library_name = global::Pokédex.Droid.Resource.String.library_name;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_badge_numberless_content_description = global::Pokédex.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_chip_close_icon_content_description = global::Pokédex.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_exceed_max_badge_number_suffix = global::Pokédex.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_a11y_next_month = global::Pokédex.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_a11y_prev_month = global::Pokédex.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_announce_current_selection = global::Pokédex.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_cancel = global::Pokédex.Droid.Resource.String.mtrl_picker_cancel;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_confirm = global::Pokédex.Droid.Resource.String.mtrl_picker_confirm;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_date_header_selected = global::Pokédex.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_date_header_title = global::Pokédex.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_date_header_unselected = global::Pokédex.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_day_of_week_column_header = global::Pokédex.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_invalid_format = global::Pokédex.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_invalid_format_example = global::Pokédex.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_invalid_format_use = global::Pokédex.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_invalid_range = global::Pokédex.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_navigate_to_year_description = global::Pokédex.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_out_of_range = global::Pokédex.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_range_header_only_end_selected = global::Pokédex.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_range_header_only_start_selected = global::Pokédex.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_range_header_selected = global::Pokédex.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_range_header_title = global::Pokédex.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_range_header_unselected = global::Pokédex.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_save = global::Pokédex.Droid.Resource.String.mtrl_picker_save;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_date_hint = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_day_abbr = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_month_abbr = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_text_input_year_abbr = global::Pokédex.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::Pokédex.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_toggle_to_day_selection = global::Pokédex.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::Pokédex.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.mtrl_picker_toggle_to_year_selection = global::Pokédex.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.overflow_tab_title = global::Pokédex.Droid.Resource.String.overflow_tab_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.password_toggle_content_description = global::Pokédex.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.path_password_eye = global::Pokédex.Droid.Resource.String.path_password_eye;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.path_password_eye_mask_strike_through = global::Pokédex.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.path_password_eye_mask_visible = global::Pokédex.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.path_password_strike_through = global::Pokédex.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.search_menu_title = global::Pokédex.Droid.Resource.String.search_menu_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.String.status_bar_notification_info_overflow = global::Pokédex.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.AlertDialog_AppCompat = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Animation_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Animation_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.AppCompatDialogStyle = global::Pokédex.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Pokédex.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Pokédex.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_CardView = global::Pokédex.Droid.Resource.Style.Base_CardView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Pokédex.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Pokédex.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::Pokédex.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::Pokédex.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::Pokédex.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Pokédex.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Pokédex.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Pokédex.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Pokédex.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V26_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Pokédex.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V28_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Pokédex.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Pokédex.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Pokédex.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_TextView = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Pokédex.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Pokédex.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Base_Widget_MaterialComponents_TextView = global::Pokédex.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.CardView = global::Pokédex.Droid.Resource.Style.CardView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.CardView_Dark = global::Pokédex.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.CardView_Light = global::Pokédex.Droid.Resource.Style.CardView_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.collectionViewTheme = global::Pokédex.Droid.Resource.Style.collectionViewTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.EmptyTheme = global::Pokédex.Droid.Resource.Style.EmptyTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MainTheme = global::Pokédex.Droid.Resource.Style.MainTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MainTheme_Base = global::Pokédex.Droid.Resource.Style.MainTheme_Base;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_AppCompat = global::Pokédex.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_MaterialComponents = global::Pokédex.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Pokédex.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Pokédex.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Pokédex.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_V21_AppCompat = global::Pokédex.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_V21_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_V25_AppCompat = global::Pokédex.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_V25_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Pokédex.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Pokédex.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Pokédex.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Pokédex.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.scrollViewScrollBars = global::Pokédex.Droid.Resource.Style.scrollViewScrollBars;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.scrollViewTheme = global::Pokédex.Droid.Resource.Style.scrollViewTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestStyleWithLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestStyleWithoutLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Pokédex.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestThemeWithLineHeight = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Pokédex.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Counter = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Error = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_HelperText = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Hint = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Design_Tab = global::Pokédex.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Badge = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Pokédex.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::Pokédex.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::Pokédex.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat = global::Pokédex.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Empty = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design = global::Pokédex.Droid.Resource.Style.Theme_Design;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design_Light = global::Pokédex.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_Design_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_EditText = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ListView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_SearchView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Spinner = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_TextView = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Pokédex.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::Pokédex.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Compat_NotificationActionText = global::Pokédex.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_AppBarLayout = global::Pokédex.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_BottomNavigationView = global::Pokédex.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Pokédex.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Pokédex.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Pokédex.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_NavigationView = global::Pokédex.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Pokédex.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_Snackbar = global::Pokédex.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_TabLayout = global::Pokédex.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Design_TextInputLayout = global::Pokédex.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Badge = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomSheet = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_CardView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_PopupMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_TextView = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::Pokédex.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::Pokédex.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar = global::Pokédex.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBarLayout = global::Pokédex.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Pokédex.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_background = global::Pokédex.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Pokédex.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Pokédex.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Pokédex.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Pokédex.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_displayOptions = global::Pokédex.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_divider = global::Pokédex.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_elevation = global::Pokédex.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_height = global::Pokédex.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Pokédex.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Pokédex.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_homeLayout = global::Pokédex.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_icon = global::Pokédex.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Pokédex.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_itemPadding = global::Pokédex.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_logo = global::Pokédex.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_navigationMode = global::Pokédex.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_popupTheme = global::Pokédex.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Pokédex.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Pokédex.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_subtitle = global::Pokédex.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Pokédex.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_title = global::Pokédex.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Pokédex.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMenuItemView = global::Pokédex.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Pokédex.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMenuView = global::Pokédex.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode = global::Pokédex.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_background = global::Pokédex.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Pokédex.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Pokédex.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_height = global::Pokédex.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Pokédex.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Pokédex.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActivityChooserView = global::Pokédex.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Pokédex.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Pokédex.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog = global::Pokédex.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_android_layout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::Pokédex.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_listLayout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_showTitle = global::Pokédex.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Pokédex.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Pokédex.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout = global::Pokédex.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayoutStates = global::Pokédex.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Pokédex.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Pokédex.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Pokédex.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Pokédex.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_android_background = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_elevation = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_expanded = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_Layout = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatImageView = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatImageView_android_src = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatImageView_tint = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatImageView_tintMode = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatSeekBar = global::Pokédex.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Pokédex.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::Pokédex.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Pokédex.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Pokédex.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Pokédex.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTextView_textLocale = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorError = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Pokédex.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge = global::Pokédex.Droid.Resource.Styleable.Badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge_backgroundColor = global::Pokédex.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge_badgeGravity = global::Pokédex.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge_badgeTextColor = global::Pokédex.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge_maxCharacterCount = global::Pokédex.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Badge_number = global::Pokédex.Droid.Resource.Styleable.Badge_number;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar = global::Pokédex.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_elevation = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_fabAnimationMode = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::Pokédex.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomNavigationView = global::Pokédex.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Pokédex.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ButtonBarLayout = global::Pokédex.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Pokédex.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView = global::Pokédex.Droid.Resource.Styleable.CardView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_android_minHeight = global::Pokédex.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_android_minWidth = global::Pokédex.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Pokédex.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardCornerRadius = global::Pokédex.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardElevation = global::Pokédex.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardMaxElevation = global::Pokédex.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Pokédex.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Pokédex.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_contentPadding = global::Pokédex.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Pokédex.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Pokédex.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_contentPaddingRight = global::Pokédex.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CardView_contentPaddingTop = global::Pokédex.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip = global::Pokédex.Droid.Resource.Styleable.Chip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup = global::Pokédex.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_checkedChip = global::Pokédex.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_chipSpacing = global::Pokédex.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Pokédex.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Pokédex.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_singleLine = global::Pokédex.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ChipGroup_singleSelection = global::Pokédex.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_checkable = global::Pokédex.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_ellipsize = global::Pokédex.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_maxWidth = global::Pokédex.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_text = global::Pokédex.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_textAppearance = global::Pokédex.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_android_textColor = global::Pokédex.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_checkedIcon = global::Pokédex.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_checkedIconEnabled = global::Pokédex.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_checkedIconVisible = global::Pokédex.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipBackgroundColor = global::Pokédex.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipCornerRadius = global::Pokédex.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipEndPadding = global::Pokédex.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipIcon = global::Pokédex.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipIconEnabled = global::Pokédex.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipIconSize = global::Pokédex.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipIconTint = global::Pokédex.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipIconVisible = global::Pokédex.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipMinHeight = global::Pokédex.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipMinTouchTargetSize = global::Pokédex.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipStartPadding = global::Pokédex.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipStrokeColor = global::Pokédex.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipStrokeWidth = global::Pokédex.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_chipSurfaceColor = global::Pokédex.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIcon = global::Pokédex.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconEnabled = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconEndPadding = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconSize = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconStartPadding = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconTint = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_closeIconVisible = global::Pokédex.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::Pokédex.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_hideMotionSpec = global::Pokédex.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_iconEndPadding = global::Pokédex.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_iconStartPadding = global::Pokédex.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_rippleColor = global::Pokédex.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_showMotionSpec = global::Pokédex.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_textEndPadding = global::Pokédex.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Chip_textStartPadding = global::Pokédex.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Pokédex.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ColorStateListItem = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ColorStateListItem_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ColorStateListItem_android_color = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CompoundButton = global::Pokédex.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CompoundButton_android_button = global::Pokédex.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CompoundButton_buttonCompat = global::Pokédex.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CompoundButton_buttonTint = global::Pokédex.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Pokédex.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Pokédex.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_color = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Pokédex.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerLayout = global::Pokédex.Droid.Resource.Styleable.DrawerLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.DrawerLayout_elevation = global::Pokédex.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::Pokédex.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_elevation = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Pokédex.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FlowLayout = global::Pokédex.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FlowLayout_itemSpacing = global::Pokédex.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FlowLayout_lineSpacing = global::Pokédex.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily = global::Pokédex.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_android_font = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_font = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::Pokédex.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::Pokédex.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ForegroundLinearLayout = global::Pokédex.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Pokédex.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Pokédex.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Pokédex.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Fragment = global::Pokédex.Droid.Resource.Styleable.Fragment;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FragmentContainerView = global::Pokédex.Droid.Resource.Styleable.FragmentContainerView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FragmentContainerView_android_name = global::Pokédex.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.FragmentContainerView_android_tag = global::Pokédex.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Fragment_android_id = global::Pokédex.Droid.Resource.Styleable.Fragment_android_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Fragment_android_name = global::Pokédex.Droid.Resource.Styleable.Fragment_android_name;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Fragment_android_tag = global::Pokédex.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor = global::Pokédex.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColorItem = global::Pokédex.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColorItem_android_color = global::Pokédex.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColorItem_android_offset = global::Pokédex.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_centerColor = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_centerX = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_centerY = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_endColor = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_endX = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_endY = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_startColor = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_startX = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_startY = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_tileMode = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.GradientColor_android_type = global::Pokédex.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ItemsViewRendererTheme = global::Pokédex.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Pokédex.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Pokédex.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ListPopupWindow = global::Pokédex.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Pokédex.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Pokédex.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialog = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::Pokédex.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton = global::Pokédex.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButtonToggleGroup = global::Pokédex.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::Pokédex.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::Pokédex.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_android_checkable = global::Pokédex.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::Pokédex.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::Pokédex.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_android_insetRight = global::Pokédex.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_android_insetTop = global::Pokédex.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_backgroundTint = global::Pokédex.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::Pokédex.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_cornerRadius = global::Pokédex.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_elevation = global::Pokédex.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_icon = global::Pokédex.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_iconGravity = global::Pokédex.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_iconPadding = global::Pokédex.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_iconSize = global::Pokédex.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_iconTint = global::Pokédex.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_iconTintMode = global::Pokédex.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_rippleColor = global::Pokédex.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_strokeColor = global::Pokédex.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialButton_strokeWidth = global::Pokédex.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::Pokédex.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_dayStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_rangeFillColor = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_yearStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::Pokédex.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView = global::Pokédex.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_android_checkable = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_cardForegroundColor = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_checkedIcon = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_checkedIconTint = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_rippleColor = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_state_dragged = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_strokeColor = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::Pokédex.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCheckBox = global::Pokédex.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCheckBox_buttonTint = global::Pokédex.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::Pokédex.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialRadioButton = global::Pokédex.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::Pokédex.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialShape = global::Pokédex.Droid.Resource.Styleable.MaterialShape;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialShape_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::Pokédex.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextAppearance_lineHeight = global::Pokédex.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextView = global::Pokédex.Droid.Resource.Styleable.MaterialTextView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextView_android_lineHeight = global::Pokédex.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextView_android_textAppearance = global::Pokédex.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MaterialTextView_lineHeight = global::Pokédex.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup = global::Pokédex.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_enabled = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_id = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuGroup_android_visible = global::Pokédex.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem = global::Pokédex.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_actionLayout = global::Pokédex.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Pokédex.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_actionViewClass = global::Pokédex.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::Pokédex.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_checkable = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_checked = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_enabled = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_icon = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_id = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_onClick = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_title = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_android_visible = global::Pokédex.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_contentDescription = global::Pokédex.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_iconTint = global::Pokédex.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_iconTintMode = global::Pokédex.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_numericModifiers = global::Pokédex.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_showAsAction = global::Pokédex.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuItem_tooltipText = global::Pokédex.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView = global::Pokédex.Droid.Resource.Styleable.MenuView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_headerBackground = global::Pokédex.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Pokédex.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_itemBackground = global::Pokédex.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Pokédex.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Pokédex.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Pokédex.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Pokédex.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Pokédex.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.MenuView_subMenuArrow = global::Pokédex.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView = global::Pokédex.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_android_background = global::Pokédex.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Pokédex.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Pokédex.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_elevation = global::Pokédex.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_headerLayout = global::Pokédex.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemBackground = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemIconPadding = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemIconSize = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemIconTint = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemMaxLines = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeAppearance = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeFillColor = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeInsetStart = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemShapeInsetTop = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_itemTextColor = global::Pokédex.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.NavigationView_menu = global::Pokédex.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindow = global::Pokédex.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindowBackgroundState = global::Pokédex.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Pokédex.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Pokédex.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Pokédex.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Pokédex.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecycleListView = global::Pokédex.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Pokédex.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Pokédex.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView = global::Pokédex.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_android_clipToPadding = global::Pokédex.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Pokédex.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_android_orientation = global::Pokédex.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Pokédex.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Pokédex.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Pokédex.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Pokédex.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Pokédex.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_layoutManager = global::Pokédex.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Pokédex.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_spanCount = global::Pokédex.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Pokédex.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Pokédex.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Pokédex.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::Pokédex.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Pokédex.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrollViewRendererTheme = global::Pokédex.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::Pokédex.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView = global::Pokédex.Droid.Resource.Styleable.SearchView;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_android_focusable = global::Pokédex.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_android_imeOptions = global::Pokédex.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_android_inputType = global::Pokédex.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_android_maxWidth = global::Pokédex.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_closeIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_commitIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Pokédex.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_goIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Pokédex.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_layout = global::Pokédex.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_queryBackground = global::Pokédex.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_queryHint = global::Pokédex.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_searchHintIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_searchIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_submitBackground = global::Pokédex.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Pokédex.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SearchView_voiceIcon = global::Pokédex.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerFamily = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerSize = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::Pokédex.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Snackbar = global::Pokédex.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_animationMode = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_elevation = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Pokédex.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Pokédex.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Snackbar_snackbarStyle = global::Pokédex.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner = global::Pokédex.Droid.Resource.Styleable.Spinner;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Pokédex.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner_android_entries = global::Pokédex.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner_android_popupBackground = global::Pokédex.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner_android_prompt = global::Pokédex.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Spinner_popupTheme = global::Pokédex.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable = global::Pokédex.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawableItem = global::Pokédex.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::Pokédex.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_dither = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.StateListDrawable_android_visible = global::Pokédex.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwipeRefreshLayout = global::Pokédex.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Pokédex.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat = global::Pokédex.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_showText = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_thumbTint = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_track = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_trackTint = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::Pokédex.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchMaterial = global::Pokédex.Droid.Resource.Styleable.SwitchMaterial;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::Pokédex.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabItem = global::Pokédex.Droid.Resource.Styleable.TabItem;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabItem_android_icon = global::Pokédex.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabItem_android_layout = global::Pokédex.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabItem_android_text = global::Pokédex.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout = global::Pokédex.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabBackground = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabContentStart = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabGravity = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIconTint = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicator = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabMode = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabPadding = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabRippleColor = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabTextColor = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Pokédex.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance = global::Pokédex.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textColor = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textFontWeight = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textSize = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_android_typeface = global::Pokédex.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_fontFamily = global::Pokédex.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Pokédex.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextAppearance_textLocale = global::Pokédex.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout = global::Pokédex.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_android_hint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_counterTextColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconCheckable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconContentDescription = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconDrawable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconTint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_endIconTintMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorIconDrawable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorIconTint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorIconTintMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_errorTextColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_helperText = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_helperTextTextColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_hintTextColor = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_shapeAppearance = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_startIconCheckable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_startIconContentDescription = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_startIconDrawable = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_startIconTint = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.TextInputLayout_startIconTintMode = global::Pokédex.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ThemeEnforcement = global::Pokédex.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Pokédex.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Pokédex.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Pokédex.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar = global::Pokédex.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_android_gravity = global::Pokédex.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_android_minHeight = global::Pokédex.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_buttonGravity = global::Pokédex.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Pokédex.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_collapseIcon = global::Pokédex.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Pokédex.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_logo = global::Pokédex.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_logoDescription = global::Pokédex.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Pokédex.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_menu = global::Pokédex.Droid.Resource.Styleable.Toolbar_menu;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Pokédex.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_navigationIcon = global::Pokédex.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_popupTheme = global::Pokédex.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_subtitle = global::Pokédex.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Pokédex.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Pokédex.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_title = global::Pokédex.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMargin = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMargins = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.Toolbar_titleTextColor = global::Pokédex.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View = global::Pokédex.Droid.Resource.Styleable.View;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewBackgroundHelper = global::Pokédex.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Pokédex.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Pokédex.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Pokédex.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewPager2 = global::Pokédex.Droid.Resource.Styleable.ViewPager2;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewPager2_android_orientation = global::Pokédex.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewStubCompat = global::Pokédex.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewStubCompat_android_id = global::Pokédex.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Pokédex.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Pokédex.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View_android_focusable = global::Pokédex.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View_android_theme = global::Pokédex.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View_paddingEnd = global::Pokédex.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View_paddingStart = global::Pokédex.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.MaterialDesignControls.Android.Resource.Styleable.View_theme = global::Pokédex.Droid.Resource.Styleable.View_theme;
+			global::Plugin.MaterialDesignControls.Android.Resource.Xml.image_share_filepaths = global::Pokédex.Droid.Resource.Xml.image_share_filepaths;
+			global::Plugin.MaterialDesignControls.Android.Resource.Xml.standalone_badge = global::Pokédex.Droid.Resource.Xml.standalone_badge;
+			global::Plugin.MaterialDesignControls.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Plugin.MaterialDesignControls.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Plugin.MaterialDesignControls.Android.Resource.Xml.standalone_badge_gravity_top_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Pokédex.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Pokédex.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Pokédex.Droid.Resource.Attribute.fontProviderAuthority;
@@ -265,10 +3680,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_fade_exit = global::Pokédex.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_enter = global::Pokédex.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_exit = global::Pokédex.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -442,6 +3853,9 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconTint = global::Pokédex.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::Pokédex.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::Pokédex.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkCompat = global::Pokédex.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTint = global::Pokédex.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTintMode = global::Pokédex.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::Pokédex.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipCornerRadius = global::Pokédex.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipEndPadding = global::Pokédex.Droid.Resource.Attribute.chipEndPadding;
@@ -513,7 +3927,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSurface = global::Pokédex.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::Pokédex.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::Pokédex.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ConstraintRotate = global::Pokédex.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraints = global::Pokédex.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSet = global::Pokédex.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSetEnd = global::Pokédex.Droid.Resource.Attribute.constraintSetEnd;
@@ -614,6 +4027,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::Pokédex.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayColor = global::Pokédex.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayEnabled = global::Pokédex.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.emojiCompatEnabled = global::Pokédex.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enableEdgeToEdge = global::Pokédex.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconCheckable = global::Pokédex.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconContentDescription = global::Pokédex.Droid.Resource.Attribute.endIconContentDescription;
@@ -872,6 +4286,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::Pokédex.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::Pokédex.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lStar = global::Pokédex.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTheme = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -1209,7 +4624,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureHeight = global::Pokédex.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureWidth = global::Pokédex.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::Pokédex.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::Pokédex.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::Pokédex.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::Pokédex.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::Pokédex.Droid.Resource.Attribute.thumbElevation;
@@ -1351,7 +4765,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::Pokédex.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.checkbox_themeable_attribute_color = global::Pokédex.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Pokédex.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_box_stroke_color = global::Pokédex.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_background = global::Pokédex.Droid.Resource.Color.design_dark_default_color_background;
@@ -1496,7 +4909,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::Pokédex.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::Pokédex.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::Pokédex.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::Pokédex.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::Pokédex.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -1509,8 +4921,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day_selected = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::Pokédex.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::Pokédex.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -1594,7 +5004,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.action_bar_size = global::Pokédex.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.appcompat_dialog_background_inset = global::Pokédex.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Pokédex.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::Pokédex.Droid.Resource.Dimension.cardview_default_elevation;
@@ -1607,7 +5016,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::Pokédex.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.default_dimension = global::Pokédex.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.def_drawer_elevation = global::Pokédex.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::Pokédex.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -1679,11 +5087,8 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_hand_stroke_width = global::Pokédex.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_number_text_size = global::Pokédex.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_height = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_margin_left = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_width = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_size = global::Pokédex.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_bottom = global::Pokédex.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_top = global::Pokédex.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_width = global::Pokédex.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_disabled = global::Pokédex.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_high_type = global::Pokédex.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -1701,8 +5106,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_default_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_max_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_min_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height_override = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::Pokédex.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_height = global::Pokédex.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_width = global::Pokédex.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -1799,12 +5202,10 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::Pokédex.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -1828,7 +5229,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_large_touch_target = global::Pokédex.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -1876,7 +5276,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -1916,18 +5315,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::Pokédex.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::Pokédex.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::Pokédex.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Pokédex.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_max_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_min_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_text_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_elevation = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_height = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_icon_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_max_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_min_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_label_padding = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_shadow_height = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_text_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::Pokédex.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::Pokédex.Droid.Resource.Dimension.tooltip_margin;
@@ -2054,7 +5441,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_error = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_navigation_bar_item_background = global::Pokédex.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::Pokédex.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::Pokédex.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::Pokédex.Droid.Resource.Drawable.notification_action_background;
@@ -2069,7 +5455,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::Pokédex.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::Pokédex.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Pokédex.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_custom_background = global::Pokédex.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_level_drawable = global::Pokédex.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.accelerate = global::Pokédex.Droid.Resource.Id.accelerate;
@@ -2174,11 +5560,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chains = global::Pokédex.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::Pokédex.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::Pokédex.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::Pokédex.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::Pokédex.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::Pokédex.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::Pokédex.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::Pokédex.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::Pokédex.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.circle_center = global::Pokédex.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::Pokédex.Droid.Resource.Id.clear_text;
@@ -2267,7 +5648,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.grouping = global::Pokédex.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.groups = global::Pokédex.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::Pokédex.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.guideline = global::Pokédex.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.header_title = global::Pokédex.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::Pokédex.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::Pokédex.Droid.Resource.Id.home;
@@ -2320,7 +5700,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_textinput_timepicker = global::Pokédex.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_cancel_button = global::Pokédex.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_container = global::Pokédex.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_edit_text = global::Pokédex.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_mode_button = global::Pokédex.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_ok_button = global::Pokédex.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_view = global::Pokédex.Droid.Resource.Id.material_timepicker_view;
@@ -2495,10 +5874,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_window_insets_animation_callback = global::Pokédex.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::Pokédex.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::Pokédex.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::Pokédex.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::Pokédex.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::Pokédex.Droid.Resource.Id.textEnd;
@@ -2543,6 +5918,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::Pokédex.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_transition = global::Pokédex.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_lifecycle_owner = global::Pokédex.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::Pokédex.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::Pokédex.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_view_model_store_owner = global::Pokédex.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::Pokédex.Droid.Resource.Id.visible;
@@ -2555,7 +5931,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content_constrained = global::Pokédex.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_left = global::Pokédex.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_right = global::Pokédex.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::Pokédex.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Pokédex.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -2709,21 +6084,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::Pokédex.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Pokédex.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::Pokédex.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::Pokédex.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::Pokédex.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::Pokédex.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::Pokédex.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_navigation_bar_item_layout = global::Pokédex.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::Pokédex.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::Pokédex.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::Pokédex.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_elevation = global::Pokédex.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_surface = global::Pokédex.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_without_line_height = global::Pokédex.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::Pokédex.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::Pokédex.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::Pokédex.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::Pokédex.Droid.Resource.String.abc_action_bar_home_description;
@@ -2753,13 +6113,13 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::Pokédex.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.androidx_startup = global::Pokédex.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::Pokédex.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottomsheet_action_expand_halfway = global::Pokédex.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::Pokédex.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::Pokédex.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_overflowed_content_description = global::Pokédex.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::Pokédex.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Android.Resource.String.chip_text = global::Pokédex.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Android.Resource.String.clear_text_end_icon_content_description = global::Pokédex.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.error_icon_content_description = global::Pokédex.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.exposed_dropdown_menu_content_description = global::Pokédex.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -2835,7 +6195,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::Pokédex.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::Pokédex.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -3066,7 +6425,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::Pokédex.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::Pokédex.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::Pokédex.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.EmptyTheme = global::Pokédex.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::Pokédex.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::Pokédex.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -3112,11 +6470,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::Pokédex.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::Pokédex.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -3125,25 +6478,11 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Pokédex.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeight = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -3233,7 +6572,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::Pokédex.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -3340,7 +6678,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -3354,7 +6691,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -3657,6 +6993,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatEmojiHelper = global::Pokédex.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -3690,6 +7027,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -3906,6 +7244,11 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUpMode = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView = global::Pokédex.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_android_checkMark = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkCompat = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTint = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip = global::Pokédex.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup = global::Pokédex.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_checkedChip = global::Pokédex.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -3996,6 +7339,8 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_lStar = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_lStar = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::Pokédex.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::Pokédex.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonCompat = global::Pokédex.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -4269,7 +7614,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierDirection = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierMargin = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_chainUseRtl = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_ConstraintRotate = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -5498,11 +8842,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::Pokédex.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::Pokédex.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::Pokédex.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge = global::Pokédex.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::Pokédex.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::Pokédex.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::Pokédex.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::Pokédex.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5552,10 +8891,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_fade_exit = global::Pokédex.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_enter = global::Pokédex.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_exit = global::Pokédex.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::Pokédex.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::Pokédex.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -5729,6 +9064,9 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconTint = global::Pokédex.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::Pokédex.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::Pokédex.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkCompat = global::Pokédex.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTint = global::Pokédex.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTintMode = global::Pokédex.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::Pokédex.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipCornerRadius = global::Pokédex.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipEndPadding = global::Pokédex.Droid.Resource.Attribute.chipEndPadding;
@@ -5800,7 +9138,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSurface = global::Pokédex.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal = global::Pokédex.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.commitIcon = global::Pokédex.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Resource.Attribute.ConstraintRotate = global::Pokédex.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraints = global::Pokédex.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSet = global::Pokédex.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSetEnd = global::Pokédex.Droid.Resource.Attribute.constraintSetEnd;
@@ -5901,6 +9238,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::Pokédex.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayColor = global::Pokédex.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayEnabled = global::Pokédex.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.emojiCompatEnabled = global::Pokédex.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enableEdgeToEdge = global::Pokédex.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconCheckable = global::Pokédex.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconContentDescription = global::Pokédex.Droid.Resource.Attribute.endIconContentDescription;
@@ -6159,6 +9497,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::Pokédex.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::Pokédex.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::Pokédex.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.lStar = global::Pokédex.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTheme = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Pokédex.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -6496,7 +9835,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureHeight = global::Pokédex.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureWidth = global::Pokédex.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::Pokédex.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::Pokédex.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::Pokédex.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::Pokédex.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::Pokédex.Droid.Resource.Attribute.thumbElevation;
@@ -6638,7 +9976,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::Pokédex.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color = global::Pokédex.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Resource.Color.checkbox_themeable_attribute_color = global::Pokédex.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::Pokédex.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_box_stroke_color = global::Pokédex.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_background = global::Pokédex.Droid.Resource.Color.design_dark_default_color_background;
@@ -6783,7 +10120,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::Pokédex.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::Pokédex.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::Pokédex.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::Pokédex.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::Pokédex.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::Pokédex.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -6796,8 +10132,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light = global::Pokédex.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day_selected = global::Pokédex.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_dark = global::Pokédex.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_light = global::Pokédex.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material = global::Pokédex.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -6881,7 +10215,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar = global::Pokédex.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Dimension.action_bar_size = global::Pokédex.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.appcompat_dialog_background_inset = global::Pokédex.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::Pokédex.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::Pokédex.Droid.Resource.Dimension.cardview_default_elevation;
@@ -6894,7 +10227,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::Pokédex.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::Pokédex.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.default_dimension = global::Pokédex.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Resource.Dimension.def_drawer_elevation = global::Pokédex.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::Pokédex.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Pokédex.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -6966,11 +10298,8 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_hand_stroke_width = global::Pokédex.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_number_text_size = global::Pokédex.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_height = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_margin_left = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_width = global::Pokédex.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_size = global::Pokédex.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_bottom = global::Pokédex.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_top = global::Pokédex.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_width = global::Pokédex.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_disabled = global::Pokédex.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_high_type = global::Pokédex.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -6988,8 +10317,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_default_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_max_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_min_width = global::Pokédex.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height_override = global::Pokédex.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::Pokédex.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_height = global::Pokédex.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_width = global::Pokédex.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -7086,12 +10413,10 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::Pokédex.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::Pokédex.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_elevation = global::Pokédex.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -7115,7 +10440,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_large_touch_target = global::Pokédex.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -7163,7 +10487,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::Pokédex.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Pokédex.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -7203,18 +10526,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size = global::Pokédex.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad = global::Pokédex.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad_large_text = global::Pokédex.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Pokédex.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_max_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_min_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_text_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_elevation = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_height = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_icon_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_max_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_min_width = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_label_padding = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_shadow_height = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_text_size = global::Pokédex.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_corner_radius = global::Pokédex.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_horizontal_padding = global::Pokédex.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_margin = global::Pokédex.Droid.Resource.Dimension.tooltip_margin;
@@ -7341,7 +10652,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_error = global::Pokédex.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_navigation_bar_item_background = global::Pokédex.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background_dark = global::Pokédex.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_tabs_default_indicator = global::Pokédex.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Resource.Drawable.navigation_empty_icon = global::Pokédex.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_action_background = global::Pokédex.Droid.Resource.Drawable.notification_action_background;
@@ -7356,7 +10666,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_low_bg = global::Pokédex.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_tile_bg = global::Pokédex.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::Pokédex.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Resource.Drawable.test_custom_background = global::Pokédex.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.test_level_drawable = global::Pokédex.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::Pokédex.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Resource.Id.accelerate = global::Pokédex.Droid.Resource.Id.accelerate;
@@ -7461,11 +10771,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.chains = global::Pokédex.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::Pokédex.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::Pokédex.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Resource.Id.chip = global::Pokédex.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::Pokédex.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::Pokédex.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::Pokédex.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::Pokédex.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::Pokédex.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Resource.Id.circle_center = global::Pokédex.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::Pokédex.Droid.Resource.Id.clear_text;
@@ -7554,7 +10859,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.grouping = global::Pokédex.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Resource.Id.groups = global::Pokédex.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::Pokédex.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Resource.Id.guideline = global::Pokédex.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Resource.Id.header_title = global::Pokédex.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::Pokédex.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::Pokédex.Droid.Resource.Id.home;
@@ -7607,7 +10911,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.material_textinput_timepicker = global::Pokédex.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_cancel_button = global::Pokédex.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_container = global::Pokédex.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_edit_text = global::Pokédex.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_mode_button = global::Pokédex.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_ok_button = global::Pokédex.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_view = global::Pokédex.Droid.Resource.Id.material_timepicker_view;
@@ -7782,10 +11085,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::Pokédex.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_window_insets_animation_callback = global::Pokédex.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::Pokédex.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::Pokédex.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::Pokédex.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::Pokédex.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::Pokédex.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::Pokédex.Droid.Resource.Id.textEnd;
@@ -7830,6 +11129,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::Pokédex.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Resource.Id.view_transition = global::Pokédex.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_lifecycle_owner = global::Pokédex.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::Pokédex.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::Pokédex.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_view_model_store_owner = global::Pokédex.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::Pokédex.Droid.Resource.Id.visible;
@@ -7842,7 +11142,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content_constrained = global::Pokédex.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Resource.Id.x_left = global::Pokédex.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Resource.Id.x_right = global::Pokédex.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::Pokédex.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::Pokédex.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::Pokédex.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -7996,21 +11295,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::Pokédex.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::Pokédex.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::Pokédex.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::Pokédex.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::Pokédex.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::Pokédex.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::Pokédex.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_navigation_bar_item_layout = global::Pokédex.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::Pokédex.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::Pokédex.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::Pokédex.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_elevation = global::Pokédex.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_surface = global::Pokédex.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_without_line_height = global::Pokédex.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_appearance = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::Pokédex.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::Pokédex.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::Pokédex.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::Pokédex.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::Pokédex.Droid.Resource.String.abc_action_bar_home_description;
@@ -8040,13 +11324,13 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with_application = global::Pokédex.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Resource.String.abc_toolbar_collapse_description = global::Pokédex.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Resource.String.androidx_startup = global::Pokédex.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::Pokédex.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottomsheet_action_expand_halfway = global::Pokédex.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::Pokédex.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::Pokédex.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_overflowed_content_description = global::Pokédex.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_pattern = global::Pokédex.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Resource.String.chip_text = global::Pokédex.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Resource.String.clear_text_end_icon_content_description = global::Pokédex.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.error_icon_content_description = global::Pokédex.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.exposed_dropdown_menu_content_description = global::Pokédex.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -8122,7 +11406,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::Pokédex.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::Pokédex.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::Pokédex.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::Pokédex.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -8353,7 +11636,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::Pokédex.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::Pokédex.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::Pokédex.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.EmptyTheme = global::Pokédex.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::Pokédex.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::Pokédex.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Pokédex.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -8399,11 +11681,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Pokédex.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::Pokédex.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::Pokédex.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_Cut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -8412,25 +11689,11 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Pokédex.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::Pokédex.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::Pokédex.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::Pokédex.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Pokédex.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeight = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeightDisabled = global::Pokédex.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Pokédex.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::Pokédex.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -8520,7 +11783,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Pokédex.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::Pokédex.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Pokédex.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -8627,7 +11889,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -8641,7 +11902,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Pokédex.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -8944,6 +12204,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_statusBarForeground = global::Pokédex.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatEmojiHelper = global::Pokédex.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -8977,6 +12238,7 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTint = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontFamily = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Pokédex.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -9193,6 +12455,11 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUpMode = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::Pokédex.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView = global::Pokédex.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_android_checkMark = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkCompat = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTint = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::Pokédex.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip = global::Pokédex.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup = global::Pokédex.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_checkedChip = global::Pokédex.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -9283,6 +12550,8 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_alpha = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_color = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_lStar = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_lStar = global::Pokédex.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton = global::Pokédex.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::Pokédex.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonCompat = global::Pokédex.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -9556,7 +12825,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierDirection = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierMargin = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_chainUseRtl = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_ConstraintRotate = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::Pokédex.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -10785,11 +14053,6 @@ namespace Pokédex.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::Pokédex.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::Pokédex.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::Pokédex.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge = global::Pokédex.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::Pokédex.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::Pokédex.Droid.Resource.Xml.standalone_badge_offset;
 		}
 		
 		public partial class Animation
@@ -11484,2018 +14747,2033 @@ namespace Pokédex.Droid
 			// aapt resource value: 0x7F030099
 			public const int checkBoxPreferenceStyle = 2130903193;
 			
-			// aapt resource value: 0x7F03009A
-			public const int checkboxStyle = 2130903194;
-			
-			// aapt resource value: 0x7F03009B
-			public const int checkedButton = 2130903195;
-			
-			// aapt resource value: 0x7F03009C
-			public const int checkedChip = 2130903196;
-			
 			// aapt resource value: 0x7F03009D
-			public const int checkedIcon = 2130903197;
+			public const int checkboxStyle = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int checkedIconEnabled = 2130903198;
+			public const int checkedButton = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int checkedIconMargin = 2130903199;
+			public const int checkedChip = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int checkedIconSize = 2130903200;
+			public const int checkedIcon = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int checkedIconTint = 2130903201;
+			public const int checkedIconEnabled = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int checkedIconVisible = 2130903202;
+			public const int checkedIconMargin = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int checkedTextViewStyle = 2130903203;
+			public const int checkedIconSize = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int chipBackgroundColor = 2130903204;
+			public const int checkedIconTint = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int chipCornerRadius = 2130903205;
+			public const int checkedIconVisible = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int chipEndPadding = 2130903206;
+			public const int checkedTextViewStyle = 2130903206;
+			
+			// aapt resource value: 0x7F03009A
+			public const int checkMarkCompat = 2130903194;
+			
+			// aapt resource value: 0x7F03009B
+			public const int checkMarkTint = 2130903195;
+			
+			// aapt resource value: 0x7F03009C
+			public const int checkMarkTintMode = 2130903196;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int chipGroupStyle = 2130903207;
+			public const int chipBackgroundColor = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int chipIcon = 2130903208;
+			public const int chipCornerRadius = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int chipIconEnabled = 2130903209;
+			public const int chipEndPadding = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int chipIconSize = 2130903210;
+			public const int chipGroupStyle = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int chipIconTint = 2130903211;
+			public const int chipIcon = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int chipIconVisible = 2130903212;
+			public const int chipIconEnabled = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int chipMinHeight = 2130903213;
+			public const int chipIconSize = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int chipMinTouchTargetSize = 2130903214;
+			public const int chipIconTint = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int chipSpacing = 2130903215;
+			public const int chipIconVisible = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int chipSpacingHorizontal = 2130903216;
+			public const int chipMinHeight = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int chipSpacingVertical = 2130903217;
+			public const int chipMinTouchTargetSize = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int chipStandaloneStyle = 2130903218;
+			public const int chipSpacing = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int chipStartPadding = 2130903219;
+			public const int chipSpacingHorizontal = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int chipStrokeColor = 2130903220;
+			public const int chipSpacingVertical = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int chipStrokeWidth = 2130903221;
+			public const int chipStandaloneStyle = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int chipStyle = 2130903222;
+			public const int chipStartPadding = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int chipSurfaceColor = 2130903223;
+			public const int chipStrokeColor = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int circleRadius = 2130903224;
-			
-			// aapt resource value: 0x7F0300BA
-			public const int circularflow_angles = 2130903226;
-			
-			// aapt resource value: 0x7F0300BB
-			public const int circularflow_defaultAngle = 2130903227;
-			
-			// aapt resource value: 0x7F0300BC
-			public const int circularflow_defaultRadius = 2130903228;
-			
-			// aapt resource value: 0x7F0300BD
-			public const int circularflow_radiusInDP = 2130903229;
-			
-			// aapt resource value: 0x7F0300BE
-			public const int circularflow_viewCenter = 2130903230;
+			public const int chipStrokeWidth = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int circularProgressIndicatorStyle = 2130903225;
+			public const int chipStyle = 2130903225;
+			
+			// aapt resource value: 0x7F0300BA
+			public const int chipSurfaceColor = 2130903226;
+			
+			// aapt resource value: 0x7F0300BB
+			public const int circleRadius = 2130903227;
+			
+			// aapt resource value: 0x7F0300BD
+			public const int circularflow_angles = 2130903229;
+			
+			// aapt resource value: 0x7F0300BE
+			public const int circularflow_defaultAngle = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int clearsTag = 2130903231;
+			public const int circularflow_defaultRadius = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int clickAction = 2130903232;
+			public const int circularflow_radiusInDP = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int clockFaceBackgroundColor = 2130903233;
+			public const int circularflow_viewCenter = 2130903233;
+			
+			// aapt resource value: 0x7F0300BC
+			public const int circularProgressIndicatorStyle = 2130903228;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int clockHandColor = 2130903234;
+			public const int clearsTag = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int clockIcon = 2130903235;
+			public const int clickAction = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int clockNumberTextColor = 2130903236;
+			public const int clockFaceBackgroundColor = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int closeIcon = 2130903237;
+			public const int clockHandColor = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int closeIconEnabled = 2130903238;
+			public const int clockIcon = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int closeIconEndPadding = 2130903239;
+			public const int clockNumberTextColor = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int closeIconSize = 2130903240;
+			public const int closeIcon = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int closeIconStartPadding = 2130903241;
+			public const int closeIconEnabled = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int closeIconTint = 2130903242;
+			public const int closeIconEndPadding = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int closeIconVisible = 2130903243;
+			public const int closeIconSize = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int closeItemLayout = 2130903244;
+			public const int closeIconStartPadding = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int collapseContentDescription = 2130903245;
-			
-			// aapt resource value: 0x7F0300CF
-			public const int collapsedSize = 2130903247;
-			
-			// aapt resource value: 0x7F0300D0
-			public const int collapsedTitleGravity = 2130903248;
-			
-			// aapt resource value: 0x7F0300D1
-			public const int collapsedTitleTextAppearance = 2130903249;
+			public const int closeIconTint = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int collapseIcon = 2130903246;
+			public const int closeIconVisible = 2130903246;
+			
+			// aapt resource value: 0x7F0300CF
+			public const int closeItemLayout = 2130903247;
+			
+			// aapt resource value: 0x7F0300D0
+			public const int collapseContentDescription = 2130903248;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int collapsingToolbarLayoutStyle = 2130903250;
+			public const int collapsedSize = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int collectionViewStyle = 2130903251;
+			public const int collapsedTitleGravity = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int color = 2130903252;
+			public const int collapsedTitleTextAppearance = 2130903252;
+			
+			// aapt resource value: 0x7F0300D1
+			public const int collapseIcon = 2130903249;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int colorAccent = 2130903253;
+			public const int collapsingToolbarLayoutStyle = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int colorBackgroundFloating = 2130903254;
+			public const int collectionViewStyle = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int colorButtonNormal = 2130903255;
+			public const int color = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int colorControlActivated = 2130903256;
+			public const int colorAccent = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int colorControlHighlight = 2130903257;
+			public const int colorBackgroundFloating = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int colorControlNormal = 2130903258;
+			public const int colorButtonNormal = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int colorError = 2130903259;
+			public const int colorControlActivated = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int colorOnBackground = 2130903260;
+			public const int colorControlHighlight = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int colorOnError = 2130903261;
+			public const int colorControlNormal = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int colorOnPrimary = 2130903262;
+			public const int colorError = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int colorOnPrimarySurface = 2130903263;
+			public const int colorOnBackground = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int colorOnSecondary = 2130903264;
+			public const int colorOnError = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int colorOnSurface = 2130903265;
+			public const int colorOnPrimary = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int colorPrimary = 2130903266;
+			public const int colorOnPrimarySurface = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int colorPrimaryDark = 2130903267;
+			public const int colorOnSecondary = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int colorPrimarySurface = 2130903268;
+			public const int colorOnSurface = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int colorPrimaryVariant = 2130903269;
+			public const int colorPrimary = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int colorSecondary = 2130903270;
+			public const int colorPrimaryDark = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int colorSecondaryVariant = 2130903271;
+			public const int colorPrimarySurface = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int colorSurface = 2130903272;
+			public const int colorPrimaryVariant = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int colorSwitchThumbNormal = 2130903273;
+			public const int colorSecondary = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int commitIcon = 2130903274;
+			public const int colorSecondaryVariant = 2130903274;
+			
+			// aapt resource value: 0x7F0300EB
+			public const int colorSurface = 2130903275;
+			
+			// aapt resource value: 0x7F0300EC
+			public const int colorSwitchThumbNormal = 2130903276;
+			
+			// aapt resource value: 0x7F0300ED
+			public const int commitIcon = 2130903277;
 			
 			// aapt resource value: 0x7F030000
 			public const int ConstraintRotate = 2130903040;
 			
-			// aapt resource value: 0x7F0300F0
-			public const int constraints = 2130903280;
-			
-			// aapt resource value: 0x7F0300EB
-			public const int constraintSet = 2130903275;
-			
-			// aapt resource value: 0x7F0300EC
-			public const int constraintSetEnd = 2130903276;
-			
-			// aapt resource value: 0x7F0300ED
-			public const int constraintSetStart = 2130903277;
+			// aapt resource value: 0x7F0300F3
+			public const int constraints = 2130903283;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int constraint_referenced_ids = 2130903278;
+			public const int constraintSet = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int constraint_referenced_tags = 2130903279;
+			public const int constraintSetEnd = 2130903279;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int constraintSetStart = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int content = 2130903281;
+			public const int constraint_referenced_ids = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int contentDescription = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int contentInsetEnd = 2130903283;
+			public const int constraint_referenced_tags = 2130903282;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int contentInsetEndWithActions = 2130903284;
+			public const int content = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int contentInsetLeft = 2130903285;
+			public const int contentDescription = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int contentInsetRight = 2130903286;
+			public const int contentInsetEnd = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int contentInsetStart = 2130903287;
+			public const int contentInsetEndWithActions = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int contentInsetStartWithNavigation = 2130903288;
+			public const int contentInsetLeft = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int contentPadding = 2130903289;
+			public const int contentInsetRight = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int contentPaddingBottom = 2130903290;
+			public const int contentInsetStart = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int contentPaddingEnd = 2130903291;
+			public const int contentInsetStartWithNavigation = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int contentPaddingLeft = 2130903292;
+			public const int contentPadding = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int contentPaddingRight = 2130903293;
+			public const int contentPaddingBottom = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int contentPaddingStart = 2130903294;
+			public const int contentPaddingEnd = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int contentPaddingTop = 2130903295;
+			public const int contentPaddingLeft = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int contentScrim = 2130903296;
+			public const int contentPaddingRight = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int contrast = 2130903297;
+			public const int contentPaddingStart = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int controlBackground = 2130903298;
+			public const int contentPaddingTop = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int coordinatorLayoutStyle = 2130903299;
+			public const int contentScrim = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int cornerFamily = 2130903300;
+			public const int contrast = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int cornerFamilyBottomLeft = 2130903301;
+			public const int controlBackground = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int cornerFamilyBottomRight = 2130903302;
+			public const int coordinatorLayoutStyle = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int cornerFamilyTopLeft = 2130903303;
+			public const int cornerFamily = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int cornerFamilyTopRight = 2130903304;
+			public const int cornerFamilyBottomLeft = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int cornerRadius = 2130903305;
+			public const int cornerFamilyBottomRight = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int cornerSize = 2130903306;
+			public const int cornerFamilyTopLeft = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int cornerSizeBottomLeft = 2130903307;
+			public const int cornerFamilyTopRight = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int cornerSizeBottomRight = 2130903308;
+			public const int cornerRadius = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int cornerSizeTopLeft = 2130903309;
+			public const int cornerSize = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int cornerSizeTopRight = 2130903310;
+			public const int cornerSizeBottomLeft = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int counterEnabled = 2130903311;
+			public const int cornerSizeBottomRight = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int counterMaxLength = 2130903312;
+			public const int cornerSizeTopLeft = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int counterOverflowTextAppearance = 2130903313;
+			public const int cornerSizeTopRight = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int counterOverflowTextColor = 2130903314;
+			public const int counterEnabled = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int counterTextAppearance = 2130903315;
+			public const int counterMaxLength = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int counterTextColor = 2130903316;
+			public const int counterOverflowTextAppearance = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int crossfade = 2130903317;
+			public const int counterOverflowTextColor = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int currentState = 2130903318;
+			public const int counterTextAppearance = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int curveFit = 2130903319;
+			public const int counterTextColor = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int customBoolean = 2130903320;
+			public const int crossfade = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int customColorDrawableValue = 2130903321;
+			public const int currentState = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int customColorValue = 2130903322;
+			public const int curveFit = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int customDimension = 2130903323;
+			public const int customBoolean = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int customFloatValue = 2130903324;
+			public const int customColorDrawableValue = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int customIntegerValue = 2130903325;
+			public const int customColorValue = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int customNavigationLayout = 2130903326;
+			public const int customDimension = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int customPixelDimension = 2130903327;
+			public const int customFloatValue = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int customReference = 2130903328;
+			public const int customIntegerValue = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int customStringValue = 2130903329;
+			public const int customNavigationLayout = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int data = 2130903330;
+			public const int customPixelDimension = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int dataPattern = 2130903331;
+			public const int customReference = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int dayInvalidStyle = 2130903332;
+			public const int customStringValue = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int daySelectedStyle = 2130903333;
+			public const int data = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int dayStyle = 2130903334;
+			public const int dataPattern = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int dayTodayStyle = 2130903335;
+			public const int dayInvalidStyle = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int defaultDuration = 2130903336;
+			public const int daySelectedStyle = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int defaultQueryHint = 2130903337;
+			public const int dayStyle = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int defaultState = 2130903338;
+			public const int dayTodayStyle = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int defaultValue = 2130903339;
+			public const int defaultDuration = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int deltaPolarAngle = 2130903340;
+			public const int defaultQueryHint = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int deltaPolarRadius = 2130903341;
+			public const int defaultState = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int dependency = 2130903342;
+			public const int defaultValue = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int deriveConstraintsFrom = 2130903343;
+			public const int deltaPolarAngle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int destination = 2130903344;
+			public const int deltaPolarRadius = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int dialogCornerRadius = 2130903345;
+			public const int dependency = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int dialogIcon = 2130903346;
+			public const int deriveConstraintsFrom = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int dialogLayout = 2130903347;
+			public const int destination = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int dialogMessage = 2130903348;
+			public const int dialogCornerRadius = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int dialogPreferenceStyle = 2130903349;
+			public const int dialogIcon = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int dialogPreferredPadding = 2130903350;
+			public const int dialogLayout = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int dialogTheme = 2130903351;
+			public const int dialogMessage = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int dialogTitle = 2130903352;
+			public const int dialogPreferenceStyle = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int disableDependentsState = 2130903353;
+			public const int dialogPreferredPadding = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int displayOptions = 2130903354;
+			public const int dialogTheme = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int divider = 2130903355;
+			public const int dialogTitle = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int dividerHorizontal = 2130903356;
+			public const int disableDependentsState = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int dividerPadding = 2130903357;
+			public const int displayOptions = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int dividerVertical = 2130903358;
+			public const int divider = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int dragDirection = 2130903359;
+			public const int dividerHorizontal = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int dragScale = 2130903360;
+			public const int dividerPadding = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int dragThreshold = 2130903361;
-			
-			// aapt resource value: 0x7F030143
-			public const int drawableBottomCompat = 2130903363;
-			
-			// aapt resource value: 0x7F030144
-			public const int drawableEndCompat = 2130903364;
-			
-			// aapt resource value: 0x7F030145
-			public const int drawableLeftCompat = 2130903365;
-			
-			// aapt resource value: 0x7F030146
-			public const int drawableRightCompat = 2130903366;
-			
-			// aapt resource value: 0x7F030147
-			public const int drawableSize = 2130903367;
-			
-			// aapt resource value: 0x7F030148
-			public const int drawableStartCompat = 2130903368;
-			
-			// aapt resource value: 0x7F030149
-			public const int drawableTint = 2130903369;
-			
-			// aapt resource value: 0x7F03014A
-			public const int drawableTintMode = 2130903370;
-			
-			// aapt resource value: 0x7F03014B
-			public const int drawableTopCompat = 2130903371;
-			
-			// aapt resource value: 0x7F03014C
-			public const int drawerArrowStyle = 2130903372;
-			
-			// aapt resource value: 0x7F03014D
-			public const int drawerLayoutStyle = 2130903373;
+			public const int dividerVertical = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int drawPath = 2130903362;
+			public const int dragDirection = 2130903362;
 			
-			// aapt resource value: 0x7F03014F
-			public const int dropdownListPreferredItemHeight = 2130903375;
+			// aapt resource value: 0x7F030143
+			public const int dragScale = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int dragThreshold = 2130903364;
+			
+			// aapt resource value: 0x7F030146
+			public const int drawableBottomCompat = 2130903366;
+			
+			// aapt resource value: 0x7F030147
+			public const int drawableEndCompat = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int drawableLeftCompat = 2130903368;
+			
+			// aapt resource value: 0x7F030149
+			public const int drawableRightCompat = 2130903369;
+			
+			// aapt resource value: 0x7F03014A
+			public const int drawableSize = 2130903370;
+			
+			// aapt resource value: 0x7F03014B
+			public const int drawableStartCompat = 2130903371;
+			
+			// aapt resource value: 0x7F03014C
+			public const int drawableTint = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int drawableTintMode = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int dropDownListViewStyle = 2130903374;
+			public const int drawableTopCompat = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int drawerArrowStyle = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int dropdownPreferenceStyle = 2130903376;
+			public const int drawerLayoutStyle = 2130903376;
 			
-			// aapt resource value: 0x7F030151
-			public const int duration = 2130903377;
+			// aapt resource value: 0x7F030145
+			public const int drawPath = 2130903365;
 			
 			// aapt resource value: 0x7F030152
-			public const int editTextBackground = 2130903378;
+			public const int dropdownListPreferredItemHeight = 2130903378;
+			
+			// aapt resource value: 0x7F030151
+			public const int dropDownListViewStyle = 2130903377;
 			
 			// aapt resource value: 0x7F030153
-			public const int editTextColor = 2130903379;
+			public const int dropdownPreferenceStyle = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int editTextPreferenceStyle = 2130903380;
+			public const int duration = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int editTextStyle = 2130903381;
+			public const int editTextBackground = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int elevation = 2130903382;
+			public const int editTextColor = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int elevationOverlayColor = 2130903383;
+			public const int editTextPreferenceStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int elevationOverlayEnabled = 2130903384;
+			public const int editTextStyle = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int enableCopying = 2130903385;
-			
-			// aapt resource value: 0x7F03015B
-			public const int enabled = 2130903387;
+			public const int elevation = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int enableEdgeToEdge = 2130903386;
+			public const int elevationOverlayColor = 2130903386;
+			
+			// aapt resource value: 0x7F03015B
+			public const int elevationOverlayEnabled = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int endIconCheckable = 2130903388;
+			public const int emojiCompatEnabled = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int endIconContentDescription = 2130903389;
-			
-			// aapt resource value: 0x7F03015E
-			public const int endIconDrawable = 2130903390;
+			public const int enableCopying = 2130903389;
 			
 			// aapt resource value: 0x7F03015F
-			public const int endIconMode = 2130903391;
+			public const int enabled = 2130903391;
+			
+			// aapt resource value: 0x7F03015E
+			public const int enableEdgeToEdge = 2130903390;
 			
 			// aapt resource value: 0x7F030160
-			public const int endIconTint = 2130903392;
+			public const int endIconCheckable = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int endIconTintMode = 2130903393;
+			public const int endIconContentDescription = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int enforceMaterialTheme = 2130903394;
+			public const int endIconDrawable = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int enforceTextAppearance = 2130903395;
+			public const int endIconMode = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int ensureMinTouchTargetSize = 2130903396;
+			public const int endIconTint = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int enterAnim = 2130903397;
+			public const int endIconTintMode = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int entries = 2130903398;
+			public const int enforceMaterialTheme = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int entryValues = 2130903399;
+			public const int enforceTextAppearance = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int errorContentDescription = 2130903400;
+			public const int ensureMinTouchTargetSize = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int errorEnabled = 2130903401;
+			public const int enterAnim = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int errorIconDrawable = 2130903402;
+			public const int entries = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int errorIconTint = 2130903403;
+			public const int entryValues = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int errorIconTintMode = 2130903404;
+			public const int errorContentDescription = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int errorTextAppearance = 2130903405;
+			public const int errorEnabled = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int errorTextColor = 2130903406;
+			public const int errorIconDrawable = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int exitAnim = 2130903407;
+			public const int errorIconTint = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int expandActivityOverflowButtonDrawable = 2130903408;
+			public const int errorIconTintMode = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int expanded = 2130903409;
+			public const int errorTextAppearance = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int expandedHintEnabled = 2130903410;
+			public const int errorTextColor = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int expandedTitleGravity = 2130903411;
+			public const int exitAnim = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int expandedTitleMargin = 2130903412;
+			public const int expandActivityOverflowButtonDrawable = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int expandedTitleMarginBottom = 2130903413;
+			public const int expanded = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int expandedTitleMarginEnd = 2130903414;
+			public const int expandedHintEnabled = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int expandedTitleMarginStart = 2130903415;
+			public const int expandedTitleGravity = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int expandedTitleMarginTop = 2130903416;
+			public const int expandedTitleMargin = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int expandedTitleTextAppearance = 2130903417;
-			
-			// aapt resource value: 0x7F03017B
-			public const int extendedFloatingActionButtonStyle = 2130903419;
+			public const int expandedTitleMarginBottom = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int extendMotionSpec = 2130903418;
+			public const int expandedTitleMarginEnd = 2130903418;
+			
+			// aapt resource value: 0x7F03017B
+			public const int expandedTitleMarginStart = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int extraMultilineHeightEnabled = 2130903420;
+			public const int expandedTitleMarginTop = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int fabAlignmentMode = 2130903421;
-			
-			// aapt resource value: 0x7F03017E
-			public const int fabAnimationMode = 2130903422;
+			public const int expandedTitleTextAppearance = 2130903421;
 			
 			// aapt resource value: 0x7F03017F
-			public const int fabCradleMargin = 2130903423;
+			public const int extendedFloatingActionButtonStyle = 2130903423;
+			
+			// aapt resource value: 0x7F03017E
+			public const int extendMotionSpec = 2130903422;
 			
 			// aapt resource value: 0x7F030180
-			public const int fabCradleRoundedCornerRadius = 2130903424;
+			public const int extraMultilineHeightEnabled = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int fabCradleVerticalOffset = 2130903425;
+			public const int fabAlignmentMode = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int fabCustomSize = 2130903426;
+			public const int fabAnimationMode = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int fabSize = 2130903427;
+			public const int fabCradleMargin = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int fastScrollEnabled = 2130903428;
+			public const int fabCradleRoundedCornerRadius = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int fastScrollHorizontalThumbDrawable = 2130903429;
+			public const int fabCradleVerticalOffset = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int fastScrollHorizontalTrackDrawable = 2130903430;
+			public const int fabCustomSize = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int fastScrollVerticalThumbDrawable = 2130903431;
+			public const int fabSize = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int fastScrollVerticalTrackDrawable = 2130903432;
+			public const int fastScrollEnabled = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int firstBaselineToTopHeight = 2130903433;
+			public const int fastScrollHorizontalThumbDrawable = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int floatingActionButtonStyle = 2130903434;
+			public const int fastScrollHorizontalTrackDrawable = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int flow_firstHorizontalBias = 2130903435;
+			public const int fastScrollVerticalThumbDrawable = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int flow_firstHorizontalStyle = 2130903436;
+			public const int fastScrollVerticalTrackDrawable = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int flow_firstVerticalBias = 2130903437;
+			public const int firstBaselineToTopHeight = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int flow_firstVerticalStyle = 2130903438;
+			public const int floatingActionButtonStyle = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int flow_horizontalAlign = 2130903439;
+			public const int flow_firstHorizontalBias = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int flow_horizontalBias = 2130903440;
+			public const int flow_firstHorizontalStyle = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int flow_horizontalGap = 2130903441;
+			public const int flow_firstVerticalBias = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int flow_horizontalStyle = 2130903442;
+			public const int flow_firstVerticalStyle = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int flow_lastHorizontalBias = 2130903443;
+			public const int flow_horizontalAlign = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int flow_lastHorizontalStyle = 2130903444;
+			public const int flow_horizontalBias = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int flow_lastVerticalBias = 2130903445;
+			public const int flow_horizontalGap = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int flow_lastVerticalStyle = 2130903446;
+			public const int flow_horizontalStyle = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int flow_maxElementsWrap = 2130903447;
+			public const int flow_lastHorizontalBias = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int flow_padding = 2130903448;
+			public const int flow_lastHorizontalStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int flow_verticalAlign = 2130903449;
+			public const int flow_lastVerticalBias = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int flow_verticalBias = 2130903450;
+			public const int flow_lastVerticalStyle = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int flow_verticalGap = 2130903451;
+			public const int flow_maxElementsWrap = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int flow_verticalStyle = 2130903452;
+			public const int flow_padding = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int flow_wrapMode = 2130903453;
+			public const int flow_verticalAlign = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int font = 2130903454;
+			public const int flow_verticalBias = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int fontFamily = 2130903455;
+			public const int flow_verticalGap = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int fontProviderAuthority = 2130903456;
+			public const int flow_verticalStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int fontProviderCerts = 2130903457;
+			public const int flow_wrapMode = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int fontProviderFetchStrategy = 2130903458;
+			public const int font = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int fontProviderFetchTimeout = 2130903459;
+			public const int fontFamily = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int fontProviderPackage = 2130903460;
+			public const int fontProviderAuthority = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int fontProviderQuery = 2130903461;
+			public const int fontProviderCerts = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int fontProviderSystemFontFamily = 2130903462;
+			public const int fontProviderFetchStrategy = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int fontStyle = 2130903463;
+			public const int fontProviderFetchTimeout = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int fontVariationSettings = 2130903464;
+			public const int fontProviderPackage = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int fontWeight = 2130903465;
+			public const int fontProviderQuery = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int forceApplySystemWindowInsetTop = 2130903466;
+			public const int fontProviderSystemFontFamily = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int foregroundInsidePadding = 2130903467;
+			public const int fontStyle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int fragment = 2130903468;
+			public const int fontVariationSettings = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int framePosition = 2130903469;
+			public const int fontWeight = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int gapBetweenBars = 2130903470;
+			public const int forceApplySystemWindowInsetTop = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int gestureInsetBottomIgnored = 2130903471;
+			public const int foregroundInsidePadding = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int goIcon = 2130903472;
+			public const int fragment = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int graph = 2130903473;
+			public const int framePosition = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int haloColor = 2130903474;
+			public const int gapBetweenBars = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int haloRadius = 2130903475;
+			public const int gestureInsetBottomIgnored = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int headerLayout = 2130903476;
+			public const int goIcon = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int height = 2130903477;
+			public const int graph = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int helperText = 2130903478;
+			public const int haloColor = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int helperTextEnabled = 2130903479;
+			public const int haloRadius = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int helperTextTextAppearance = 2130903480;
+			public const int headerLayout = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int helperTextTextColor = 2130903481;
+			public const int height = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int hideAnimationBehavior = 2130903482;
+			public const int helperText = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int hideMotionSpec = 2130903483;
+			public const int helperTextEnabled = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int hideOnContentScroll = 2130903484;
+			public const int helperTextTextAppearance = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int hideOnScroll = 2130903485;
+			public const int helperTextTextColor = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int hintAnimationEnabled = 2130903486;
+			public const int hideAnimationBehavior = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int hintEnabled = 2130903487;
+			public const int hideMotionSpec = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int hintTextAppearance = 2130903488;
+			public const int hideOnContentScroll = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int hintTextColor = 2130903489;
+			public const int hideOnScroll = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int homeAsUpIndicator = 2130903490;
+			public const int hintAnimationEnabled = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int homeLayout = 2130903491;
+			public const int hintEnabled = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int horizontalOffset = 2130903492;
+			public const int hintTextAppearance = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int hoveredFocusedTranslationZ = 2130903493;
+			public const int hintTextColor = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int icon = 2130903494;
+			public const int homeAsUpIndicator = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int iconEndPadding = 2130903495;
+			public const int homeLayout = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int iconGravity = 2130903496;
-			
-			// aapt resource value: 0x7F0301CF
-			public const int iconifiedByDefault = 2130903503;
+			public const int horizontalOffset = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int iconPadding = 2130903497;
+			public const int hoveredFocusedTranslationZ = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int iconSize = 2130903498;
+			public const int icon = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int iconSpaceReserved = 2130903499;
+			public const int iconEndPadding = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int iconStartPadding = 2130903500;
-			
-			// aapt resource value: 0x7F0301CD
-			public const int iconTint = 2130903501;
-			
-			// aapt resource value: 0x7F0301CE
-			public const int iconTintMode = 2130903502;
-			
-			// aapt resource value: 0x7F0301D0
-			public const int ifTagNotSet = 2130903504;
-			
-			// aapt resource value: 0x7F0301D1
-			public const int ifTagSet = 2130903505;
-			
-			// aapt resource value: 0x7F0301D2
-			public const int imageButtonStyle = 2130903506;
+			public const int iconGravity = 2130903500;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int imagePanX = 2130903507;
+			public const int iconifiedByDefault = 2130903507;
+			
+			// aapt resource value: 0x7F0301CD
+			public const int iconPadding = 2130903501;
+			
+			// aapt resource value: 0x7F0301CE
+			public const int iconSize = 2130903502;
+			
+			// aapt resource value: 0x7F0301CF
+			public const int iconSpaceReserved = 2130903503;
+			
+			// aapt resource value: 0x7F0301D0
+			public const int iconStartPadding = 2130903504;
+			
+			// aapt resource value: 0x7F0301D1
+			public const int iconTint = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int iconTintMode = 2130903506;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int imagePanY = 2130903508;
+			public const int ifTagNotSet = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int imageRotate = 2130903509;
+			public const int ifTagSet = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int imageZoom = 2130903510;
+			public const int imageButtonStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int indeterminateAnimationType = 2130903511;
+			public const int imagePanX = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int indeterminateProgressStyle = 2130903512;
+			public const int imagePanY = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int indicatorColor = 2130903513;
+			public const int imageRotate = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int indicatorDirectionCircular = 2130903514;
+			public const int imageZoom = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int indicatorDirectionLinear = 2130903515;
+			public const int indeterminateAnimationType = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int indicatorInset = 2130903516;
+			public const int indeterminateProgressStyle = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int indicatorSize = 2130903517;
+			public const int indicatorColor = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int initialActivityCount = 2130903518;
+			public const int indicatorDirectionCircular = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int initialExpandedChildrenCount = 2130903519;
+			public const int indicatorDirectionLinear = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int insetForeground = 2130903520;
+			public const int indicatorInset = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int isLightTheme = 2130903521;
+			public const int indicatorSize = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int isMaterialTheme = 2130903522;
+			public const int initialActivityCount = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int isPreferenceVisible = 2130903523;
+			public const int initialExpandedChildrenCount = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int itemBackground = 2130903524;
+			public const int insetForeground = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int itemFillColor = 2130903525;
+			public const int isLightTheme = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int itemHorizontalPadding = 2130903526;
+			public const int isMaterialTheme = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int itemHorizontalTranslationEnabled = 2130903527;
+			public const int isPreferenceVisible = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int itemIconPadding = 2130903528;
+			public const int itemBackground = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int itemIconSize = 2130903529;
+			public const int itemFillColor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int itemIconTint = 2130903530;
+			public const int itemHorizontalPadding = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int itemMaxLines = 2130903531;
+			public const int itemHorizontalTranslationEnabled = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int itemPadding = 2130903532;
+			public const int itemIconPadding = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int itemRippleColor = 2130903533;
+			public const int itemIconSize = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int itemShapeAppearance = 2130903534;
+			public const int itemIconTint = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int itemShapeAppearanceOverlay = 2130903535;
+			public const int itemMaxLines = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int itemShapeFillColor = 2130903536;
+			public const int itemPadding = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int itemShapeInsetBottom = 2130903537;
+			public const int itemRippleColor = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int itemShapeInsetEnd = 2130903538;
+			public const int itemShapeAppearance = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int itemShapeInsetStart = 2130903539;
+			public const int itemShapeAppearanceOverlay = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int itemShapeInsetTop = 2130903540;
+			public const int itemShapeFillColor = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int itemSpacing = 2130903541;
+			public const int itemShapeInsetBottom = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int itemStrokeColor = 2130903542;
+			public const int itemShapeInsetEnd = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int itemStrokeWidth = 2130903543;
+			public const int itemShapeInsetStart = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int itemTextAppearance = 2130903544;
+			public const int itemShapeInsetTop = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int itemTextAppearanceActive = 2130903545;
+			public const int itemSpacing = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int itemTextAppearanceInactive = 2130903546;
+			public const int itemStrokeColor = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int itemTextColor = 2130903547;
+			public const int itemStrokeWidth = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int key = 2130903548;
-			
-			// aapt resource value: 0x7F0301FE
-			public const int keyboardIcon = 2130903550;
-			
-			// aapt resource value: 0x7F0301FF
-			public const int keylines = 2130903551;
+			public const int itemTextAppearance = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int keyPositionType = 2130903549;
+			public const int itemTextAppearanceActive = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int itemTextAppearanceInactive = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int itemTextColor = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int labelBehavior = 2130903552;
-			
-			// aapt resource value: 0x7F030201
-			public const int labelStyle = 2130903553;
+			public const int key = 2130903552;
 			
 			// aapt resource value: 0x7F030202
-			public const int labelVisibilityMode = 2130903554;
+			public const int keyboardIcon = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int lastBaselineToBottomHeight = 2130903555;
+			public const int keylines = 2130903555;
 			
-			// aapt resource value: 0x7F030204
-			public const int launchSingleTop = 2130903556;
+			// aapt resource value: 0x7F030201
+			public const int keyPositionType = 2130903553;
 			
 			// aapt resource value: 0x7F030205
-			public const int layout = 2130903557;
+			public const int labelBehavior = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int layoutDescription = 2130903558;
+			public const int labelStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int layoutDuringTransition = 2130903559;
+			public const int labelVisibilityMode = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int layoutManager = 2130903560;
+			public const int lastBaselineToBottomHeight = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int layout_anchor = 2130903561;
+			public const int launchSingleTop = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int layout_anchorGravity = 2130903562;
+			public const int layout = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int layout_behavior = 2130903563;
+			public const int layoutDescription = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int layout_collapseMode = 2130903564;
+			public const int layoutDuringTransition = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int layout_collapseParallaxMultiplier = 2130903565;
+			public const int layoutManager = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int layout_constrainedHeight = 2130903566;
+			public const int layout_anchor = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int layout_constrainedWidth = 2130903567;
+			public const int layout_anchorGravity = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int layout_constraintBaseline_creator = 2130903568;
+			public const int layout_behavior = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int layout_constraintBaseline_toBaselineOf = 2130903569;
+			public const int layout_collapseMode = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int layout_constraintBaseline_toBottomOf = 2130903570;
+			public const int layout_collapseParallaxMultiplier = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int layout_constraintBaseline_toTopOf = 2130903571;
+			public const int layout_constrainedHeight = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int layout_constraintBottom_creator = 2130903572;
+			public const int layout_constrainedWidth = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int layout_constraintBottom_toBottomOf = 2130903573;
+			public const int layout_constraintBaseline_creator = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int layout_constraintBottom_toTopOf = 2130903574;
+			public const int layout_constraintBaseline_toBaselineOf = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int layout_constraintCircle = 2130903575;
+			public const int layout_constraintBaseline_toBottomOf = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int layout_constraintCircleAngle = 2130903576;
+			public const int layout_constraintBaseline_toTopOf = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int layout_constraintCircleRadius = 2130903577;
+			public const int layout_constraintBottom_creator = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int layout_constraintDimensionRatio = 2130903578;
+			public const int layout_constraintBottom_toBottomOf = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int layout_constraintEnd_toEndOf = 2130903579;
+			public const int layout_constraintBottom_toTopOf = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int layout_constraintEnd_toStartOf = 2130903580;
+			public const int layout_constraintCircle = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int layout_constraintGuide_begin = 2130903581;
+			public const int layout_constraintCircleAngle = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int layout_constraintGuide_end = 2130903582;
+			public const int layout_constraintCircleRadius = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int layout_constraintGuide_percent = 2130903583;
+			public const int layout_constraintDimensionRatio = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int layout_constraintHeight = 2130903584;
+			public const int layout_constraintEnd_toEndOf = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int layout_constraintHeight_default = 2130903585;
+			public const int layout_constraintEnd_toStartOf = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int layout_constraintHeight_max = 2130903586;
+			public const int layout_constraintGuide_begin = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int layout_constraintHeight_min = 2130903587;
+			public const int layout_constraintGuide_end = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int layout_constraintHeight_percent = 2130903588;
+			public const int layout_constraintGuide_percent = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int layout_constraintHorizontal_bias = 2130903589;
+			public const int layout_constraintHeight = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int layout_constraintHorizontal_chainStyle = 2130903590;
+			public const int layout_constraintHeight_default = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int layout_constraintHorizontal_weight = 2130903591;
+			public const int layout_constraintHeight_max = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int layout_constraintLeft_creator = 2130903592;
+			public const int layout_constraintHeight_min = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int layout_constraintLeft_toLeftOf = 2130903593;
+			public const int layout_constraintHeight_percent = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int layout_constraintLeft_toRightOf = 2130903594;
+			public const int layout_constraintHorizontal_bias = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int layout_constraintRight_creator = 2130903595;
+			public const int layout_constraintHorizontal_chainStyle = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int layout_constraintRight_toLeftOf = 2130903596;
+			public const int layout_constraintHorizontal_weight = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int layout_constraintRight_toRightOf = 2130903597;
+			public const int layout_constraintLeft_creator = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int layout_constraintStart_toEndOf = 2130903598;
+			public const int layout_constraintLeft_toLeftOf = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int layout_constraintStart_toStartOf = 2130903599;
+			public const int layout_constraintLeft_toRightOf = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int layout_constraintTag = 2130903600;
+			public const int layout_constraintRight_creator = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int layout_constraintTop_creator = 2130903601;
+			public const int layout_constraintRight_toLeftOf = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int layout_constraintTop_toBottomOf = 2130903602;
+			public const int layout_constraintRight_toRightOf = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int layout_constraintTop_toTopOf = 2130903603;
+			public const int layout_constraintStart_toEndOf = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int layout_constraintVertical_bias = 2130903604;
+			public const int layout_constraintStart_toStartOf = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int layout_constraintVertical_chainStyle = 2130903605;
+			public const int layout_constraintTag = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int layout_constraintVertical_weight = 2130903606;
+			public const int layout_constraintTop_creator = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int layout_constraintWidth = 2130903607;
+			public const int layout_constraintTop_toBottomOf = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int layout_constraintWidth_default = 2130903608;
+			public const int layout_constraintTop_toTopOf = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int layout_constraintWidth_max = 2130903609;
+			public const int layout_constraintVertical_bias = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int layout_constraintWidth_min = 2130903610;
+			public const int layout_constraintVertical_chainStyle = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int layout_constraintWidth_percent = 2130903611;
+			public const int layout_constraintVertical_weight = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int layout_dodgeInsetEdges = 2130903612;
+			public const int layout_constraintWidth = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int layout_editor_absoluteX = 2130903613;
+			public const int layout_constraintWidth_default = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int layout_editor_absoluteY = 2130903614;
+			public const int layout_constraintWidth_max = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int layout_goneMarginBaseline = 2130903615;
+			public const int layout_constraintWidth_min = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int layout_goneMarginBottom = 2130903616;
+			public const int layout_constraintWidth_percent = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int layout_goneMarginEnd = 2130903617;
+			public const int layout_dodgeInsetEdges = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int layout_goneMarginLeft = 2130903618;
+			public const int layout_editor_absoluteX = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int layout_goneMarginRight = 2130903619;
+			public const int layout_editor_absoluteY = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int layout_goneMarginStart = 2130903620;
+			public const int layout_goneMarginBaseline = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int layout_goneMarginTop = 2130903621;
+			public const int layout_goneMarginBottom = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int layout_insetEdge = 2130903622;
+			public const int layout_goneMarginEnd = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int layout_keyline = 2130903623;
+			public const int layout_goneMarginLeft = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int layout_marginBaseline = 2130903624;
+			public const int layout_goneMarginRight = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int layout_optimizationLevel = 2130903625;
+			public const int layout_goneMarginStart = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int layout_scrollFlags = 2130903626;
+			public const int layout_goneMarginTop = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int layout_scrollInterpolator = 2130903627;
+			public const int layout_insetEdge = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int layout_wrapBehaviorInParent = 2130903628;
+			public const int layout_keyline = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int liftOnScroll = 2130903629;
+			public const int layout_marginBaseline = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int liftOnScrollTargetViewId = 2130903630;
+			public const int layout_optimizationLevel = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int limitBoundsTo = 2130903631;
-			
-			// aapt resource value: 0x7F030252
-			public const int linearProgressIndicatorStyle = 2130903634;
+			public const int layout_scrollFlags = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int lineHeight = 2130903632;
+			public const int layout_scrollInterpolator = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int lineSpacing = 2130903633;
+			public const int layout_wrapBehaviorInParent = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int liftOnScroll = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int listChoiceBackgroundIndicator = 2130903635;
+			public const int liftOnScrollTargetViewId = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int listChoiceIndicatorMultipleAnimated = 2130903636;
-			
-			// aapt resource value: 0x7F030255
-			public const int listChoiceIndicatorSingleAnimated = 2130903637;
-			
-			// aapt resource value: 0x7F030256
-			public const int listDividerAlertDialog = 2130903638;
+			public const int limitBoundsTo = 2130903636;
 			
 			// aapt resource value: 0x7F030257
-			public const int listItemLayout = 2130903639;
+			public const int linearProgressIndicatorStyle = 2130903639;
+			
+			// aapt resource value: 0x7F030255
+			public const int lineHeight = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int lineSpacing = 2130903638;
 			
 			// aapt resource value: 0x7F030258
-			public const int listLayout = 2130903640;
+			public const int listChoiceBackgroundIndicator = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int listMenuViewStyle = 2130903641;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int listPopupWindowStyle = 2130903642;
+			public const int listChoiceIndicatorSingleAnimated = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int listPreferredItemHeight = 2130903643;
+			public const int listDividerAlertDialog = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int listPreferredItemHeightLarge = 2130903644;
+			public const int listItemLayout = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int listPreferredItemHeightSmall = 2130903645;
+			public const int listLayout = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int listPreferredItemPaddingEnd = 2130903646;
+			public const int listMenuViewStyle = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int listPreferredItemPaddingLeft = 2130903647;
+			public const int listPopupWindowStyle = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int listPreferredItemPaddingRight = 2130903648;
+			public const int listPreferredItemHeight = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int listPreferredItemPaddingStart = 2130903649;
+			public const int listPreferredItemHeightLarge = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int logo = 2130903650;
+			public const int listPreferredItemHeightSmall = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int logoDescription = 2130903651;
+			public const int listPreferredItemPaddingEnd = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int materialAlertDialogBodyTextStyle = 2130903652;
+			public const int listPreferredItemPaddingLeft = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int materialAlertDialogTheme = 2130903653;
+			public const int listPreferredItemPaddingRight = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int materialAlertDialogTitleIconStyle = 2130903654;
+			public const int listPreferredItemPaddingStart = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int materialAlertDialogTitlePanelStyle = 2130903655;
+			public const int logo = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int materialAlertDialogTitleTextStyle = 2130903656;
+			public const int logoDescription = 2130903656;
+			
+			// aapt resource value: 0x7F030204
+			public const int lStar = 2130903556;
 			
 			// aapt resource value: 0x7F030269
-			public const int materialButtonOutlinedStyle = 2130903657;
+			public const int materialAlertDialogBodyTextStyle = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int materialButtonStyle = 2130903658;
+			public const int materialAlertDialogTheme = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int materialButtonToggleGroupStyle = 2130903659;
+			public const int materialAlertDialogTitleIconStyle = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int materialCalendarDay = 2130903660;
+			public const int materialAlertDialogTitlePanelStyle = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int materialCalendarFullscreenTheme = 2130903661;
+			public const int materialAlertDialogTitleTextStyle = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int materialCalendarHeaderCancelButton = 2130903662;
+			public const int materialButtonOutlinedStyle = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int materialCalendarHeaderConfirmButton = 2130903663;
+			public const int materialButtonStyle = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int materialCalendarHeaderDivider = 2130903664;
+			public const int materialButtonToggleGroupStyle = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int materialCalendarHeaderLayout = 2130903665;
+			public const int materialCalendarDay = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int materialCalendarHeaderSelection = 2130903666;
+			public const int materialCalendarFullscreenTheme = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int materialCalendarHeaderTitle = 2130903667;
+			public const int materialCalendarHeaderCancelButton = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int materialCalendarHeaderToggleButton = 2130903668;
+			public const int materialCalendarHeaderConfirmButton = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int materialCalendarMonth = 2130903669;
+			public const int materialCalendarHeaderDivider = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int materialCalendarMonthNavigationButton = 2130903670;
+			public const int materialCalendarHeaderLayout = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int materialCalendarStyle = 2130903671;
+			public const int materialCalendarHeaderSelection = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int materialCalendarTheme = 2130903672;
+			public const int materialCalendarHeaderTitle = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int materialCalendarYearNavigationButton = 2130903673;
+			public const int materialCalendarHeaderToggleButton = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int materialCardViewStyle = 2130903674;
+			public const int materialCalendarMonth = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int materialCircleRadius = 2130903675;
+			public const int materialCalendarMonthNavigationButton = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int materialClockStyle = 2130903676;
+			public const int materialCalendarStyle = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int materialThemeOverlay = 2130903677;
+			public const int materialCalendarTheme = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int materialTimePickerStyle = 2130903678;
+			public const int materialCalendarYearNavigationButton = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int materialTimePickerTheme = 2130903679;
+			public const int materialCardViewStyle = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int maxAcceleration = 2130903680;
+			public const int materialCircleRadius = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int maxActionInlineWidth = 2130903681;
+			public const int materialClockStyle = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int maxButtonHeight = 2130903682;
+			public const int materialThemeOverlay = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int maxCharacterCount = 2130903683;
+			public const int materialTimePickerStyle = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int maxHeight = 2130903684;
+			public const int materialTimePickerTheme = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int maxImageSize = 2130903685;
+			public const int maxAcceleration = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int maxLines = 2130903686;
+			public const int maxActionInlineWidth = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int maxVelocity = 2130903687;
+			public const int maxButtonHeight = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int maxWidth = 2130903688;
+			public const int maxCharacterCount = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int measureWithLargestChild = 2130903689;
+			public const int maxHeight = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int menu = 2130903690;
+			public const int maxImageSize = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int menuGravity = 2130903691;
+			public const int maxLines = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int methodName = 2130903692;
+			public const int maxVelocity = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int mimeType = 2130903693;
+			public const int maxWidth = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int min = 2130903694;
+			public const int measureWithLargestChild = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int minHeight = 2130903695;
+			public const int menu = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int minHideDelay = 2130903696;
+			public const int menuGravity = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int minSeparation = 2130903697;
+			public const int methodName = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int minTouchTargetSize = 2130903698;
+			public const int mimeType = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int minWidth = 2130903699;
+			public const int min = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int mock_diagonalsColor = 2130903700;
+			public const int minHeight = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int mock_label = 2130903701;
+			public const int minHideDelay = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int mock_labelBackgroundColor = 2130903702;
+			public const int minSeparation = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int mock_labelColor = 2130903703;
+			public const int minTouchTargetSize = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int mock_showDiagonals = 2130903704;
+			public const int minWidth = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int mock_showLabel = 2130903705;
+			public const int mock_diagonalsColor = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int motionDebug = 2130903706;
+			public const int mock_label = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int motionDurationLong1 = 2130903707;
+			public const int mock_labelBackgroundColor = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int motionDurationLong2 = 2130903708;
+			public const int mock_labelColor = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int motionDurationMedium1 = 2130903709;
+			public const int mock_showDiagonals = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int motionDurationMedium2 = 2130903710;
+			public const int mock_showLabel = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int motionDurationShort1 = 2130903711;
+			public const int motionDebug = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int motionDurationShort2 = 2130903712;
+			public const int motionDurationLong1 = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int motionEasingAccelerated = 2130903713;
+			public const int motionDurationLong2 = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int motionEasingDecelerated = 2130903714;
+			public const int motionDurationMedium1 = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int motionEasingEmphasized = 2130903715;
+			public const int motionDurationMedium2 = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int motionEasingLinear = 2130903716;
+			public const int motionDurationShort1 = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int motionEasingStandard = 2130903717;
+			public const int motionDurationShort2 = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int motionEffect_alpha = 2130903718;
+			public const int motionEasingAccelerated = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int motionEffect_end = 2130903719;
+			public const int motionEasingDecelerated = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int motionEffect_move = 2130903720;
+			public const int motionEasingEmphasized = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int motionEffect_start = 2130903721;
+			public const int motionEasingLinear = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int motionEffect_strict = 2130903722;
+			public const int motionEasingStandard = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int motionEffect_translationX = 2130903723;
+			public const int motionEffect_alpha = 2130903723;
 			
 			// aapt resource value: 0x7F0302AC
-			public const int motionEffect_translationY = 2130903724;
+			public const int motionEffect_end = 2130903724;
 			
 			// aapt resource value: 0x7F0302AD
-			public const int motionEffect_viewTransition = 2130903725;
+			public const int motionEffect_move = 2130903725;
 			
 			// aapt resource value: 0x7F0302AE
-			public const int motionInterpolator = 2130903726;
+			public const int motionEffect_start = 2130903726;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int motionPath = 2130903727;
+			public const int motionEffect_strict = 2130903727;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int motionPathRotate = 2130903728;
+			public const int motionEffect_translationX = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int motionProgress = 2130903729;
+			public const int motionEffect_translationY = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int motionStagger = 2130903730;
+			public const int motionEffect_viewTransition = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int motionTarget = 2130903731;
+			public const int motionInterpolator = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int motion_postLayoutCollision = 2130903732;
+			public const int motionPath = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int motion_triggerOnCollision = 2130903733;
+			public const int motionPathRotate = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int moveWhenScrollAtTop = 2130903734;
+			public const int motionProgress = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int multiChoiceItemLayout = 2130903735;
+			public const int motionStagger = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int navGraph = 2130903736;
+			public const int motionTarget = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int navigationContentDescription = 2130903737;
+			public const int motion_postLayoutCollision = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int navigationIcon = 2130903738;
+			public const int motion_triggerOnCollision = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int navigationIconTint = 2130903739;
+			public const int moveWhenScrollAtTop = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int navigationMode = 2130903740;
+			public const int multiChoiceItemLayout = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int navigationRailStyle = 2130903741;
+			public const int navGraph = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int navigationViewStyle = 2130903742;
+			public const int navigationContentDescription = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int negativeButtonText = 2130903743;
-			
-			// aapt resource value: 0x7F0302C2
-			public const int nestedScrollable = 2130903746;
+			public const int navigationIcon = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int nestedScrollFlags = 2130903744;
+			public const int navigationIconTint = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int nestedScrollViewStyle = 2130903745;
+			public const int navigationMode = 2130903745;
+			
+			// aapt resource value: 0x7F0302C2
+			public const int navigationRailStyle = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int nullable = 2130903747;
+			public const int navigationViewStyle = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int number = 2130903748;
-			
-			// aapt resource value: 0x7F0302C5
-			public const int numericModifiers = 2130903749;
-			
-			// aapt resource value: 0x7F0302C6
-			public const int onCross = 2130903750;
+			public const int negativeButtonText = 2130903748;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int onHide = 2130903751;
+			public const int nestedScrollable = 2130903751;
+			
+			// aapt resource value: 0x7F0302C5
+			public const int nestedScrollFlags = 2130903749;
+			
+			// aapt resource value: 0x7F0302C6
+			public const int nestedScrollViewStyle = 2130903750;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int onNegativeCross = 2130903752;
+			public const int nullable = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int onPositiveCross = 2130903753;
+			public const int number = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int onShow = 2130903754;
+			public const int numericModifiers = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int onStateTransition = 2130903755;
+			public const int onCross = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int onTouchUp = 2130903756;
+			public const int onHide = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int order = 2130903757;
+			public const int onNegativeCross = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int orderingFromXml = 2130903758;
+			public const int onPositiveCross = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int overlapAnchor = 2130903759;
+			public const int onShow = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int overlay = 2130903760;
+			public const int onStateTransition = 2130903760;
 			
 			// aapt resource value: 0x7F0302D1
-			public const int paddingBottomNoButtons = 2130903761;
+			public const int onTouchUp = 2130903761;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int paddingBottomSystemWindowInsets = 2130903762;
+			public const int order = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int paddingEnd = 2130903763;
+			public const int orderingFromXml = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int paddingLeftSystemWindowInsets = 2130903764;
+			public const int overlapAnchor = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int paddingRightSystemWindowInsets = 2130903765;
+			public const int overlay = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int paddingStart = 2130903766;
+			public const int paddingBottomNoButtons = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int paddingTopNoTitle = 2130903767;
+			public const int paddingBottomSystemWindowInsets = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int paddingTopSystemWindowInsets = 2130903768;
+			public const int paddingEnd = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int panelBackground = 2130903769;
+			public const int paddingLeftSystemWindowInsets = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int panelMenuListTheme = 2130903770;
+			public const int paddingRightSystemWindowInsets = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int panelMenuListWidth = 2130903771;
+			public const int paddingStart = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int passwordToggleContentDescription = 2130903772;
+			public const int paddingTopNoTitle = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int passwordToggleDrawable = 2130903773;
+			public const int paddingTopSystemWindowInsets = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int passwordToggleEnabled = 2130903774;
+			public const int panelBackground = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int passwordToggleTint = 2130903775;
+			public const int panelMenuListTheme = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int passwordToggleTintMode = 2130903776;
+			public const int panelMenuListWidth = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int pathMotionArc = 2130903777;
+			public const int passwordToggleContentDescription = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int path_percent = 2130903778;
+			public const int passwordToggleDrawable = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int percentHeight = 2130903779;
+			public const int passwordToggleEnabled = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int percentWidth = 2130903780;
+			public const int passwordToggleTint = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int percentX = 2130903781;
+			public const int passwordToggleTintMode = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int percentY = 2130903782;
+			public const int pathMotionArc = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int perpendicularPath_percent = 2130903783;
+			public const int path_percent = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int persistent = 2130903784;
+			public const int percentHeight = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int pivotAnchor = 2130903785;
+			public const int percentWidth = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int placeholderText = 2130903786;
+			public const int percentX = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int placeholderTextAppearance = 2130903787;
+			public const int percentY = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int placeholderTextColor = 2130903788;
+			public const int perpendicularPath_percent = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int placeholder_emptyVisibility = 2130903789;
+			public const int persistent = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int polarRelativeTo = 2130903790;
+			public const int pivotAnchor = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int popEnterAnim = 2130903791;
+			public const int placeholderText = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int popExitAnim = 2130903792;
-			
-			// aapt resource value: 0x7F0302F3
-			public const int popupMenuBackground = 2130903795;
-			
-			// aapt resource value: 0x7F0302F4
-			public const int popupMenuStyle = 2130903796;
-			
-			// aapt resource value: 0x7F0302F5
-			public const int popupTheme = 2130903797;
+			public const int placeholderTextAppearance = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int popUpTo = 2130903793;
+			public const int placeholderTextColor = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int popUpToInclusive = 2130903794;
+			public const int placeholder_emptyVisibility = 2130903794;
 			
-			// aapt resource value: 0x7F0302F6
-			public const int popupWindowStyle = 2130903798;
+			// aapt resource value: 0x7F0302F3
+			public const int polarRelativeTo = 2130903795;
 			
-			// aapt resource value: 0x7F0302F7
-			public const int positiveButtonText = 2130903799;
+			// aapt resource value: 0x7F0302F4
+			public const int popEnterAnim = 2130903796;
+			
+			// aapt resource value: 0x7F0302F5
+			public const int popExitAnim = 2130903797;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int preferenceCategoryStyle = 2130903800;
+			public const int popupMenuBackground = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int preferenceCategoryTitleTextAppearance = 2130903801;
+			public const int popupMenuStyle = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int preferenceFragmentCompatStyle = 2130903802;
+			public const int popupTheme = 2130903802;
+			
+			// aapt resource value: 0x7F0302F6
+			public const int popUpTo = 2130903798;
+			
+			// aapt resource value: 0x7F0302F7
+			public const int popUpToInclusive = 2130903799;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int preferenceFragmentListStyle = 2130903803;
+			public const int popupWindowStyle = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int preferenceFragmentStyle = 2130903804;
+			public const int positiveButtonText = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int preferenceInformationStyle = 2130903805;
+			public const int preferenceCategoryStyle = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int preferenceScreenStyle = 2130903806;
+			public const int preferenceCategoryTitleTextAppearance = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int preferenceStyle = 2130903807;
+			public const int preferenceFragmentCompatStyle = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int preferenceTheme = 2130903808;
+			public const int preferenceFragmentListStyle = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int prefixText = 2130903809;
+			public const int preferenceFragmentStyle = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int prefixTextAppearance = 2130903810;
+			public const int preferenceInformationStyle = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int prefixTextColor = 2130903811;
+			public const int preferenceScreenStyle = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int preserveIconSpacing = 2130903812;
+			public const int preferenceStyle = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int pressedTranslationZ = 2130903813;
+			public const int preferenceTheme = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int progressBarPadding = 2130903814;
+			public const int prefixText = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int progressBarStyle = 2130903815;
+			public const int prefixTextAppearance = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int quantizeMotionInterpolator = 2130903816;
+			public const int prefixTextColor = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int quantizeMotionPhase = 2130903817;
+			public const int preserveIconSpacing = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int quantizeMotionSteps = 2130903818;
+			public const int pressedTranslationZ = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int queryBackground = 2130903819;
+			public const int progressBarPadding = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int queryHint = 2130903820;
+			public const int progressBarStyle = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int queryPatterns = 2130903821;
+			public const int quantizeMotionInterpolator = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int radioButtonStyle = 2130903822;
+			public const int quantizeMotionPhase = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int rangeFillColor = 2130903823;
+			public const int quantizeMotionSteps = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int ratingBarStyle = 2130903824;
+			public const int queryBackground = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int ratingBarStyleIndicator = 2130903825;
+			public const int queryHint = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int ratingBarStyleSmall = 2130903826;
+			public const int queryPatterns = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int reactiveGuide_animateChange = 2130903827;
+			public const int radioButtonStyle = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int reactiveGuide_applyToAllConstraintSets = 2130903828;
+			public const int rangeFillColor = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int reactiveGuide_applyToConstraintSet = 2130903829;
+			public const int ratingBarStyle = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int reactiveGuide_valueId = 2130903830;
+			public const int ratingBarStyleIndicator = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int recyclerViewStyle = 2130903831;
+			public const int ratingBarStyleSmall = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int region_heightLessThan = 2130903832;
+			public const int reactiveGuide_animateChange = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int region_heightMoreThan = 2130903833;
+			public const int reactiveGuide_applyToAllConstraintSets = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int region_widthLessThan = 2130903834;
+			public const int reactiveGuide_applyToConstraintSet = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int region_widthMoreThan = 2130903835;
+			public const int reactiveGuide_valueId = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int reverseLayout = 2130903836;
+			public const int recyclerViewStyle = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int rippleColor = 2130903837;
+			public const int region_heightLessThan = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int rotationCenterId = 2130903838;
+			public const int region_heightMoreThan = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int round = 2130903839;
+			public const int region_widthLessThan = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int roundPercent = 2130903840;
+			public const int region_widthMoreThan = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int saturation = 2130903841;
+			public const int reverseLayout = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int scaleFromTextSize = 2130903842;
+			public const int rippleColor = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int scrimAnimationDuration = 2130903843;
+			public const int rotationCenterId = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int scrimBackground = 2130903844;
+			public const int round = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int scrimVisibleHeightTrigger = 2130903845;
+			public const int roundPercent = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int scrollViewStyle = 2130903846;
+			public const int saturation = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int searchHintIcon = 2130903847;
+			public const int scaleFromTextSize = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int searchIcon = 2130903848;
+			public const int scrimAnimationDuration = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int searchViewStyle = 2130903849;
+			public const int scrimBackground = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int seekBarIncrement = 2130903850;
+			public const int scrimVisibleHeightTrigger = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int seekBarPreferenceStyle = 2130903851;
+			public const int scrollViewStyle = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int seekBarStyle = 2130903852;
+			public const int searchHintIcon = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int selectable = 2130903853;
+			public const int searchIcon = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int selectableItemBackground = 2130903854;
+			public const int searchViewStyle = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int selectableItemBackgroundBorderless = 2130903855;
+			public const int seekBarIncrement = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int selectionRequired = 2130903856;
+			public const int seekBarPreferenceStyle = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int selectorSize = 2130903857;
+			public const int seekBarStyle = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int setsTag = 2130903858;
+			public const int selectable = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int shapeAppearance = 2130903859;
+			public const int selectableItemBackground = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int shapeAppearanceLargeComponent = 2130903860;
+			public const int selectableItemBackgroundBorderless = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int shapeAppearanceMediumComponent = 2130903861;
+			public const int selectionRequired = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int shapeAppearanceOverlay = 2130903862;
+			public const int selectorSize = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int shapeAppearanceSmallComponent = 2130903863;
+			public const int setsTag = 2130903863;
+			
+			// aapt resource value: 0x7F030338
+			public const int shapeAppearance = 2130903864;
+			
+			// aapt resource value: 0x7F030339
+			public const int shapeAppearanceLargeComponent = 2130903865;
+			
+			// aapt resource value: 0x7F03033A
+			public const int shapeAppearanceMediumComponent = 2130903866;
+			
+			// aapt resource value: 0x7F03033B
+			public const int shapeAppearanceOverlay = 2130903867;
+			
+			// aapt resource value: 0x7F03033C
+			public const int shapeAppearanceSmallComponent = 2130903868;
 			
 			// aapt resource value: 0x7F030001
 			public const int SharedValue = 2130903041;
@@ -13503,749 +16781,749 @@ namespace Pokédex.Droid
 			// aapt resource value: 0x7F030002
 			public const int SharedValueId = 2130903042;
 			
-			// aapt resource value: 0x7F030338
-			public const int shortcutMatchRequired = 2130903864;
-			
-			// aapt resource value: 0x7F030339
-			public const int shouldDisableView = 2130903865;
-			
-			// aapt resource value: 0x7F03033A
-			public const int showAnimationBehavior = 2130903866;
-			
-			// aapt resource value: 0x7F03033B
-			public const int showAsAction = 2130903867;
-			
-			// aapt resource value: 0x7F03033C
-			public const int showDelay = 2130903868;
-			
 			// aapt resource value: 0x7F03033D
-			public const int showDividers = 2130903869;
+			public const int shortcutMatchRequired = 2130903869;
 			
 			// aapt resource value: 0x7F03033E
-			public const int showMotionSpec = 2130903870;
+			public const int shouldDisableView = 2130903870;
 			
 			// aapt resource value: 0x7F03033F
-			public const int showPaths = 2130903871;
+			public const int showAnimationBehavior = 2130903871;
 			
 			// aapt resource value: 0x7F030340
-			public const int showSeekBarValue = 2130903872;
+			public const int showAsAction = 2130903872;
 			
 			// aapt resource value: 0x7F030341
-			public const int showText = 2130903873;
+			public const int showDelay = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int showTitle = 2130903874;
+			public const int showDividers = 2130903874;
 			
 			// aapt resource value: 0x7F030343
-			public const int shrinkMotionSpec = 2130903875;
+			public const int showMotionSpec = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int singleChoiceItemLayout = 2130903876;
+			public const int showPaths = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int singleLine = 2130903877;
+			public const int showSeekBarValue = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int singleLineTitle = 2130903878;
+			public const int showText = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int singleSelection = 2130903879;
+			public const int showTitle = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int sizePercent = 2130903880;
+			public const int shrinkMotionSpec = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int sliderStyle = 2130903881;
+			public const int singleChoiceItemLayout = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int snackbarButtonStyle = 2130903882;
+			public const int singleLine = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int snackbarStyle = 2130903883;
+			public const int singleLineTitle = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int snackbarTextViewStyle = 2130903884;
+			public const int singleSelection = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int spanCount = 2130903885;
+			public const int sizePercent = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int spinBars = 2130903886;
+			public const int sliderStyle = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int spinnerDropDownItemStyle = 2130903887;
+			public const int snackbarButtonStyle = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int spinnerStyle = 2130903888;
+			public const int snackbarStyle = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int splitTrack = 2130903889;
+			public const int snackbarTextViewStyle = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int springBoundary = 2130903890;
+			public const int spanCount = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int springDamping = 2130903891;
+			public const int spinBars = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int springMass = 2130903892;
+			public const int spinnerDropDownItemStyle = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int springStiffness = 2130903893;
+			public const int spinnerStyle = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int springStopThreshold = 2130903894;
+			public const int splitTrack = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int srcCompat = 2130903895;
+			public const int springBoundary = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int stackFromEnd = 2130903896;
+			public const int springDamping = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int staggered = 2130903897;
+			public const int springMass = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int startDestination = 2130903898;
+			public const int springStiffness = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int startIconCheckable = 2130903899;
+			public const int springStopThreshold = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int startIconContentDescription = 2130903900;
+			public const int srcCompat = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int startIconDrawable = 2130903901;
+			public const int stackFromEnd = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int startIconTint = 2130903902;
+			public const int staggered = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int startIconTintMode = 2130903903;
+			public const int startDestination = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int state_above_anchor = 2130903904;
+			public const int startIconCheckable = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int state_collapsed = 2130903905;
+			public const int startIconContentDescription = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int state_collapsible = 2130903906;
+			public const int startIconDrawable = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int state_dragged = 2130903907;
+			public const int startIconTint = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int state_liftable = 2130903908;
+			public const int startIconTintMode = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int state_lifted = 2130903909;
+			public const int state_above_anchor = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int statusBarBackground = 2130903910;
+			public const int state_collapsed = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int statusBarForeground = 2130903911;
+			public const int state_collapsible = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int statusBarScrim = 2130903912;
+			public const int state_dragged = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int strokeColor = 2130903913;
+			public const int state_liftable = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int strokeWidth = 2130903914;
+			public const int state_lifted = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int subMenuArrow = 2130903915;
+			public const int statusBarBackground = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int submitBackground = 2130903916;
+			public const int statusBarForeground = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int subtitle = 2130903917;
+			public const int statusBarScrim = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int subtitleCentered = 2130903918;
+			public const int strokeColor = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int subtitleTextAppearance = 2130903919;
+			public const int strokeWidth = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int subtitleTextColor = 2130903920;
+			public const int subMenuArrow = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int subtitleTextStyle = 2130903921;
+			public const int submitBackground = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int suffixText = 2130903922;
+			public const int subtitle = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int suffixTextAppearance = 2130903923;
+			public const int subtitleCentered = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int suffixTextColor = 2130903924;
+			public const int subtitleTextAppearance = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int suggestionRowLayout = 2130903925;
+			public const int subtitleTextColor = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int summary = 2130903926;
+			public const int subtitleTextStyle = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int summaryOff = 2130903927;
+			public const int suffixText = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int summaryOn = 2130903928;
+			public const int suffixTextAppearance = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903929;
+			public const int suffixTextColor = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int switchMinWidth = 2130903930;
+			public const int suggestionRowLayout = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int switchPadding = 2130903931;
+			public const int summary = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int switchPreferenceCompatStyle = 2130903932;
+			public const int summaryOff = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int switchPreferenceStyle = 2130903933;
+			public const int summaryOn = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int switchStyle = 2130903934;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int switchTextAppearance = 2130903935;
+			public const int switchMinWidth = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int switchTextOff = 2130903936;
+			public const int switchPadding = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int switchTextOn = 2130903937;
+			public const int switchPreferenceCompatStyle = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int tabBackground = 2130903938;
+			public const int switchPreferenceStyle = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int tabContentStart = 2130903939;
+			public const int switchStyle = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int tabGravity = 2130903940;
+			public const int switchTextAppearance = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int tabIconTint = 2130903941;
+			public const int switchTextOff = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int tabIconTintMode = 2130903942;
+			public const int switchTextOn = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int tabIndicator = 2130903943;
+			public const int tabBackground = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int tabIndicatorAnimationDuration = 2130903944;
+			public const int tabContentStart = 2130903944;
 			
 			// aapt resource value: 0x7F030389
-			public const int tabIndicatorAnimationMode = 2130903945;
+			public const int tabGravity = 2130903945;
 			
 			// aapt resource value: 0x7F03038A
-			public const int tabIndicatorColor = 2130903946;
+			public const int tabIconTint = 2130903946;
 			
 			// aapt resource value: 0x7F03038B
-			public const int tabIndicatorFullWidth = 2130903947;
+			public const int tabIconTintMode = 2130903947;
 			
 			// aapt resource value: 0x7F03038C
-			public const int tabIndicatorGravity = 2130903948;
+			public const int tabIndicator = 2130903948;
 			
 			// aapt resource value: 0x7F03038D
-			public const int tabIndicatorHeight = 2130903949;
+			public const int tabIndicatorAnimationDuration = 2130903949;
 			
 			// aapt resource value: 0x7F03038E
-			public const int tabInlineLabel = 2130903950;
+			public const int tabIndicatorAnimationMode = 2130903950;
 			
 			// aapt resource value: 0x7F03038F
-			public const int tabMaxWidth = 2130903951;
+			public const int tabIndicatorColor = 2130903951;
 			
 			// aapt resource value: 0x7F030390
-			public const int tabMinWidth = 2130903952;
+			public const int tabIndicatorFullWidth = 2130903952;
 			
 			// aapt resource value: 0x7F030391
-			public const int tabMode = 2130903953;
+			public const int tabIndicatorGravity = 2130903953;
 			
 			// aapt resource value: 0x7F030392
-			public const int tabPadding = 2130903954;
+			public const int tabIndicatorHeight = 2130903954;
 			
 			// aapt resource value: 0x7F030393
-			public const int tabPaddingBottom = 2130903955;
+			public const int tabInlineLabel = 2130903955;
 			
 			// aapt resource value: 0x7F030394
-			public const int tabPaddingEnd = 2130903956;
+			public const int tabMaxWidth = 2130903956;
 			
 			// aapt resource value: 0x7F030395
-			public const int tabPaddingStart = 2130903957;
+			public const int tabMinWidth = 2130903957;
 			
 			// aapt resource value: 0x7F030396
-			public const int tabPaddingTop = 2130903958;
+			public const int tabMode = 2130903958;
 			
 			// aapt resource value: 0x7F030397
-			public const int tabRippleColor = 2130903959;
+			public const int tabPadding = 2130903959;
 			
 			// aapt resource value: 0x7F030398
-			public const int tabSelectedTextColor = 2130903960;
+			public const int tabPaddingBottom = 2130903960;
 			
 			// aapt resource value: 0x7F030399
-			public const int tabStyle = 2130903961;
+			public const int tabPaddingEnd = 2130903961;
 			
 			// aapt resource value: 0x7F03039A
-			public const int tabTextAppearance = 2130903962;
+			public const int tabPaddingStart = 2130903962;
 			
 			// aapt resource value: 0x7F03039B
-			public const int tabTextColor = 2130903963;
+			public const int tabPaddingTop = 2130903963;
 			
 			// aapt resource value: 0x7F03039C
-			public const int tabUnboundedRipple = 2130903964;
+			public const int tabRippleColor = 2130903964;
 			
 			// aapt resource value: 0x7F03039D
-			public const int targetId = 2130903965;
+			public const int tabSelectedTextColor = 2130903965;
 			
 			// aapt resource value: 0x7F03039E
-			public const int targetPackage = 2130903966;
+			public const int tabStyle = 2130903966;
 			
 			// aapt resource value: 0x7F03039F
-			public const int telltales_tailColor = 2130903967;
+			public const int tabTextAppearance = 2130903967;
 			
 			// aapt resource value: 0x7F0303A0
-			public const int telltales_tailScale = 2130903968;
+			public const int tabTextColor = 2130903968;
 			
 			// aapt resource value: 0x7F0303A1
-			public const int telltales_velocityMode = 2130903969;
+			public const int tabUnboundedRipple = 2130903969;
 			
 			// aapt resource value: 0x7F0303A2
-			public const int textAllCaps = 2130903970;
+			public const int targetId = 2130903970;
 			
 			// aapt resource value: 0x7F0303A3
-			public const int textAppearanceBody1 = 2130903971;
+			public const int targetPackage = 2130903971;
 			
 			// aapt resource value: 0x7F0303A4
-			public const int textAppearanceBody2 = 2130903972;
+			public const int telltales_tailColor = 2130903972;
 			
 			// aapt resource value: 0x7F0303A5
-			public const int textAppearanceButton = 2130903973;
+			public const int telltales_tailScale = 2130903973;
 			
 			// aapt resource value: 0x7F0303A6
-			public const int textAppearanceCaption = 2130903974;
+			public const int telltales_velocityMode = 2130903974;
 			
 			// aapt resource value: 0x7F0303A7
-			public const int textAppearanceHeadline1 = 2130903975;
+			public const int textAllCaps = 2130903975;
 			
 			// aapt resource value: 0x7F0303A8
-			public const int textAppearanceHeadline2 = 2130903976;
+			public const int textAppearanceBody1 = 2130903976;
 			
 			// aapt resource value: 0x7F0303A9
-			public const int textAppearanceHeadline3 = 2130903977;
+			public const int textAppearanceBody2 = 2130903977;
 			
 			// aapt resource value: 0x7F0303AA
-			public const int textAppearanceHeadline4 = 2130903978;
+			public const int textAppearanceButton = 2130903978;
 			
 			// aapt resource value: 0x7F0303AB
-			public const int textAppearanceHeadline5 = 2130903979;
+			public const int textAppearanceCaption = 2130903979;
 			
 			// aapt resource value: 0x7F0303AC
-			public const int textAppearanceHeadline6 = 2130903980;
+			public const int textAppearanceHeadline1 = 2130903980;
 			
 			// aapt resource value: 0x7F0303AD
-			public const int textAppearanceLargePopupMenu = 2130903981;
+			public const int textAppearanceHeadline2 = 2130903981;
 			
 			// aapt resource value: 0x7F0303AE
-			public const int textAppearanceLineHeightEnabled = 2130903982;
+			public const int textAppearanceHeadline3 = 2130903982;
 			
 			// aapt resource value: 0x7F0303AF
-			public const int textAppearanceListItem = 2130903983;
+			public const int textAppearanceHeadline4 = 2130903983;
 			
 			// aapt resource value: 0x7F0303B0
-			public const int textAppearanceListItemSecondary = 2130903984;
+			public const int textAppearanceHeadline5 = 2130903984;
 			
 			// aapt resource value: 0x7F0303B1
-			public const int textAppearanceListItemSmall = 2130903985;
+			public const int textAppearanceHeadline6 = 2130903985;
 			
 			// aapt resource value: 0x7F0303B2
-			public const int textAppearanceOverline = 2130903986;
+			public const int textAppearanceLargePopupMenu = 2130903986;
 			
 			// aapt resource value: 0x7F0303B3
-			public const int textAppearancePopupMenuHeader = 2130903987;
+			public const int textAppearanceLineHeightEnabled = 2130903987;
 			
 			// aapt resource value: 0x7F0303B4
-			public const int textAppearanceSearchResultSubtitle = 2130903988;
+			public const int textAppearanceListItem = 2130903988;
 			
 			// aapt resource value: 0x7F0303B5
-			public const int textAppearanceSearchResultTitle = 2130903989;
+			public const int textAppearanceListItemSecondary = 2130903989;
 			
 			// aapt resource value: 0x7F0303B6
-			public const int textAppearanceSmallPopupMenu = 2130903990;
+			public const int textAppearanceListItemSmall = 2130903990;
 			
 			// aapt resource value: 0x7F0303B7
-			public const int textAppearanceSubtitle1 = 2130903991;
+			public const int textAppearanceOverline = 2130903991;
 			
 			// aapt resource value: 0x7F0303B8
-			public const int textAppearanceSubtitle2 = 2130903992;
+			public const int textAppearancePopupMenuHeader = 2130903992;
 			
 			// aapt resource value: 0x7F0303B9
-			public const int textBackground = 2130903993;
+			public const int textAppearanceSearchResultSubtitle = 2130903993;
 			
 			// aapt resource value: 0x7F0303BA
-			public const int textBackgroundPanX = 2130903994;
+			public const int textAppearanceSearchResultTitle = 2130903994;
 			
 			// aapt resource value: 0x7F0303BB
-			public const int textBackgroundPanY = 2130903995;
+			public const int textAppearanceSmallPopupMenu = 2130903995;
 			
 			// aapt resource value: 0x7F0303BC
-			public const int textBackgroundRotate = 2130903996;
+			public const int textAppearanceSubtitle1 = 2130903996;
 			
 			// aapt resource value: 0x7F0303BD
-			public const int textBackgroundZoom = 2130903997;
+			public const int textAppearanceSubtitle2 = 2130903997;
 			
 			// aapt resource value: 0x7F0303BE
-			public const int textColorAlertDialogListItem = 2130903998;
+			public const int textBackground = 2130903998;
 			
 			// aapt resource value: 0x7F0303BF
-			public const int textColorSearchUrl = 2130903999;
+			public const int textBackgroundPanX = 2130903999;
 			
 			// aapt resource value: 0x7F0303C0
-			public const int textEndPadding = 2130904000;
+			public const int textBackgroundPanY = 2130904000;
 			
 			// aapt resource value: 0x7F0303C1
-			public const int textFillColor = 2130904001;
+			public const int textBackgroundRotate = 2130904001;
 			
 			// aapt resource value: 0x7F0303C2
-			public const int textInputLayoutFocusedRectEnabled = 2130904002;
+			public const int textBackgroundZoom = 2130904002;
 			
 			// aapt resource value: 0x7F0303C3
-			public const int textInputStyle = 2130904003;
+			public const int textColorAlertDialogListItem = 2130904003;
 			
 			// aapt resource value: 0x7F0303C4
-			public const int textLocale = 2130904004;
+			public const int textColorSearchUrl = 2130904004;
 			
 			// aapt resource value: 0x7F0303C5
-			public const int textOutlineColor = 2130904005;
+			public const int textEndPadding = 2130904005;
 			
 			// aapt resource value: 0x7F0303C6
-			public const int textOutlineThickness = 2130904006;
+			public const int textFillColor = 2130904006;
 			
 			// aapt resource value: 0x7F0303C7
-			public const int textPanX = 2130904007;
+			public const int textInputLayoutFocusedRectEnabled = 2130904007;
 			
 			// aapt resource value: 0x7F0303C8
-			public const int textPanY = 2130904008;
+			public const int textInputStyle = 2130904008;
 			
 			// aapt resource value: 0x7F0303C9
-			public const int textStartPadding = 2130904009;
+			public const int textLocale = 2130904009;
 			
 			// aapt resource value: 0x7F0303CA
-			public const int textureBlurFactor = 2130904010;
+			public const int textOutlineColor = 2130904010;
 			
 			// aapt resource value: 0x7F0303CB
-			public const int textureEffect = 2130904011;
+			public const int textOutlineThickness = 2130904011;
 			
 			// aapt resource value: 0x7F0303CC
-			public const int textureHeight = 2130904012;
+			public const int textPanX = 2130904012;
 			
 			// aapt resource value: 0x7F0303CD
-			public const int textureWidth = 2130904013;
+			public const int textPanY = 2130904013;
 			
 			// aapt resource value: 0x7F0303CE
-			public const int theme = 2130904014;
+			public const int textStartPadding = 2130904014;
 			
 			// aapt resource value: 0x7F0303CF
-			public const int themeLineHeight = 2130904015;
+			public const int textureBlurFactor = 2130904015;
 			
 			// aapt resource value: 0x7F0303D0
-			public const int thickness = 2130904016;
+			public const int textureEffect = 2130904016;
 			
 			// aapt resource value: 0x7F0303D1
-			public const int thumbColor = 2130904017;
+			public const int textureHeight = 2130904017;
 			
 			// aapt resource value: 0x7F0303D2
-			public const int thumbElevation = 2130904018;
+			public const int textureWidth = 2130904018;
 			
 			// aapt resource value: 0x7F0303D3
-			public const int thumbRadius = 2130904019;
+			public const int theme = 2130904019;
 			
 			// aapt resource value: 0x7F0303D4
-			public const int thumbStrokeColor = 2130904020;
+			public const int themeLineHeight = 2130904020;
 			
 			// aapt resource value: 0x7F0303D5
-			public const int thumbStrokeWidth = 2130904021;
+			public const int thickness = 2130904021;
 			
 			// aapt resource value: 0x7F0303D6
-			public const int thumbTextPadding = 2130904022;
+			public const int thumbColor = 2130904022;
 			
 			// aapt resource value: 0x7F0303D7
-			public const int thumbTint = 2130904023;
+			public const int thumbElevation = 2130904023;
 			
 			// aapt resource value: 0x7F0303D8
-			public const int thumbTintMode = 2130904024;
+			public const int thumbRadius = 2130904024;
 			
 			// aapt resource value: 0x7F0303D9
-			public const int tickColor = 2130904025;
+			public const int thumbStrokeColor = 2130904025;
 			
 			// aapt resource value: 0x7F0303DA
-			public const int tickColorActive = 2130904026;
+			public const int thumbStrokeWidth = 2130904026;
 			
 			// aapt resource value: 0x7F0303DB
-			public const int tickColorInactive = 2130904027;
+			public const int thumbTextPadding = 2130904027;
 			
 			// aapt resource value: 0x7F0303DC
-			public const int tickMark = 2130904028;
+			public const int thumbTint = 2130904028;
 			
 			// aapt resource value: 0x7F0303DD
-			public const int tickMarkTint = 2130904029;
+			public const int thumbTintMode = 2130904029;
 			
 			// aapt resource value: 0x7F0303DE
-			public const int tickMarkTintMode = 2130904030;
+			public const int tickColor = 2130904030;
 			
 			// aapt resource value: 0x7F0303DF
-			public const int tickVisible = 2130904031;
+			public const int tickColorActive = 2130904031;
 			
 			// aapt resource value: 0x7F0303E0
-			public const int tint = 2130904032;
+			public const int tickColorInactive = 2130904032;
 			
 			// aapt resource value: 0x7F0303E1
-			public const int tintMode = 2130904033;
+			public const int tickMark = 2130904033;
 			
 			// aapt resource value: 0x7F0303E2
-			public const int title = 2130904034;
+			public const int tickMarkTint = 2130904034;
 			
 			// aapt resource value: 0x7F0303E3
-			public const int titleCentered = 2130904035;
+			public const int tickMarkTintMode = 2130904035;
 			
 			// aapt resource value: 0x7F0303E4
-			public const int titleCollapseMode = 2130904036;
+			public const int tickVisible = 2130904036;
 			
 			// aapt resource value: 0x7F0303E5
-			public const int titleEnabled = 2130904037;
+			public const int tint = 2130904037;
 			
 			// aapt resource value: 0x7F0303E6
-			public const int titleMargin = 2130904038;
+			public const int tintMode = 2130904038;
 			
 			// aapt resource value: 0x7F0303E7
-			public const int titleMarginBottom = 2130904039;
+			public const int title = 2130904039;
 			
 			// aapt resource value: 0x7F0303E8
-			public const int titleMarginEnd = 2130904040;
-			
-			// aapt resource value: 0x7F0303EB
-			public const int titleMargins = 2130904043;
+			public const int titleCentered = 2130904040;
 			
 			// aapt resource value: 0x7F0303E9
-			public const int titleMarginStart = 2130904041;
+			public const int titleCollapseMode = 2130904041;
 			
 			// aapt resource value: 0x7F0303EA
-			public const int titleMarginTop = 2130904042;
+			public const int titleEnabled = 2130904042;
+			
+			// aapt resource value: 0x7F0303EB
+			public const int titleMargin = 2130904043;
 			
 			// aapt resource value: 0x7F0303EC
-			public const int titleTextAppearance = 2130904044;
+			public const int titleMarginBottom = 2130904044;
 			
 			// aapt resource value: 0x7F0303ED
-			public const int titleTextColor = 2130904045;
-			
-			// aapt resource value: 0x7F0303EE
-			public const int titleTextStyle = 2130904046;
-			
-			// aapt resource value: 0x7F0303EF
-			public const int toolbarId = 2130904047;
+			public const int titleMarginEnd = 2130904045;
 			
 			// aapt resource value: 0x7F0303F0
-			public const int toolbarNavigationButtonStyle = 2130904048;
+			public const int titleMargins = 2130904048;
+			
+			// aapt resource value: 0x7F0303EE
+			public const int titleMarginStart = 2130904046;
+			
+			// aapt resource value: 0x7F0303EF
+			public const int titleMarginTop = 2130904047;
 			
 			// aapt resource value: 0x7F0303F1
-			public const int toolbarStyle = 2130904049;
+			public const int titleTextAppearance = 2130904049;
 			
 			// aapt resource value: 0x7F0303F2
-			public const int tooltipForegroundColor = 2130904050;
+			public const int titleTextColor = 2130904050;
 			
 			// aapt resource value: 0x7F0303F3
-			public const int tooltipFrameBackground = 2130904051;
+			public const int titleTextStyle = 2130904051;
 			
 			// aapt resource value: 0x7F0303F4
-			public const int tooltipStyle = 2130904052;
+			public const int toolbarId = 2130904052;
 			
 			// aapt resource value: 0x7F0303F5
-			public const int tooltipText = 2130904053;
+			public const int toolbarNavigationButtonStyle = 2130904053;
 			
 			// aapt resource value: 0x7F0303F6
-			public const int touchAnchorId = 2130904054;
+			public const int toolbarStyle = 2130904054;
 			
 			// aapt resource value: 0x7F0303F7
-			public const int touchAnchorSide = 2130904055;
+			public const int tooltipForegroundColor = 2130904055;
 			
 			// aapt resource value: 0x7F0303F8
-			public const int touchRegionId = 2130904056;
+			public const int tooltipFrameBackground = 2130904056;
 			
 			// aapt resource value: 0x7F0303F9
-			public const int track = 2130904057;
+			public const int tooltipStyle = 2130904057;
 			
 			// aapt resource value: 0x7F0303FA
-			public const int trackColor = 2130904058;
+			public const int tooltipText = 2130904058;
 			
 			// aapt resource value: 0x7F0303FB
-			public const int trackColorActive = 2130904059;
+			public const int touchAnchorId = 2130904059;
 			
 			// aapt resource value: 0x7F0303FC
-			public const int trackColorInactive = 2130904060;
+			public const int touchAnchorSide = 2130904060;
 			
 			// aapt resource value: 0x7F0303FD
-			public const int trackCornerRadius = 2130904061;
+			public const int touchRegionId = 2130904061;
 			
 			// aapt resource value: 0x7F0303FE
-			public const int trackHeight = 2130904062;
+			public const int track = 2130904062;
 			
 			// aapt resource value: 0x7F0303FF
-			public const int trackThickness = 2130904063;
+			public const int trackColor = 2130904063;
 			
 			// aapt resource value: 0x7F030400
-			public const int trackTint = 2130904064;
+			public const int trackColorActive = 2130904064;
 			
 			// aapt resource value: 0x7F030401
-			public const int trackTintMode = 2130904065;
+			public const int trackColorInactive = 2130904065;
 			
 			// aapt resource value: 0x7F030402
-			public const int transformPivotTarget = 2130904066;
+			public const int trackCornerRadius = 2130904066;
 			
 			// aapt resource value: 0x7F030403
-			public const int transitionDisable = 2130904067;
+			public const int trackHeight = 2130904067;
 			
 			// aapt resource value: 0x7F030404
-			public const int transitionEasing = 2130904068;
+			public const int trackThickness = 2130904068;
 			
 			// aapt resource value: 0x7F030405
-			public const int transitionFlags = 2130904069;
+			public const int trackTint = 2130904069;
 			
 			// aapt resource value: 0x7F030406
-			public const int transitionPathRotate = 2130904070;
+			public const int trackTintMode = 2130904070;
 			
 			// aapt resource value: 0x7F030407
-			public const int transitionShapeAppearance = 2130904071;
+			public const int transformPivotTarget = 2130904071;
 			
 			// aapt resource value: 0x7F030408
-			public const int triggerId = 2130904072;
+			public const int transitionDisable = 2130904072;
 			
 			// aapt resource value: 0x7F030409
-			public const int triggerReceiver = 2130904073;
+			public const int transitionEasing = 2130904073;
 			
 			// aapt resource value: 0x7F03040A
-			public const int triggerSlack = 2130904074;
+			public const int transitionFlags = 2130904074;
 			
 			// aapt resource value: 0x7F03040B
-			public const int ttcIndex = 2130904075;
-			
-			// aapt resource value: 0x7F03040D
-			public const int updatesContinuously = 2130904077;
+			public const int transitionPathRotate = 2130904075;
 			
 			// aapt resource value: 0x7F03040C
-			public const int upDuration = 2130904076;
+			public const int transitionShapeAppearance = 2130904076;
+			
+			// aapt resource value: 0x7F03040D
+			public const int triggerId = 2130904077;
 			
 			// aapt resource value: 0x7F03040E
-			public const int uri = 2130904078;
+			public const int triggerReceiver = 2130904078;
 			
 			// aapt resource value: 0x7F03040F
-			public const int useCompatPadding = 2130904079;
+			public const int triggerSlack = 2130904079;
 			
 			// aapt resource value: 0x7F030410
-			public const int useMaterialThemeColors = 2130904080;
-			
-			// aapt resource value: 0x7F030411
-			public const int useSimpleSummaryProvider = 2130904081;
+			public const int ttcIndex = 2130904080;
 			
 			// aapt resource value: 0x7F030412
-			public const int values = 2130904082;
+			public const int updatesContinuously = 2130904082;
+			
+			// aapt resource value: 0x7F030411
+			public const int upDuration = 2130904081;
 			
 			// aapt resource value: 0x7F030413
-			public const int verticalOffset = 2130904083;
+			public const int uri = 2130904083;
 			
 			// aapt resource value: 0x7F030414
-			public const int viewInflaterClass = 2130904084;
+			public const int useCompatPadding = 2130904084;
 			
 			// aapt resource value: 0x7F030415
-			public const int viewTransitionMode = 2130904085;
+			public const int useMaterialThemeColors = 2130904085;
 			
 			// aapt resource value: 0x7F030416
-			public const int viewTransitionOnCross = 2130904086;
+			public const int useSimpleSummaryProvider = 2130904086;
 			
 			// aapt resource value: 0x7F030417
-			public const int viewTransitionOnNegativeCross = 2130904087;
+			public const int values = 2130904087;
 			
 			// aapt resource value: 0x7F030418
-			public const int viewTransitionOnPositiveCross = 2130904088;
+			public const int verticalOffset = 2130904088;
 			
 			// aapt resource value: 0x7F030419
-			public const int visibilityMode = 2130904089;
+			public const int viewInflaterClass = 2130904089;
 			
 			// aapt resource value: 0x7F03041A
-			public const int voiceIcon = 2130904090;
+			public const int viewTransitionMode = 2130904090;
 			
 			// aapt resource value: 0x7F03041B
-			public const int warmth = 2130904091;
+			public const int viewTransitionOnCross = 2130904091;
 			
 			// aapt resource value: 0x7F03041C
-			public const int waveDecay = 2130904092;
+			public const int viewTransitionOnNegativeCross = 2130904092;
 			
 			// aapt resource value: 0x7F03041D
-			public const int waveOffset = 2130904093;
+			public const int viewTransitionOnPositiveCross = 2130904093;
 			
 			// aapt resource value: 0x7F03041E
-			public const int wavePeriod = 2130904094;
+			public const int visibilityMode = 2130904094;
 			
 			// aapt resource value: 0x7F03041F
-			public const int wavePhase = 2130904095;
+			public const int voiceIcon = 2130904095;
 			
 			// aapt resource value: 0x7F030420
-			public const int waveShape = 2130904096;
+			public const int warmth = 2130904096;
 			
 			// aapt resource value: 0x7F030421
-			public const int waveVariesBy = 2130904097;
+			public const int waveDecay = 2130904097;
 			
 			// aapt resource value: 0x7F030422
-			public const int widgetLayout = 2130904098;
+			public const int waveOffset = 2130904098;
 			
 			// aapt resource value: 0x7F030423
-			public const int windowActionBar = 2130904099;
+			public const int wavePeriod = 2130904099;
 			
 			// aapt resource value: 0x7F030424
-			public const int windowActionBarOverlay = 2130904100;
+			public const int wavePhase = 2130904100;
 			
 			// aapt resource value: 0x7F030425
-			public const int windowActionModeOverlay = 2130904101;
+			public const int waveShape = 2130904101;
 			
 			// aapt resource value: 0x7F030426
-			public const int windowFixedHeightMajor = 2130904102;
+			public const int waveVariesBy = 2130904102;
 			
 			// aapt resource value: 0x7F030427
-			public const int windowFixedHeightMinor = 2130904103;
+			public const int widgetLayout = 2130904103;
 			
 			// aapt resource value: 0x7F030428
-			public const int windowFixedWidthMajor = 2130904104;
+			public const int windowActionBar = 2130904104;
 			
 			// aapt resource value: 0x7F030429
-			public const int windowFixedWidthMinor = 2130904105;
+			public const int windowActionBarOverlay = 2130904105;
 			
 			// aapt resource value: 0x7F03042A
-			public const int windowMinWidthMajor = 2130904106;
+			public const int windowActionModeOverlay = 2130904106;
 			
 			// aapt resource value: 0x7F03042B
-			public const int windowMinWidthMinor = 2130904107;
+			public const int windowFixedHeightMajor = 2130904107;
 			
 			// aapt resource value: 0x7F03042C
-			public const int windowNoTitle = 2130904108;
+			public const int windowFixedHeightMinor = 2130904108;
 			
 			// aapt resource value: 0x7F03042D
-			public const int yearSelectedStyle = 2130904109;
+			public const int windowFixedWidthMajor = 2130904109;
 			
 			// aapt resource value: 0x7F03042E
-			public const int yearStyle = 2130904110;
+			public const int windowFixedWidthMinor = 2130904110;
 			
 			// aapt resource value: 0x7F03042F
-			public const int yearTodayStyle = 2130904111;
+			public const int windowMinWidthMajor = 2130904111;
+			
+			// aapt resource value: 0x7F030430
+			public const int windowMinWidthMinor = 2130904112;
+			
+			// aapt resource value: 0x7F030431
+			public const int windowNoTitle = 2130904113;
+			
+			// aapt resource value: 0x7F030432
+			public const int yearSelectedStyle = 2130904114;
+			
+			// aapt resource value: 0x7F030433
+			public const int yearStyle = 2130904115;
+			
+			// aapt resource value: 0x7F030434
+			public const int yearTodayStyle = 2130904116;
 			
 			static Attribute()
 			{
@@ -16658,10 +19936,13 @@ namespace Pokédex.Droid
 			public const int test_custom_background = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_dark = 2131165326;
+			public const int test_level_drawable = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_light = 2131165327;
+			public const int tooltip_frame_dark = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_light = 2131165328;
 			
 			static Drawable()
 			{
@@ -18123,43 +21404,46 @@ namespace Pokédex.Droid
 			public const int view_tree_lifecycle_owner = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -18900,277 +22184,283 @@ namespace Pokédex.Droid
 			public const int abc_toolbar_collapse_description = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int bottomsheet_action_expand_halfway = 2131623965;
+			public const int androidx_startup = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_content_description = 2131623966;
+			public const int bottomsheet_action_expand_halfway = 2131623966;
+			
+			// aapt resource value: 0x7F0E001D
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_overflowed_content_description = 2131623967;
+			public const int character_counter_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int character_counter_pattern = 2131623968;
+			public const int character_counter_overflowed_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int chip_text = 2131623969;
+			public const int character_counter_pattern = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int clear_text_end_icon_content_description = 2131623970;
+			public const int chip_text = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int copy = 2131623971;
+			public const int clear_text_end_icon_content_description = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int copy_toast_msg = 2131623972;
+			public const int copy = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int error_icon_content_description = 2131623973;
+			public const int copy_toast_msg = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int expand_button_title = 2131623974;
+			public const int error_icon_content_description = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int exposed_dropdown_menu_content_description = 2131623975;
+			public const int expand_button_title = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fab_transformation_scrim_behavior = 2131623976;
+			public const int exposed_dropdown_menu_content_description = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fab_transformation_sheet_behavior = 2131623977;
+			public const int fab_transformation_scrim_behavior = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int fallback_menu_item_copy_link = 2131623978;
+			public const int fab_transformation_sheet_behavior = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int fallback_menu_item_open_in_browser = 2131623979;
+			public const int fallback_menu_item_copy_link = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fallback_menu_item_share_link = 2131623980;
+			public const int fallback_menu_item_open_in_browser = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
+			public const int fallback_menu_item_share_link = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int icon_content_description = 2131623982;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int item_view_role_description = 2131623983;
+			public const int icon_content_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int item_view_role_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int library_name = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{
@@ -21487,37 +24777,37 @@ namespace Pokédex.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F03011E,0x7F03013A,0x7F03013B,0x7F030156,0x7F0301B5,0x7F0301BC,0x7F0301C2,0x7F0301C3,0x7F0301C6,0x7F0301D8,0x7F0301EC,0x7F030262,0x7F0302BC,0x7F0302F5,0x7F030306,0x7F030307,0x7F03036D,0x7F030371,0x7F0303E2,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F03013D,0x7F03013E,0x7F030159,0x7F0301B9,0x7F0301C0,0x7F0301C6,0x7F0301C7,0x7F0301CA,0x7F0301DC,0x7F0301F0,0x7F030267,0x7F0302C1,0x7F0302FA,0x7F03030B,0x7F03030C,0x7F030372,0x7F030376,0x7F0303E7,0x7F0303F3 }
 			public static int[] ActionBar = new int[] {
 					2130903111,
 					2130903118,
 					2130903119,
-					2130903283,
-					2130903284,
-					2130903285,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903326,
-					2130903354,
-					2130903355,
-					2130903382,
-					2130903477,
-					2130903484,
-					2130903490,
-					2130903491,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903329,
+					2130903357,
+					2130903358,
+					2130903385,
+					2130903481,
+					2130903488,
 					2130903494,
-					2130903512,
-					2130903532,
-					2130903650,
-					2130903740,
-					2130903797,
-					2130903814,
-					2130903815,
-					2130903917,
-					2130903921,
-					2130904034,
-					2130904046};
+					2130903495,
+					2130903498,
+					2130903516,
+					2130903536,
+					2130903655,
+					2130903745,
+					2130903802,
+					2130903819,
+					2130903820,
+					2130903922,
+					2130903926,
+					2130904039,
+					2130904051};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -21624,14 +24914,14 @@ namespace Pokédex.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CC,0x7F0301B5,0x7F030371,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CF,0x7F0301B9,0x7F030376,0x7F0303F3 }
 			public static int[] ActionMode = new int[] {
 					2130903111,
 					2130903118,
-					2130903244,
-					2130903477,
-					2130903921,
-					2130904046};
+					2130903247,
+					2130903481,
+					2130903926,
+					2130904051};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -21651,10 +24941,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F030170,0x7F0301DE }
+			// aapt resource value: { 0x7F030174,0x7F0301E2 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903408,
-					2130903518};
+					2130903412,
+					2130903522};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -21662,13 +24952,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x1010003,0x7F030003,0x7F030122,0x7F030123,0x7F03039E }
+			// aapt resource value: { 0x1010003,0x7F030003,0x7F030125,0x7F030126,0x7F0303A3 }
 			public static int[] ActivityNavigator = new int[] {
 					16842755,
 					2130903043,
-					2130903330,
-					2130903331,
-					2130903966};
+					2130903333,
+					2130903334,
+					2130903971};
 			
 			// aapt resource value: 1
 			public const int ActivityNavigator_action = 1;
@@ -21685,16 +24975,16 @@ namespace Pokédex.Droid
 			// aapt resource value: 4
 			public const int ActivityNavigator_targetPackage = 4;
 			
-			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F030257,0x7F030258,0x7F0302B7,0x7F030342,0x7F030344 }
+			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F03025C,0x7F03025D,0x7F0302BC,0x7F030347,0x7F030349 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903168,
 					2130903169,
-					2130903639,
-					2130903640,
-					2130903735,
-					2130903874,
-					2130903876};
+					2130903644,
+					2130903645,
+					2130903740,
+					2130903879,
+					2130903881};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -21777,23 +25067,23 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030156,0x7F030171,0x7F03024D,0x7F03024E,0x7F030367 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030159,0x7F030175,0x7F030252,0x7F030253,0x7F03036C }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903382,
-					2130903409,
-					2130903629,
-					2130903630,
-					2130903911};
+					2130903385,
+					2130903413,
+					2130903634,
+					2130903635,
+					2130903916};
 			
-			// aapt resource value: { 0x7F030361,0x7F030362,0x7F030364,0x7F030365 }
+			// aapt resource value: { 0x7F030366,0x7F030367,0x7F030369,0x7F03036A }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903905,
-					2130903906,
-					2130903908,
-					2130903909};
+					2130903910,
+					2130903911,
+					2130903913,
+					2130903914};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -21822,10 +25112,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03024A,0x7F03024B }
+			// aapt resource value: { 0x7F03024F,0x7F030250 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903626,
-					2130903627};
+					2130903631,
+					2130903632};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -21842,12 +25132,16 @@ namespace Pokédex.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F030357,0x7F0303E0,0x7F0303E1 }
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] AppCompatEmojiHelper = new int[] {
+					-1};
+			
+			// aapt resource value: { 0x1010119,0x7F03035C,0x7F0303E5,0x7F0303E6 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903895,
-					2130904032,
-					2130904033};
+					2130903900,
+					2130904037,
+					2130904038};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -21861,12 +25155,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0303DC,0x7F0303DD,0x7F0303DE }
+			// aapt resource value: { 0x1010142,0x7F0303E1,0x7F0303E2,0x7F0303E3 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130904028,
-					2130904029,
-					2130904030};
+					2130904033,
+					2130904034,
+					2130904035};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -21911,7 +25205,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030189,0x7F03019F,0x7F0301A8,0x7F030203,0x7F030250,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03015C,0x7F03018D,0x7F0301A3,0x7F0301AC,0x7F030208,0x7F030255,0x7F0303A7,0x7F0303C9 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903105,
@@ -21919,21 +25213,22 @@ namespace Pokédex.Droid
 					2130903107,
 					2130903108,
 					2130903109,
-					2130903363,
-					2130903364,
-					2130903365,
 					2130903366,
+					2130903367,
 					2130903368,
 					2130903369,
-					2130903370,
 					2130903371,
-					2130903433,
-					2130903455,
-					2130903464,
-					2130903555,
-					2130903632,
-					2130903970,
-					2130904004};
+					2130903372,
+					2130903373,
+					2130903374,
+					2130903388,
+					2130903437,
+					2130903459,
+					2130903468,
+					2130903560,
+					2130903637,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -21978,27 +25273,30 @@ namespace Pokédex.Droid
 			public const int AppCompatTextView_drawableTopCompat = 13;
 			
 			// aapt resource value: 14
-			public const int AppCompatTextView_firstBaselineToTopHeight = 14;
+			public const int AppCompatTextView_emojiCompatEnabled = 14;
 			
 			// aapt resource value: 15
-			public const int AppCompatTextView_fontFamily = 15;
+			public const int AppCompatTextView_firstBaselineToTopHeight = 15;
 			
 			// aapt resource value: 16
-			public const int AppCompatTextView_fontVariationSettings = 16;
+			public const int AppCompatTextView_fontFamily = 16;
 			
 			// aapt resource value: 17
-			public const int AppCompatTextView_lastBaselineToBottomHeight = 17;
+			public const int AppCompatTextView_fontVariationSettings = 17;
 			
 			// aapt resource value: 18
-			public const int AppCompatTextView_lineHeight = 18;
+			public const int AppCompatTextView_lastBaselineToBottomHeight = 18;
 			
 			// aapt resource value: 19
-			public const int AppCompatTextView_textAllCaps = 19;
+			public const int AppCompatTextView_lineHeight = 19;
 			
 			// aapt resource value: 20
-			public const int AppCompatTextView_textLocale = 20;
+			public const int AppCompatTextView_textAllCaps = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
+			// aapt resource value: 21
+			public const int AppCompatTextView_textLocale = 21;
+			
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009D,0x7F0300A6,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300E5,0x7F0300E6,0x7F0300EC,0x7F030105,0x7F030134,0x7F030139,0x7F03013A,0x7F03013F,0x7F030141,0x7F030151,0x7F030152,0x7F030155,0x7F030156,0x7F030158,0x7F0301C6,0x7F0301D6,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030266,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302F9,0x7F0302FB,0x7F030313,0x7F030315,0x7F030316,0x7F030317,0x7F03032E,0x7F030331,0x7F030333,0x7F030334,0x7F030354,0x7F030355,0x7F030383,0x7F0303B2,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303B8,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303C3,0x7F0303C4,0x7F0303F5,0x7F0303F6,0x7F0303F7,0x7F0303F8,0x7F030419,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C,0x7F03042D,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -22048,85 +25346,85 @@ namespace Pokédex.Droid
 					2130903165,
 					2130903170,
 					2130903171,
-					2130903194,
-					2130903203,
-					2130903253,
-					2130903254,
-					2130903255,
+					2130903197,
+					2130903206,
 					2130903256,
 					2130903257,
 					2130903258,
 					2130903259,
-					2130903266,
-					2130903267,
-					2130903273,
-					2130903298,
-					2130903345,
-					2130903350,
-					2130903351,
-					2130903356,
-					2130903358,
-					2130903374,
-					2130903375,
+					2130903260,
+					2130903261,
+					2130903262,
+					2130903269,
+					2130903270,
+					2130903276,
+					2130903301,
+					2130903348,
+					2130903353,
+					2130903354,
+					2130903359,
+					2130903361,
+					2130903377,
 					2130903378,
-					2130903379,
 					2130903381,
-					2130903490,
-					2130903506,
-					2130903635,
-					2130903636,
-					2130903637,
-					2130903638,
+					2130903382,
+					2130903384,
+					2130903494,
+					2130903510,
+					2130903640,
 					2130903641,
 					2130903642,
 					2130903643,
-					2130903644,
-					2130903645,
 					2130903646,
 					2130903647,
 					2130903648,
 					2130903649,
-					2130903769,
-					2130903770,
-					2130903771,
-					2130903796,
-					2130903798,
-					2130903822,
-					2130903824,
-					2130903825,
-					2130903826,
-					2130903849,
-					2130903852,
+					2130903650,
+					2130903651,
+					2130903652,
+					2130903653,
+					2130903654,
+					2130903774,
+					2130903775,
+					2130903776,
+					2130903801,
+					2130903803,
+					2130903827,
+					2130903829,
+					2130903830,
+					2130903831,
 					2130903854,
-					2130903855,
-					2130903887,
-					2130903888,
-					2130903934,
-					2130903981,
-					2130903983,
-					2130903984,
-					2130903985,
-					2130903987,
+					2130903857,
+					2130903859,
+					2130903860,
+					2130903892,
+					2130903893,
+					2130903939,
+					2130903986,
 					2130903988,
 					2130903989,
 					2130903990,
-					2130903998,
-					2130903999,
-					2130904048,
-					2130904049,
-					2130904050,
-					2130904051,
-					2130904084,
-					2130904099,
-					2130904100,
-					2130904101,
-					2130904102,
-					2130904103,
+					2130903992,
+					2130903993,
+					2130903994,
+					2130903995,
+					2130904003,
+					2130904004,
+					2130904053,
+					2130904054,
+					2130904055,
+					2130904056,
+					2130904089,
 					2130904104,
 					2130904105,
 					2130904106,
 					2130904107,
-					2130904108};
+					2130904108,
+					2130904109,
+					2130904110,
+					2130904111,
+					2130904112,
+					2130904113};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -22509,10 +25807,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 126
 			public const int AppCompatTheme_windowNoTitle = 126;
 			
-			// aapt resource value: { 0x101030E,0x7F03032E }
+			// aapt resource value: { 0x101030E,0x7F030333 }
 			public static int[] BackgroundStyle = new int[] {
 					16843534,
-					2130903854};
+					2130903859};
 			
 			// aapt resource value: 0
 			public const int BackgroundStyle_android_selectableItemBackground = 0;
@@ -22520,15 +25818,15 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C4,0x7F030283,0x7F0302C4,0x7F030413 }
+			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C8,0x7F030288,0x7F0302C9,0x7F030418 }
 			public static int[] Badge = new int[] {
 					2130903112,
 					2130903122,
 					2130903124,
-					2130903492,
-					2130903683,
-					2130903748,
-					2130904083};
+					2130903496,
+					2130903688,
+					2130903753,
+					2130904088};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -22551,17 +25849,17 @@ namespace Pokédex.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F0301BA,0x7F0301D9,0x7F030290,0x7F03033A,0x7F03033C,0x7F0303FA,0x7F0303FD,0x7F0303FF }
+			// aapt resource value: { 0x1010139,0x7F0301BE,0x7F0301DD,0x7F030295,0x7F03033F,0x7F030341,0x7F0303FF,0x7F030402,0x7F030404 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
-					2130903482,
-					2130903513,
-					2130903696,
-					2130903866,
-					2130903868,
-					2130904058,
-					2130904061,
-					2130904063};
+					2130903486,
+					2130903517,
+					2130903701,
+					2130903871,
+					2130903873,
+					2130904063,
+					2130904066,
+					2130904068};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -22590,19 +25888,19 @@ namespace Pokédex.Droid
 			// aapt resource value: 8
 			public const int BaseProgressIndicator_trackThickness = 8;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F0301BD,0x7F0302D2,0x7F0302D4,0x7F0302D5 }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F0301C1,0x7F0302D7,0x7F0302D9,0x7F0302DA }
 			public static int[] BottomAppBar = new int[] {
 					2130903120,
-					2130903382,
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903424,
+					2130903385,
 					2130903425,
-					2130903485,
-					2130903762,
-					2130903764,
-					2130903765};
+					2130903426,
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903489,
+					2130903767,
+					2130903769,
+					2130903770};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -22637,14 +25935,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F0301E7 }
+			// aapt resource value: { 0x7F0301EB }
 			public static int[] BottomNavigationView = new int[] {
-					2130903527};
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 0;
 			
-			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301AF,0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301B3,0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD,0x7F030338,0x7F03033B }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843039,
 					16843840,
@@ -22657,13 +25955,13 @@ namespace Pokédex.Droid
 					2130903137,
 					2130903138,
 					2130903139,
-					2130903471,
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768,
-					2130903859,
-					2130903862};
+					2130903475,
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_android_elevation = 1;
@@ -22726,10 +26024,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F03030D,0x7F030338 }
+			// aapt resource value: { 0x7F030312,0x7F03033D }
 			public static int[] Capability = new int[] {
-					2130903821,
-					2130903864};
+					2130903826,
+					2130903869};
 			
 			// aapt resource value: 0
 			public const int Capability_queryPatterns = 0;
@@ -22737,7 +26035,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F0300FF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300FC,0x7F0300FD,0x7F0300FF,0x7F030100,0x7F030102 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -22747,11 +26045,11 @@ namespace Pokédex.Droid
 					2130903178,
 					2130903179,
 					2130903180,
-					2130903289,
-					2130903290,
 					2130903292,
 					2130903293,
-					2130903295};
+					2130903295,
+					2130903296,
+					2130903298};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -22835,14 +26133,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 9
 			public const int Carousel_carousel_touchUp_velocityThreshold = 9;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F030139,0x7F030377,0x7F030378 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F03013C,0x7F03037C,0x7F03037D }
 			public static int[] CheckBoxPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
-					2130903353,
-					2130903927,
-					2130903928};
+					2130903356,
+					2130903932,
+					2130903933};
 			
 			// aapt resource value: 2
 			public const int CheckBoxPreference_android_disableDependentsState = 2;
@@ -22862,7 +26160,26 @@ namespace Pokédex.Droid
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03009D,0x7F03009E,0x7F0300A1,0x7F0300A2,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030164,0x7F0301BB,0x7F0301C7,0x7F0301CC,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F0303C0,0x7F0303C9 }
+			// aapt resource value: { 0x1010108,0x7F03009A,0x7F03009B,0x7F03009C }
+			public static int[] CheckedTextView = new int[] {
+					16843016,
+					2130903194,
+					2130903195,
+					2130903196};
+			
+			// aapt resource value: 0
+			public const int CheckedTextView_android_checkMark = 0;
+			
+			// aapt resource value: 1
+			public const int CheckedTextView_checkMarkCompat = 1;
+			
+			// aapt resource value: 2
+			public const int CheckedTextView_checkMarkTint = 2;
+			
+			// aapt resource value: 3
+			public const int CheckedTextView_checkMarkTintMode = 3;
+			
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F0300A0,0x7F0300A1,0x7F0300A4,0x7F0300A5,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BA,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F030168,0x7F0301BF,0x7F0301CB,0x7F0301D0,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F0303C5,0x7F0303CE }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -22871,51 +26188,51 @@ namespace Pokédex.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903197,
-					2130903198,
+					2130903200,
 					2130903201,
-					2130903202,
 					2130903204,
 					2130903205,
-					2130903206,
+					2130903207,
 					2130903208,
 					2130903209,
-					2130903210,
 					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903219,
-					2130903220,
-					2130903221,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903222,
 					2130903223,
-					2130903237,
-					2130903238,
-					2130903239,
+					2130903224,
+					2130903226,
 					2130903240,
 					2130903241,
 					2130903242,
 					2130903243,
-					2130903396,
-					2130903483,
-					2130903495,
-					2130903500,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904000,
-					2130904009};
+					2130903244,
+					2130903245,
+					2130903246,
+					2130903400,
+					2130903487,
+					2130903499,
+					2130903504,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904005,
+					2130904014};
 			
-			// aapt resource value: { 0x7F03009C,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F030330,0x7F030345,0x7F030347 }
+			// aapt resource value: { 0x7F03009F,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F030335,0x7F03034A,0x7F03034C }
 			public static int[] ChipGroup = new int[] {
-					2130903196,
-					2130903215,
-					2130903216,
-					2130903217,
-					2130903856,
-					2130903877,
-					2130903879};
+					2130903199,
+					2130903218,
+					2130903219,
+					2130903220,
+					2130903861,
+					2130903882,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -23064,11 +26381,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 41
 			public const int Chip_textStartPadding = 41;
 			
-			// aapt resource value: { 0x7F0301DA,0x7F0301DC,0x7F0301DD }
+			// aapt resource value: { 0x7F0301DE,0x7F0301E0,0x7F0301E1 }
 			public static int[] CircularProgressIndicator = new int[] {
-					2130903514,
-					2130903516,
-					2130903517};
+					2130903518,
+					2130903520,
+					2130903521};
 			
 			// aapt resource value: 0
 			public const int CircularProgressIndicator_indicatorDirectionCircular = 0;
@@ -23079,10 +26396,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int CircularProgressIndicator_indicatorSize = 2;
 			
-			// aapt resource value: { 0x7F0300C1,0x7F0300C4 }
+			// aapt resource value: { 0x7F0300C4,0x7F0300C7 }
 			public static int[] ClockFaceView = new int[] {
-					2130903233,
-					2130903236};
+					2130903236,
+					2130903239};
 			
 			// aapt resource value: 0
 			public const int ClockFaceView_clockFaceBackgroundColor = 0;
@@ -23090,11 +26407,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300C2,0x7F03027B,0x7F030331 }
+			// aapt resource value: { 0x7F0300C5,0x7F030280,0x7F030336 }
 			public static int[] ClockHandView = new int[] {
-					2130903234,
-					2130903675,
-					2130903857};
+					2130903237,
+					2130903680,
+					2130903862};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -23105,28 +26422,28 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300D0,0x7F0300D1,0x7F030100,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017C,0x7F0301AA,0x7F030286,0x7F030323,0x7F030325,0x7F030368,0x7F0303E2,0x7F0303E4,0x7F0303E5,0x7F0303EF }
+			// aapt resource value: { 0x7F0300D3,0x7F0300D4,0x7F030103,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F030180,0x7F0301AE,0x7F03028B,0x7F030328,0x7F03032A,0x7F03036D,0x7F0303E7,0x7F0303E9,0x7F0303EA,0x7F0303F4 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903248,
-					2130903249,
-					2130903296,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903414,
+					2130903251,
+					2130903252,
+					2130903299,
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
+					2130903419,
 					2130903420,
-					2130903466,
-					2130903686,
-					2130903843,
-					2130903845,
-					2130903912,
-					2130904034,
-					2130904036,
-					2130904037,
-					2130904047};
+					2130903421,
+					2130903424,
+					2130903470,
+					2130903691,
+					2130903848,
+					2130903850,
+					2130903917,
+					2130904039,
+					2130904041,
+					2130904042,
+					2130904052};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -23164,10 +26481,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int CollapsingToolbarLayout_forceApplySystemWindowInsetTop = 11;
 			
-			// aapt resource value: { 0x7F03020C,0x7F03020D }
+			// aapt resource value: { 0x7F030211,0x7F030212 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903564,
-					2130903565};
+					2130903569,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -23199,20 +26516,28 @@ namespace Pokédex.Droid
 			// aapt resource value: 19
 			public const int CollapsingToolbarLayout_toolbarId = 19;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030032 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F030032,0x7F030204 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903090};
+					16844359,
+					2130903090,
+					2130903556};
 			
-			// aapt resource value: 2
-			public const int ColorStateListItem_alpha = 2;
+			// aapt resource value: 3
+			public const int ColorStateListItem_alpha = 3;
 			
 			// aapt resource value: 1
 			public const int ColorStateListItem_android_alpha = 1;
 			
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: 2
+			public const int ColorStateListItem_android_lStar = 2;
+			
+			// aapt resource value: 4
+			public const int ColorStateListItem_lStar = 4;
 			
 			// aapt resource value: { 0x1010107,0x7F03007E,0x7F030084,0x7F030085 }
 			public static int[] CompoundButton = new int[] {
@@ -23233,7 +26558,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -23268,13 +26593,9 @@ namespace Pokédex.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -23284,16 +26605,15 @@ namespace Pokédex.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -23335,31 +26655,36 @@ namespace Pokédex.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300EE,0x7F0300F1,0x7F0300F2,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F03020B,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F03024E,0x7F030251 }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -23390,18 +26715,14 @@ namespace Pokédex.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903226,
-					2130903227,
-					2130903228,
 					2130903229,
 					2130903230,
-					2130903275,
+					2130903231,
+					2130903232,
+					2130903233,
 					2130903278,
-					2130903279,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -23411,17 +26732,16 @@ namespace Pokédex.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903558,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903563,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -23463,18 +26783,23 @@ namespace Pokédex.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
 					2130903625,
-					2130903628};
+					2130903626,
+					2130903629,
+					2130903630,
+					2130903633};
 			
 			// aapt resource value: 22
 			public const int ConstraintLayout_Layout_android_elevation = 22;
@@ -23818,10 +27143,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 113
 			public const int ConstraintLayout_Layout_layout_wrapBehaviorInParent = 113;
 			
-			// aapt resource value: { 0x7F0300F1,0x7F0302ED }
+			// aapt resource value: { 0x7F0300F4,0x7F0302F2 }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903281,
-					2130903789};
+					2130903284,
+					2130903794};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -23829,12 +27154,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x7F030313,0x7F030314,0x7F030315,0x7F030316 }
+			// aapt resource value: { 0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
 			public static int[] ConstraintLayout_ReactiveGuide = new int[] {
-					2130903827,
-					2130903828,
-					2130903829,
-					2130903830};
+					2130903832,
+					2130903833,
+					2130903834,
+					2130903835};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = 0;
@@ -23848,7 +27173,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030219,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F030230,0x7F030235,0x7F030236,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] ConstraintOverride = new int[] {
 					16842948,
 					16842960,
@@ -23883,12 +27208,8 @@ namespace Pokédex.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -23898,23 +27219,22 @@ namespace Pokédex.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903571,
 					2130903572,
-					2130903576,
+					2130903573,
 					2130903577,
-					2130903578,
 					2130903581,
 					2130903582,
 					2130903583,
-					2130903584,
-					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
@@ -23922,41 +27242,46 @@ namespace Pokédex.Droid
 					2130903590,
 					2130903591,
 					2130903592,
+					2130903593,
+					2130903594,
 					2130903595,
+					2130903596,
+					2130903597,
 					2130903600,
-					2130903601,
-					2130903604,
 					2130903605,
 					2130903606,
-					2130903607,
-					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903731,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903736,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
 			// aapt resource value: 13
 			public const int ConstraintOverride_android_alpha = 13;
@@ -24279,7 +27604,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 106
 			public const int ConstraintOverride_visibilityMode = 106;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03012F,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F03030A,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030132,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030F,0x7F030409,0x7F03040B }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -24317,14 +27642,10 @@ namespace Pokédex.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903343,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903346,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -24334,16 +27655,15 @@ namespace Pokédex.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -24357,11 +27677,11 @@ namespace Pokédex.Droid
 					2130903581,
 					2130903582,
 					2130903583,
+					2130903584,
 					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
-					2130903589,
 					2130903590,
 					2130903591,
 					2130903592,
@@ -24379,6 +27699,7 @@ namespace Pokédex.Droid
 					2130903604,
 					2130903605,
 					2130903606,
+					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
@@ -24387,21 +27708,25 @@ namespace Pokédex.Droid
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903818,
-					2130904068,
-					2130904070};
+					2130903795,
+					2130903823,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -25135,23 +28460,23 @@ namespace Pokédex.Droid
 			// aapt resource value: 122
 			public const int Constraint_visibilityMode = 122;
 			
-			// aapt resource value: { 0x7F0301FF,0x7F030366 }
+			// aapt resource value: { 0x7F030203,0x7F03036B }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903551,
-					2130903910};
+					2130903555,
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030209,0x7F03020A,0x7F03020B,0x7F03023C,0x7F030246,0x7F030247 }
+			// aapt resource value: { 0x10100B3,0x7F03020E,0x7F03020F,0x7F030210,0x7F030241,0x7F03024B,0x7F03024C }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903561,
-					2130903562,
-					2130903563,
-					2130903612,
-					2130903622,
-					2130903623};
+					2130903566,
+					2130903567,
+					2130903568,
+					2130903617,
+					2130903627,
+					2130903628};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -25177,19 +28502,19 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F03028C }
+			// aapt resource value: { 0x7F03003E,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030122,0x7F030123,0x7F030124,0x7F030291 }
 			public static int[] CustomAttribute = new int[] {
 					2130903102,
-					2130903320,
-					2130903321,
-					2130903322,
 					2130903323,
 					2130903324,
 					2130903325,
+					2130903326,
 					2130903327,
 					2130903328,
-					2130903329,
-					2130903692};
+					2130903330,
+					2130903331,
+					2130903332,
+					2130903697};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -25224,7 +28549,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 10
 			public const int CustomAttribute_methodName = 10;
 			
-			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F0302BF,0x7F0302F7 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030135,0x7F030136,0x7F030137,0x7F03013B,0x7F0302C4,0x7F0302FC }
 			public static int[] DialogPreference = new int[] {
 					16843250,
 					16843251,
@@ -25232,12 +28557,12 @@ namespace Pokédex.Droid
 					16843253,
 					16843254,
 					16843255,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903352,
-					2130903743,
-					2130903799};
+					2130903349,
+					2130903350,
+					2130903351,
+					2130903355,
+					2130903748,
+					2130903804};
 			
 			// aapt resource value: 2
 			public const int DialogPreference_android_dialogIcon = 2;
@@ -25275,16 +28600,16 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int DialogPreference_positiveButtonText = 11;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D4,0x7F030147,0x7F0301AE,0x7F03034E,0x7F0303D0 }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D7,0x7F03014A,0x7F0301B2,0x7F030353,0x7F0303D5 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903100,
 					2130903101,
 					2130903125,
-					2130903252,
-					2130903367,
-					2130903470,
-					2130903886,
-					2130904016};
+					2130903255,
+					2130903370,
+					2130903474,
+					2130903891,
+					2130904021};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -25310,28 +28635,28 @@ namespace Pokédex.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030156 }
+			// aapt resource value: { 0x7F030159 }
 			public static int[] DrawerLayout = new int[] {
-					2130903382};
+					2130903385};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030411 }
+			// aapt resource value: { 0x7F030416 }
 			public static int[] EditTextPreference = new int[] {
-					2130904081};
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
 			
-			// aapt resource value: { 0x7F0300CF,0x7F030156,0x7F03017A,0x7F0301BB,0x7F03033E,0x7F030343 }
+			// aapt resource value: { 0x7F0300D2,0x7F030159,0x7F03017E,0x7F0301BF,0x7F030343,0x7F030348 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903247,
-					2130903382,
-					2130903418,
-					2130903483,
-					2130903870,
-					2130903875};
+					2130903250,
+					2130903385,
+					2130903422,
+					2130903487,
+					2130903875,
+					2130903880};
 			
 			// aapt resource value: { 0x7F030059,0x7F03005A }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -25362,25 +28687,25 @@ namespace Pokédex.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
+			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030159,0x7F030168,0x7F030186,0x7F030187,0x7F0301BF,0x7F0301C9,0x7F03028A,0x7F03030A,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F030414 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903120,
 					2130903121,
 					2130903143,
-					2130903382,
-					2130903396,
-					2130903426,
-					2130903427,
-					2130903483,
-					2130903493,
-					2130903685,
-					2130903813,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904079};
+					2130903385,
+					2130903400,
+					2130903430,
+					2130903431,
+					2130903487,
+					2130903497,
+					2130903690,
+					2130903818,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904084};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -25440,10 +28765,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0301F5,0x7F030251 }
+			// aapt resource value: { 0x7F0301F9,0x7F030256 }
 			public static int[] FlowLayout = new int[] {
-					2130903541,
-					2130903633};
+					2130903545,
+					2130903638};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -25451,28 +28776,28 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6 }
+			// aapt resource value: { 0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA }
 			public static int[] FontFamily = new int[] {
-					2130903456,
-					2130903457,
-					2130903458,
-					2130903459,
 					2130903460,
 					2130903461,
-					2130903462};
+					2130903462,
+					2130903463,
+					2130903464,
+					2130903465,
+					2130903466};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0301A2,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F030410 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903454,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130904075};
+					2130903458,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -25525,11 +28850,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AF }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903467};
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -25628,22 +28953,22 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041B }
+			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030104,0x7F030118,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0302D5,0x7F030324,0x7F030325,0x7F030326,0x7F030420 }
 			public static int[] ImageFilterView = new int[] {
 					2130903092,
 					2130903140,
 					2130903160,
-					2130903297,
-					2130903317,
-					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903760,
-					2130903839,
-					2130903840,
-					2130903841,
-					2130904091};
+					2130903300,
+					2130903320,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903765,
+					2130903844,
+					2130903845,
+					2130903846,
+					2130904096};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -25687,19 +29012,19 @@ namespace Pokédex.Droid
 			// aapt resource value: 13
 			public const int ImageFilterView_warmth = 13;
 			
-			// aapt resource value: { 0x7F0300EB }
+			// aapt resource value: { 0x7F0300EE }
 			public static int[] include = new int[] {
-					2130903275};
+					2130903278};
 			
 			// aapt resource value: 0
 			public const int include_constraintSet = 0;
 			
-			// aapt resource value: { 0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8 }
+			// aapt resource value: { 0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD }
 			public static int[] Insets = new int[] {
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768};
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -25713,14 +29038,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int Insets_paddingTopSystemWindowInsets = 3;
 			
-			// aapt resource value: { 0x7F0300D3 }
+			// aapt resource value: { 0x7F0300D6 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903251};
+					2130903254};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030402,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030407,0x7F030409,0x7F03040B }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -25734,13 +29059,13 @@ namespace Pokédex.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904066,
-					2130904068,
-					2130904070};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904071,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -25799,7 +29124,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030422,0x7F030423,0x7F030424,0x7F030425,0x7F030426 }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -25811,17 +29136,17 @@ namespace Pokédex.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096,
-					2130904097};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101,
+					2130904102};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -25898,20 +29223,20 @@ namespace Pokédex.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030117,0x7F030142,0x7F0301AD,0x7F0301FD,0x7F0302B3,0x7F0302E1,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302E6,0x7F030348,0x7F030404 }
+			// aapt resource value: { 0x7F03011A,0x7F030145,0x7F0301B1,0x7F030201,0x7F0302B8,0x7F0302E6,0x7F0302E8,0x7F0302E9,0x7F0302EA,0x7F0302EB,0x7F03034D,0x7F030409 }
 			public static int[] KeyPosition = new int[] {
-					2130903319,
-					2130903362,
-					2130903469,
-					2130903549,
-					2130903731,
-					2130903777,
-					2130903779,
-					2130903780,
-					2130903781,
+					2130903322,
+					2130903365,
+					2130903473,
+					2130903553,
+					2130903736,
 					2130903782,
-					2130903880,
-					2130904068};
+					2130903784,
+					2130903785,
+					2130903786,
+					2130903787,
+					2130903885,
+					2130904073};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -25949,7 +29274,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030421,0x7F030422,0x7F030423,0x7F030424,0x7F030425 }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -25961,17 +29286,17 @@ namespace Pokédex.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904092,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904097,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -26036,21 +29361,21 @@ namespace Pokédex.Droid
 			// aapt resource value: 20
 			public const int KeyTimeCycle_waveShape = 20;
 			
-			// aapt resource value: { 0x7F0301AD,0x7F0302B3,0x7F0302B4,0x7F0302B5,0x7F0302C6,0x7F0302C8,0x7F0302C9,0x7F030408,0x7F030409,0x7F03040A,0x7F030416,0x7F030417,0x7F030418 }
+			// aapt resource value: { 0x7F0301B1,0x7F0302B8,0x7F0302B9,0x7F0302BA,0x7F0302CB,0x7F0302CD,0x7F0302CE,0x7F03040D,0x7F03040E,0x7F03040F,0x7F03041B,0x7F03041C,0x7F03041D }
 			public static int[] KeyTrigger = new int[] {
-					2130903469,
-					2130903731,
-					2130903732,
-					2130903733,
-					2130903750,
-					2130903752,
-					2130903753,
-					2130904072,
-					2130904073,
-					2130904074,
-					2130904086,
-					2130904087,
-					2130904088};
+					2130903473,
+					2130903736,
+					2130903737,
+					2130903738,
+					2130903755,
+					2130903757,
+					2130903758,
+					2130904077,
+					2130904078,
+					2130904079,
+					2130904091,
+					2130904092,
+					2130904093};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -26091,7 +29416,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 12
 			public const int KeyTrigger_viewTransitionOnPositiveCross = 12;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F030284,0x7F030288,0x7F03028F,0x7F030293 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F030289,0x7F03028D,0x7F030294,0x7F030298 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -26106,13 +29431,8 @@ namespace Pokédex.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903281,
+					2130903282,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -26142,32 +29462,37 @@ namespace Pokédex.Droid
 					2130903597,
 					2130903598,
 					2130903599,
+					2130903600,
 					2130903601,
 					2130903602,
 					2130903603,
 					2130903604,
-					2130903605,
 					2130903606,
 					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903684,
-					2130903688,
-					2130903695,
-					2130903699};
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903689,
+					2130903693,
+					2130903700,
+					2130903704};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -26394,17 +29719,17 @@ namespace Pokédex.Droid
 			// aapt resource value: 74
 			public const int Layout_minWidth = 74;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013B,0x7F03013D,0x7F030289,0x7F03033D }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013E,0x7F030140,0x7F03028E,0x7F030342 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903355,
-					2130903357,
-					2130903689,
-					2130903869};
+					2130903358,
+					2130903360,
+					2130903694,
+					2130903874};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -26452,10 +29777,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x7F0301D7,0x7F0301DB }
+			// aapt resource value: { 0x7F0301DB,0x7F0301DF }
 			public static int[] LinearProgressIndicator = new int[] {
-					2130903511,
-					2130903515};
+					2130903515,
+					2130903519};
 			
 			// aapt resource value: 0
 			public const int LinearProgressIndicator_indeterminateAnimationType = 0;
@@ -26474,13 +29799,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030411 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B,0x7F030416 }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399,
-					2130904081};
+					2130903402,
+					2130903403,
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -26504,13 +29829,13 @@ namespace Pokédex.Droid
 					2130903115,
 					2130903116};
 			
-			// aapt resource value: { 0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F030268 }
+			// aapt resource value: { 0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903652,
-					2130903653,
-					2130903654,
-					2130903655,
-					2130903656};
+					2130903657,
+					2130903658,
+					2130903659,
+					2130903660,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -26546,7 +29871,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F030109,0x7F030156,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F03031D,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F03010C,0x7F030159,0x7F0301CA,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D1,0x7F0301D2,0x7F030322,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -26556,25 +29881,25 @@ namespace Pokédex.Droid
 					16843237,
 					2130903120,
 					2130903121,
-					2130903305,
-					2130903382,
-					2130903494,
-					2130903496,
-					2130903497,
+					2130903308,
+					2130903385,
 					2130903498,
+					2130903500,
 					2130903501,
 					2130903502,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903505,
+					2130903506,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
-			// aapt resource value: { 0x7F03009B,0x7F030330,0x7F030347 }
+			// aapt resource value: { 0x7F03009E,0x7F030335,0x7F03034C }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903195,
-					2130903856,
-					2130903879};
+					2130903198,
+					2130903861,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -26648,31 +29973,31 @@ namespace Pokédex.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
+			// aapt resource value: { 0x101020D,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F0302C7,0x7F030314,0x7F030432,0x7F030433,0x7F030434 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
-					2130903332,
-					2130903333,
-					2130903334,
 					2130903335,
-					2130903746,
-					2130903823,
-					2130904109,
-					2130904110,
-					2130904111};
+					2130903336,
+					2130903337,
+					2130903338,
+					2130903751,
+					2130903828,
+					2130904114,
+					2130904115,
+					2130904116};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E9,0x7F0301F2,0x7F0301F3,0x7F0301FA,0x7F0301FB,0x7F0301FF }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903525,
-					2130903534,
-					2130903535,
-					2130903542,
-					2130903543,
-					2130903547};
+					2130903529,
+					2130903538,
+					2130903539,
+					2130903546,
+					2130903547,
+					2130903551};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -26734,20 +30059,20 @@ namespace Pokédex.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F030089,0x7F03009D,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F03031D,0x7F030333,0x7F030336,0x7F030363,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10101E5,0x7F030089,0x7F0300A0,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F030322,0x7F030338,0x7F03033B,0x7F030368,0x7F03036E,0x7F03036F }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903177,
-					2130903197,
-					2130903199,
 					2130903200,
-					2130903201,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903907,
-					2130903913,
-					2130903914};
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903912,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -26785,10 +30110,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -26796,10 +30121,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -26807,10 +30132,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x7F030338,0x7F03033B }
 			public static int[] MaterialShape = new int[] {
-					2130903859,
-					2130903862};
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -26818,11 +30143,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x10104B6,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030255 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16843958,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_letterSpacing = 0;
@@ -26833,11 +30158,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030255 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -26848,10 +30173,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0301FE }
+			// aapt resource value: { 0x7F0300C6,0x7F030202 }
 			public static int[] MaterialTimePicker = new int[] {
-					2130903235,
-					2130903550};
+					2130903238,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int MaterialTimePicker_clockIcon = 0;
@@ -26859,11 +30184,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MaterialTimePicker_keyboardIcon = 1;
 			
-			// aapt resource value: { 0x7F0302BB,0x7F03036E,0x7F0303E3 }
+			// aapt resource value: { 0x7F0302C0,0x7F030373,0x7F0303E8 }
 			public static int[] MaterialToolbar = new int[] {
-					2130903739,
-					2130903918,
-					2130904035};
+					2130903744,
+					2130903923,
+					2130904040};
 			
 			// aapt resource value: 0
 			public const int MaterialToolbar_navigationIconTint = 0;
@@ -26901,7 +30226,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F2,0x7F0301CD,0x7F0301CE,0x7F0302C5,0x7F03033B,0x7F0303F5 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F5,0x7F0301D1,0x7F0301D2,0x7F0302CA,0x7F030340,0x7F0303FA }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -26920,12 +30245,12 @@ namespace Pokédex.Droid
 					2130903077,
 					2130903079,
 					2130903091,
-					2130903282,
-					2130903501,
-					2130903502,
-					2130903749,
-					2130903867,
-					2130904053};
+					2130903285,
+					2130903505,
+					2130903506,
+					2130903754,
+					2130903872,
+					2130904058};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -26996,7 +30321,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030304,0x7F03036B }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030309,0x7F030370 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -27005,8 +30330,8 @@ namespace Pokédex.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903812,
-					2130903915};
+					2130903817,
+					2130903920};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -27035,14 +30360,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299 }
+			// aapt resource value: { 0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029E }
 			public static int[] MockView = new int[] {
-					2130903700,
-					2130903701,
-					2130903702,
-					2130903703,
-					2130903704,
-					2130903705};
+					2130903705,
+					2130903706,
+					2130903707,
+					2130903708,
+					2130903709,
+					2130903710};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -27062,29 +30387,29 @@ namespace Pokédex.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030142,0x7F0302B0,0x7F0302B2,0x7F0302E1,0x7F030308,0x7F030309,0x7F03030A,0x7F030404 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030145,0x7F0302B5,0x7F0302B7,0x7F0302E6,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030409 }
 			public static int[] Motion = new int[] {
 					2130903093,
 					2130903094,
-					2130903362,
-					2130903728,
-					2130903730,
-					2130903777,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904068};
+					2130903365,
+					2130903733,
+					2130903735,
+					2130903782,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904073};
 			
-			// aapt resource value: { 0x7F0302A6,0x7F0302A7,0x7F0302A8,0x7F0302A9,0x7F0302AA,0x7F0302AB,0x7F0302AC,0x7F0302AD }
+			// aapt resource value: { 0x7F0302AB,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F0302AF,0x7F0302B0,0x7F0302B1,0x7F0302B2 }
 			public static int[] MotionEffect = new int[] {
-					2130903718,
-					2130903719,
-					2130903720,
-					2130903721,
-					2130903722,
 					2130903723,
 					2130903724,
-					2130903725};
+					2130903725,
+					2130903726,
+					2130903727,
+					2130903728,
+					2130903729,
+					2130903730};
 			
 			// aapt resource value: 0
 			public const int MotionEffect_motionEffect_alpha = 0;
@@ -27110,10 +30435,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 7
 			public const int MotionEffect_motionEffect_viewTransition = 7;
 			
-			// aapt resource value: { 0x7F0302C7,0x7F0302CA }
+			// aapt resource value: { 0x7F0302CC,0x7F0302CF }
 			public static int[] MotionHelper = new int[] {
-					2130903751,
-					2130903754};
+					2130903756,
+					2130903759};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -27121,7 +30446,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030322,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303BC,0x7F0303BD,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303C8,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030327,0x7F0303BE,0x7F0303BF,0x7F0303C0,0x7F0303C1,0x7F0303C2,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD,0x7F0303CF,0x7F0303D0,0x7F0303D1,0x7F0303D2 }
 			public static int[] MotionLabel = new int[] {
 					16842901,
 					16842902,
@@ -27134,20 +30459,20 @@ namespace Pokédex.Droid
 					16844085,
 					2130903141,
 					2130903142,
-					2130903842,
-					2130903993,
-					2130903994,
-					2130903995,
-					2130903996,
-					2130903997,
-					2130904005,
-					2130904006,
-					2130904007,
-					2130904008,
+					2130903847,
+					2130903998,
+					2130903999,
+					2130904000,
+					2130904001,
+					2130904002,
 					2130904010,
 					2130904011,
 					2130904012,
-					2130904013};
+					2130904013,
+					2130904015,
+					2130904016,
+					2130904017,
+					2130904018};
 			
 			// aapt resource value: 8
 			public const int MotionLabel_android_autoSizeTextType = 8;
@@ -27224,14 +30549,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 24
 			public const int MotionLabel_textureWidth = 24;
 			
-			// aapt resource value: { 0x7F030039,0x7F030116,0x7F030206,0x7F03029A,0x7F0302B1,0x7F03033F }
+			// aapt resource value: { 0x7F030039,0x7F030119,0x7F03020B,0x7F03029F,0x7F0302B6,0x7F030344 }
 			public static int[] MotionLayout = new int[] {
 					2130903097,
-					2130903318,
-					2130903558,
-					2130903706,
-					2130903729,
-					2130903871};
+					2130903321,
+					2130903563,
+					2130903711,
+					2130903734,
+					2130903876};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -27251,10 +30576,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F030128,0x7F030207 }
+			// aapt resource value: { 0x7F03012B,0x7F03020C }
 			public static int[] MotionScene = new int[] {
-					2130903336,
-					2130903559};
+					2130903339,
+					2130903564};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -27262,11 +30587,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F03039F,0x7F0303A0,0x7F0303A1 }
+			// aapt resource value: { 0x7F0303A4,0x7F0303A5,0x7F0303A6 }
 			public static int[] MotionTelltales = new int[] {
-					2130903967,
-					2130903968,
-					2130903969};
+					2130903972,
+					2130903973,
+					2130903974};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -27307,12 +30632,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 9
 			public const int Motion_transitionEasing = 9;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B }
 			public static int[] MultiSelectListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399};
+					2130903402,
+					2130903403};
 			
 			// aapt resource value: 0
 			public const int MultiSelectListPreference_android_entries = 0;
@@ -27326,17 +30651,17 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int MultiSelectListPreference_entryValues = 3;
 			
-			// aapt resource value: { 0x10100D0,0x7F030130,0x7F030165,0x7F03016F,0x7F030204,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
+			// aapt resource value: { 0x10100D0,0x7F030133,0x7F030169,0x7F030173,0x7F030209,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7 }
 			public static int[] NavAction = new int[] {
 					16842960,
-					2130903344,
-					2130903397,
-					2130903407,
-					2130903556,
-					2130903791,
-					2130903792,
-					2130903793,
-					2130903794};
+					2130903347,
+					2130903401,
+					2130903411,
+					2130903561,
+					2130903796,
+					2130903797,
+					2130903798,
+					2130903799};
 			
 			// aapt resource value: 0
 			public const int NavAction_android_id = 0;
@@ -27365,12 +30690,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 8
 			public const int NavAction_popUpToInclusive = 8;
 			
-			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C3 }
+			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C8 }
 			public static int[] NavArgument = new int[] {
 					16842755,
 					16843245,
 					2130903099,
-					2130903747};
+					2130903752};
 			
 			// aapt resource value: 1
 			public const int NavArgument_android_defaultValue = 1;
@@ -27384,12 +30709,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F03040E }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F030292,0x7F030413 }
 			public static int[] NavDeepLink = new int[] {
 					16844014,
 					2130903043,
-					2130903693,
-					2130904078};
+					2130903698,
+					2130904083};
 			
 			// aapt resource value: 1
 			public const int NavDeepLink_action = 1;
@@ -27403,33 +30728,33 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int NavDeepLink_uri = 3;
 			
-			// aapt resource value: { 0x7F03035A }
+			// aapt resource value: { 0x7F03035F }
 			public static int[] NavGraphNavigator = new int[] {
-					2130903898};
+					2130903903};
 			
 			// aapt resource value: 0
 			public const int NavGraphNavigator_startDestination = 0;
 			
-			// aapt resource value: { 0x7F0302B8 }
+			// aapt resource value: { 0x7F0302BD }
 			public static int[] NavHost = new int[] {
-					2130903736};
+					2130903741};
 			
 			// aapt resource value: 0
 			public const int NavHost_navGraph = 0;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F0301E4,0x7F0301E9,0x7F0301EA,0x7F0301ED,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F030202,0x7F03028A }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F0301E8,0x7F0301ED,0x7F0301EE,0x7F0301F1,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030207,0x7F03028F }
 			public static int[] NavigationBarView = new int[] {
 					2130903120,
-					2130903382,
-					2130903524,
-					2130903529,
-					2130903530,
+					2130903385,
+					2130903528,
 					2130903533,
-					2130903545,
-					2130903546,
-					2130903547,
-					2130903554,
-					2130903690};
+					2130903534,
+					2130903537,
+					2130903549,
+					2130903550,
+					2130903551,
+					2130903559,
+					2130903695};
 			
 			// aapt resource value: 0
 			public const int NavigationBarView_backgroundTint = 0;
@@ -27464,10 +30789,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 10
 			public const int NavigationBarView_menu = 10;
 			
-			// aapt resource value: { 0x7F0301B4,0x7F03028B }
+			// aapt resource value: { 0x7F0301B8,0x7F030290 }
 			public static int[] NavigationRailView = new int[] {
-					2130903476,
-					2130903691};
+					2130903480,
+					2130903696};
 			
 			// aapt resource value: 0
 			public const int NavigationRailView_headerLayout = 0;
@@ -27475,31 +30800,31 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int NavigationRailView_menuGravity = 1;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030156,0x7F0301B4,0x7F0301E4,0x7F0301E6,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F8,0x7F0301FB,0x7F03028A,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030159,0x7F0301B8,0x7F0301E8,0x7F0301EA,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301FC,0x7F0301FF,0x7F03028F,0x7F030338,0x7F03033B }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903382,
-					2130903476,
-					2130903524,
-					2130903526,
+					2130903385,
+					2130903480,
 					2130903528,
-					2130903529,
 					2130903530,
-					2130903531,
+					2130903532,
+					2130903533,
 					2130903534,
 					2130903535,
-					2130903536,
-					2130903537,
 					2130903538,
 					2130903539,
 					2130903540,
+					2130903541,
+					2130903542,
+					2130903543,
 					2130903544,
-					2130903547,
-					2130903690,
-					2130903859,
-					2130903862};
+					2130903548,
+					2130903551,
+					2130903695,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -27581,17 +30906,17 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int Navigator_android_label = 0;
 			
-			// aapt resource value: { 0x7F0301B1 }
+			// aapt resource value: { 0x7F0301B5 }
 			public static int[] NavInclude = new int[] {
-					2130903473};
+					2130903477};
 			
 			// aapt resource value: 0
 			public const int NavInclude_graph = 0;
 			
-			// aapt resource value: { 0x7F0300C0,0x7F03039D }
+			// aapt resource value: { 0x7F0300C3,0x7F0303A2 }
 			public static int[] OnClick = new int[] {
-					2130903232,
-					2130903965};
+					2130903235,
+					2130903970};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -27599,27 +30924,27 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F03003F,0x7F03013F,0x7F030140,0x7F030141,0x7F03024F,0x7F030280,0x7F030287,0x7F0302B6,0x7F0302C0,0x7F0302CC,0x7F03031E,0x7F030352,0x7F030353,0x7F030354,0x7F030355,0x7F030356,0x7F0303F6,0x7F0303F7,0x7F0303F8 }
+			// aapt resource value: { 0x7F03003F,0x7F030142,0x7F030143,0x7F030144,0x7F030254,0x7F030285,0x7F03028C,0x7F0302BB,0x7F0302C5,0x7F0302D1,0x7F030323,0x7F030357,0x7F030358,0x7F030359,0x7F03035A,0x7F03035B,0x7F0303FB,0x7F0303FC,0x7F0303FD }
 			public static int[] OnSwipe = new int[] {
 					2130903103,
-					2130903359,
-					2130903360,
-					2130903361,
-					2130903631,
-					2130903680,
-					2130903687,
-					2130903734,
-					2130903744,
-					2130903756,
-					2130903838,
-					2130903890,
-					2130903891,
-					2130903892,
-					2130903893,
-					2130903894,
-					2130904054,
-					2130904055,
-					2130904056};
+					2130903362,
+					2130903363,
+					2130903364,
+					2130903636,
+					2130903685,
+					2130903692,
+					2130903739,
+					2130903749,
+					2130903761,
+					2130903843,
+					2130903895,
+					2130903896,
+					2130903897,
+					2130903898,
+					2130903899,
+					2130904059,
+					2130904060,
+					2130904061};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_autoCompleteMode = 0;
@@ -27678,15 +31003,15 @@ namespace Pokédex.Droid
 			// aapt resource value: 18
 			public const int OnSwipe_touchRegionId = 18;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302CF }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302D4 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903759};
+					2130903764};
 			
-			// aapt resource value: { 0x7F030360 }
+			// aapt resource value: { 0x7F030365 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903904};
+					2130903909};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -27700,7 +31025,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012E,0x7F030131,0x7F03015D,0x7F03015F,0x7F0301B0,0x7F0301CA,0x7F0301CF,0x7F0301E7,0x7F030200,0x7F03020A,0x7F0302D2,0x7F0302ED,0x7F030332,0x7F03033E,0x7F03034B,0x7F03037B,0x7F0303E7,0x7F030427 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -27720,24 +31045,24 @@ namespace Pokédex.Droid
 					16844129,
 					2130903086,
 					2130903088,
-					2130903339,
 					2130903342,
-					2130903385,
-					2130903387,
-					2130903468,
-					2130903494,
-					2130903499,
-					2130903523,
-					2130903548,
-					2130903557,
-					2130903757,
-					2130903784,
-					2130903853,
-					2130903865,
-					2130903878,
-					2130903926,
-					2130904034,
-					2130904098};
+					2130903345,
+					2130903389,
+					2130903391,
+					2130903472,
+					2130903498,
+					2130903503,
+					2130903527,
+					2130903552,
+					2130903562,
+					2130903762,
+					2130903789,
+					2130903858,
+					2130903870,
+					2130903883,
+					2130903931,
+					2130904039,
+					2130904103};
 			
 			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragment = new int[] {
@@ -27777,11 +31102,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int PreferenceFragment_android_layout = 0;
 			
-			// aapt resource value: { 0x10101E7,0x7F0301DF,0x7F0302CE }
+			// aapt resource value: { 0x10101E7,0x7F0301E3,0x7F0302D3 }
 			public static int[] PreferenceGroup = new int[] {
 					16843239,
-					2130903519,
-					2130903758};
+					2130903523,
+					2130903763};
 			
 			// aapt resource value: 0
 			public const int PreferenceGroup_android_orderingFromXml = 0;
@@ -27792,12 +31117,12 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x101011F,0x1010120,0x7F030284,0x7F030288 }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030289,0x7F03028D }
 			public static int[] PreferenceImageView = new int[] {
 					16843039,
 					16843040,
-					2130903684,
-					2130903688};
+					2130903689,
+					2130903693};
 			
 			// aapt resource value: 1
 			public const int PreferenceImageView_android_maxHeight = 1;
@@ -27811,24 +31136,24 @@ namespace Pokédex.Droid
 			// aapt resource value: 3
 			public const int PreferenceImageView_maxWidth = 3;
 			
-			// aapt resource value: { 0x7F030099,0x7F030135,0x7F030150,0x7F030154,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F03032B,0x7F03037C,0x7F03037D }
+			// aapt resource value: { 0x7F030099,0x7F030138,0x7F030153,0x7F030157,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030330,0x7F030381,0x7F030382 }
 			public static int[] PreferenceTheme = new int[] {
 					2130903193,
-					2130903349,
-					2130903376,
-					2130903380,
-					2130903800,
-					2130903801,
-					2130903802,
-					2130903803,
-					2130903804,
+					2130903352,
+					2130903379,
+					2130903383,
 					2130903805,
 					2130903806,
 					2130903807,
 					2130903808,
-					2130903851,
-					2130903932,
-					2130903933};
+					2130903809,
+					2130903810,
+					2130903811,
+					2130903812,
+					2130903813,
+					2130903856,
+					2130903937,
+					2130903938};
 			
 			// aapt resource value: 0
 			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
@@ -27986,13 +31311,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F030419 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030235,0x7F0302B6,0x7F03041E }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903600,
-					2130903729,
-					2130904089};
+					2130903605,
+					2130903734,
+					2130904094};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -28009,17 +31334,17 @@ namespace Pokédex.Droid
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F03027B }
+			// aapt resource value: { 0x7F030280 }
 			public static int[] RadialViewGroup = new int[] {
-					2130903675};
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030291,0x7F030412 }
+			// aapt resource value: { 0x7F030296,0x7F030417 }
 			public static int[] RangeSlider = new int[] {
-					2130903697,
-					2130904082};
+					2130903702,
+					2130904087};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -28027,10 +31352,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int RangeSlider_values = 1;
 			
-			// aapt resource value: { 0x7F0302D1,0x7F0302D7 }
+			// aapt resource value: { 0x7F0302D6,0x7F0302DC }
 			public static int[] RecycleListView = new int[] {
-					2130903761,
-					2130903767};
+					2130903766,
+					2130903772};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -28038,20 +31363,20 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030208,0x7F03031C,0x7F03034D,0x7F030358 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03020D,0x7F030321,0x7F030352,0x7F03035D }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903428,
-					2130903429,
-					2130903430,
-					2130903431,
 					2130903432,
-					2130903560,
-					2130903836,
-					2130903885,
-					2130903896};
+					2130903433,
+					2130903434,
+					2130903435,
+					2130903436,
+					2130903565,
+					2130903841,
+					2130903890,
+					2130903901};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -28089,9 +31414,9 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F0301E0 }
+			// aapt resource value: { 0x7F0301E4 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903520};
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -28103,32 +31428,32 @@ namespace Pokédex.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F030326 }
+			// aapt resource value: { 0x7F03032B }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903846};
+					2130903851};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C8,0x7F0300ED,0x7F03012C,0x7F0301B4,0x7F0301D3,0x7F03020A,0x7F030310,0x7F030311,0x7F03032C,0x7F03032D,0x7F030371,0x7F03037A,0x7F03041F }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903237,
-					2130903274,
-					2130903337,
-					2130903472,
-					2130903503,
-					2130903557,
-					2130903819,
-					2130903820,
-					2130903847,
-					2130903848,
-					2130903916,
-					2130903925,
-					2130904090};
+					2130903240,
+					2130903277,
+					2130903340,
+					2130903476,
+					2130903507,
+					2130903562,
+					2130903824,
+					2130903825,
+					2130903852,
+					2130903853,
+					2130903921,
+					2130903930,
+					2130904095};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -28181,15 +31506,15 @@ namespace Pokédex.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F030293,0x7F03032F,0x7F030345,0x7F030412 }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
 					2130903081,
-					2130903694,
-					2130903850,
-					2130903872,
-					2130904077};
+					2130903699,
+					2130903855,
+					2130903877,
+					2130904082};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -28212,19 +31537,19 @@ namespace Pokédex.Droid
 			// aapt resource value: 6
 			public const int SeekBarPreference_updatesContinuously = 6;
 			
-			// aapt resource value: { 0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] ShapeableImageView = new int[] {
-					2130903289,
-					2130903290,
-					2130903291,
 					2130903292,
 					2130903293,
 					2130903294,
 					2130903295,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903296,
+					2130903297,
+					2130903298,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -28259,18 +31584,18 @@ namespace Pokédex.Droid
 			// aapt resource value: 10
 			public const int ShapeableImageView_strokeWidth = 10;
 			
-			// aapt resource value: { 0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E }
+			// aapt resource value: { 0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030111 }
 			public static int[] ShapeAppearance = new int[] {
-					2130903300,
-					2130903301,
-					2130903302,
 					2130903303,
 					2130903304,
+					2130903305,
 					2130903306,
 					2130903307,
-					2130903308,
 					2130903309,
-					2130903310};
+					2130903310,
+					2130903311,
+					2130903312,
+					2130903313};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -28302,30 +31627,30 @@ namespace Pokédex.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B2,0x7F0301B3,0x7F030200,0x7F030201,0x7F0303D1,0x7F0303D2,0x7F0303D3,0x7F0303D4,0x7F0303D5,0x7F0303D9,0x7F0303DA,0x7F0303DB,0x7F0303DF,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FE }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B6,0x7F0301B7,0x7F030205,0x7F030206,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303D9,0x7F0303DA,0x7F0303DE,0x7F0303DF,0x7F0303E0,0x7F0303E4,0x7F0303FF,0x7F030400,0x7F030401,0x7F030403 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903474,
-					2130903475,
-					2130903552,
-					2130903553,
-					2130904017,
-					2130904018,
-					2130904019,
-					2130904020,
-					2130904021,
+					2130903478,
+					2130903479,
+					2130903557,
+					2130903558,
+					2130904022,
+					2130904023,
+					2130904024,
 					2130904025,
 					2130904026,
-					2130904027,
+					2130904030,
 					2130904031,
-					2130904058,
-					2130904059,
-					2130904060,
-					2130904062};
+					2130904032,
+					2130904036,
+					2130904063,
+					2130904064,
+					2130904065,
+					2130904067};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -28393,13 +31718,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F03034A,0x7F03034B,0x7F03034C }
+			// aapt resource value: { 0x7F03034F,0x7F030350,0x7F030351 }
 			public static int[] Snackbar = new int[] {
-					2130903882,
-					2130903883,
-					2130903884};
+					2130903887,
+					2130903888,
+					2130903889};
 			
-			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030156,0x7F030281 }
+			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030159,0x7F030286 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903078,
@@ -28407,8 +31732,8 @@ namespace Pokédex.Droid
 					2130903117,
 					2130903120,
 					2130903121,
-					2130903382,
-					2130903681};
+					2130903385,
+					2130903686};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -28443,13 +31768,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302F5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302FA }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903797};
+					2130903802};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -28466,10 +31791,10 @@ namespace Pokédex.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300F0 }
+			// aapt resource value: { 0x10100D0,0x7F0300F3 }
 			public static int[] State = new int[] {
 					16842960,
-					2130903280};
+					2130903283};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -28505,9 +31830,9 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F03012A }
+			// aapt resource value: { 0x7F03012D }
 			public static int[] StateSet = new int[] {
-					2130903338};
+					2130903341};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -28518,29 +31843,29 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x7F030379 }
+			// aapt resource value: { 0x7F03037E }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903929};
+					2130903934};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030341,0x7F030351,0x7F03037A,0x7F03037B,0x7F03037F,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303F9,0x7F030400,0x7F030401 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030346,0x7F030356,0x7F03037F,0x7F030380,0x7F030384,0x7F0303DB,0x7F0303DC,0x7F0303DD,0x7F0303FE,0x7F030405,0x7F030406 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903873,
-					2130903889,
-					2130903930,
-					2130903931,
+					2130903878,
+					2130903894,
 					2130903935,
-					2130904022,
-					2130904023,
-					2130904024,
-					2130904057,
-					2130904064,
-					2130904065};
+					2130903936,
+					2130903940,
+					2130904027,
+					2130904028,
+					2130904029,
+					2130904062,
+					2130904069,
+					2130904070};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -28584,38 +31909,38 @@ namespace Pokédex.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030410 }
+			// aapt resource value: { 0x7F030415 }
 			public static int[] SwitchMaterial = new int[] {
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
 			// aapt resource value: 2
 			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
@@ -28692,13 +32017,8 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030382,0x7F030383,0x7F030384,0x7F030385,0x7F030386,0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F03039A,0x7F03039B,0x7F03039C }
+			// aapt resource value: { 0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F030399,0x7F03039A,0x7F03039B,0x7F03039C,0x7F03039D,0x7F03039F,0x7F0303A0,0x7F0303A1 }
 			public static int[] TabLayout = new int[] {
-					2130903938,
-					2130903939,
-					2130903940,
-					2130903941,
-					2130903942,
 					2130903943,
 					2130903944,
 					2130903945,
@@ -28717,9 +32037,14 @@ namespace Pokédex.Droid
 					2130903958,
 					2130903959,
 					2130903960,
+					2130903961,
 					2130903962,
 					2130903963,
-					2130903964};
+					2130903964,
+					2130903965,
+					2130903967,
+					2130903968,
+					2130903969};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -28799,7 +32124,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03019F,0x7F0301A8,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0301A3,0x7F0301AC,0x7F0303A7,0x7F0303C9 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -28813,10 +32138,10 @@ namespace Pokédex.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903455,
-					2130903464,
-					2130903970,
-					2130904004};
+					2130903459,
+					2130903468,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -28866,7 +32191,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C1,0x7F0303C5,0x7F0303C6 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C6,0x7F0303CA,0x7F0303CB }
 			public static int[] TextEffects = new int[] {
 					16842901,
 					16842902,
@@ -28879,9 +32204,9 @@ namespace Pokédex.Droid
 					16843692,
 					2130903141,
 					2130903142,
-					2130904001,
-					2130904005,
-					2130904006};
+					2130904006,
+					2130904010,
+					2130904011};
 			
 			// aapt resource value: 8
 			public const int TextEffects_android_fontFamily = 8;
@@ -28925,14 +32250,14 @@ namespace Pokédex.Droid
 			// aapt resource value: 13
 			public const int TextEffects_textOutlineThickness = 13;
 			
-			// aapt resource value: { 0x7F0303C2 }
+			// aapt resource value: { 0x7F0303C7 }
 			public static int[] TextInputEditText = new int[] {
-					2130904002};
+					2130904007};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030172,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030301,0x7F030302,0x7F030303,0x7F030333,0x7F030336,0x7F03035B,0x7F03035C,0x7F03035D,0x7F03035E,0x7F03035F,0x7F030372,0x7F030373,0x7F030374 }
+			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030176,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0302E1,0x7F0302E2,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F030306,0x7F030307,0x7F030308,0x7F030338,0x7F03033B,0x7F030360,0x7F030361,0x7F030362,0x7F030363,0x7F030364,0x7F030377,0x7F030378,0x7F030379 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -28950,55 +32275,55 @@ namespace Pokédex.Droid
 					2130903157,
 					2130903158,
 					2130903159,
-					2130903311,
-					2130903312,
-					2130903313,
 					2130903314,
 					2130903315,
 					2130903316,
-					2130903388,
-					2130903389,
-					2130903390,
-					2130903391,
+					2130903317,
+					2130903318,
+					2130903319,
 					2130903392,
 					2130903393,
-					2130903400,
-					2130903401,
-					2130903402,
-					2130903403,
+					2130903394,
+					2130903395,
+					2130903396,
+					2130903397,
 					2130903404,
 					2130903405,
 					2130903406,
+					2130903407,
+					2130903408,
+					2130903409,
 					2130903410,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903481,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903772,
-					2130903773,
-					2130903774,
-					2130903775,
-					2130903776,
-					2130903786,
-					2130903787,
-					2130903788,
-					2130903809,
-					2130903810,
-					2130903811,
-					2130903859,
-					2130903862,
-					2130903899,
-					2130903900,
-					2130903901,
-					2130903902,
-					2130903903,
-					2130903922,
-					2130903923,
-					2130903924};
+					2130903414,
+					2130903482,
+					2130903483,
+					2130903484,
+					2130903485,
+					2130903490,
+					2130903491,
+					2130903492,
+					2130903493,
+					2130903777,
+					2130903778,
+					2130903779,
+					2130903780,
+					2130903781,
+					2130903791,
+					2130903792,
+					2130903793,
+					2130903814,
+					2130903815,
+					2130903816,
+					2130903864,
+					2130903867,
+					2130903904,
+					2130903905,
+					2130903906,
+					2130903907,
+					2130903908,
+					2130903927,
+					2130903928,
+					2130903929};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -29195,11 +32520,11 @@ namespace Pokédex.Droid
 			// aapt resource value: 64
 			public const int TextInputLayout_suffixTextColor = 64;
 			
-			// aapt resource value: { 0x1010034,0x7F030162,0x7F030163 }
+			// aapt resource value: { 0x1010034,0x7F030166,0x7F030167 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903394,
-					2130903395};
+					2130903398,
+					2130903399};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -29210,38 +32535,38 @@ namespace Pokédex.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F030262,0x7F030263,0x7F030282,0x7F03028A,0x7F0302B9,0x7F0302BA,0x7F0302F5,0x7F03036D,0x7F03036F,0x7F030370,0x7F0303E2,0x7F0303E6,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303ED }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030267,0x7F030268,0x7F030287,0x7F03028F,0x7F0302BE,0x7F0302BF,0x7F0302FA,0x7F030372,0x7F030374,0x7F030375,0x7F0303E7,0x7F0303EB,0x7F0303EC,0x7F0303ED,0x7F0303EE,0x7F0303EF,0x7F0303F0,0x7F0303F1,0x7F0303F2 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903167,
-					2130903245,
-					2130903246,
-					2130903283,
-					2130903284,
-					2130903285,
+					2130903248,
+					2130903249,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903650,
-					2130903651,
-					2130903682,
-					2130903690,
-					2130903737,
-					2130903738,
-					2130903797,
-					2130903917,
-					2130903919,
-					2130903920,
-					2130904034,
-					2130904038,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903655,
+					2130903656,
+					2130903687,
+					2130903695,
+					2130903742,
+					2130903743,
+					2130903802,
+					2130903922,
+					2130903924,
+					2130903925,
 					2130904039,
-					2130904040,
-					2130904041,
-					2130904042,
 					2130904043,
 					2130904044,
-					2130904045};
+					2130904045,
+					2130904046,
+					2130904047,
+					2130904048,
+					2130904049,
+					2130904050};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -29364,7 +32689,7 @@ namespace Pokédex.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030402 }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030407 }
 			public static int[] Transform = new int[] {
 					16843552,
 					16843553,
@@ -29377,7 +32702,7 @@ namespace Pokédex.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130904066};
+					2130904071};
 			
 			// aapt resource value: 10
 			public const int Transform_android_elevation = 10;
@@ -29415,19 +32740,19 @@ namespace Pokédex.Droid
 			// aapt resource value: 11
 			public const int Transform_transformPivotTarget = 11;
 			
-			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
+			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EF,0x7F0300F0,0x7F030154,0x7F03020C,0x7F0302B3,0x7F0302E6,0x7F03035E,0x7F030408,0x7F03040A }
 			public static int[] Transition = new int[] {
 					16842960,
 					2130903110,
-					2130903276,
-					2130903277,
-					2130903377,
-					2130903559,
-					2130903726,
-					2130903777,
-					2130903897,
-					2130904067,
-					2130904069};
+					2130903279,
+					2130903280,
+					2130903380,
+					2130903564,
+					2130903731,
+					2130903782,
+					2130903902,
+					2130904072,
+					2130904074};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -29462,13 +32787,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300F0,0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
+			// aapt resource value: { 0x7F0300F3,0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320 }
 			public static int[] Variant = new int[] {
-					2130903280,
-					2130903832,
-					2130903833,
-					2130903834,
-					2130903835};
+					2130903283,
+					2130903837,
+					2130903838,
+					2130903839,
+					2130903840};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -29485,13 +32810,13 @@ namespace Pokédex.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D3,0x7F0302D6,0x7F0303CE }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D8,0x7F0302DB,0x7F0303D3 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903763,
-					2130903766,
-					2130904014};
+					2130903768,
+					2130903771,
+					2130904019};
 			
 			// aapt resource value: { 0x10100D4,0x7F030050,0x7F030051 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -29530,23 +32855,23 @@ namespace Pokédex.Droid
 			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300C2,0x7F030154,0x7F0301D4,0x7F0301D5,0x7F0302B3,0x7F0302B8,0x7F0302D0,0x7F0302E6,0x7F030337,0x7F030408,0x7F030411,0x7F03041A }
 			public static int[] ViewTransition = new int[] {
 					16842960,
 					2130903041,
 					2130903042,
-					2130903231,
-					2130903377,
-					2130903504,
-					2130903505,
-					2130903726,
+					2130903234,
+					2130903380,
+					2130903508,
+					2130903509,
 					2130903731,
-					2130903755,
-					2130903777,
-					2130903858,
-					2130904067,
-					2130904076,
-					2130904085};
+					2130903736,
+					2130903760,
+					2130903782,
+					2130903863,
+					2130904072,
+					2130904081,
+					2130904090};
 			
 			// aapt resource value: 0
 			public const int ViewTransition_android_id = 0;
