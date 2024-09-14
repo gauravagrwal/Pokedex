@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Pokédex.Pages.SearchPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
+    xmlns:sk="clr-namespace:Xamarin.Forms.Skeleton;assembly=Xamarin.Forms.Skeleton"
+    xmlns:vm="clr-namespace:Pokédex.ViewModels"
+    Title="Search">
+
+    <ContentPage.BindingContext>
+        <vm:SearchViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout
+            Margin="15"
+            sk:Skeleton.Animation="{sk:DefaultAnimation HorizontalShake}"
+            sk:Skeleton.IsParent="True">
+            <material:MaterialSearch
+                Placeholder="Search Pokémon"
+                SearchCommand="{Binding SearchPokemonCommand}"
+                Text="{Binding FilterPokemon}" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <material:MaterialLabel
+                    Grid.Column="0"
+                    FontSize="Title"
+                    Text="{Binding Id}" />
+                <material:MaterialLabel
+                    Grid.Column="1"
+                    FontSize="Title"
+                    HorizontalOptions="End"
+                    Text="{Binding Type}" />
+            </Grid>
+
+            <Image
+                HorizontalOptions="FillAndExpand"
+                Source="{Binding Image}"
+                VerticalOptions="FillAndExpand" />
+            <material:MaterialLabel
+                FontAttributes="Bold"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                Text="{Binding Name}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,6 +8,10 @@
     xmlns:vm="clr-namespace:Pokédex.ViewModels"
     Title="Pokédex">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding SearchCommand}" Text="Search" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.BindingContext>
         <vm:MainViewModel />
     </ContentPage.BindingContext>
