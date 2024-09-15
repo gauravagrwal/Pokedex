@@ -1,11 +1,11 @@
 ﻿using System.Collections.ObjectModel;
-using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 using Pokédex.Models;
 using Pokédex.Service;
 
 namespace Pokédex.ViewModels;
 
-public class MainViewModel
+public partial class MainViewModel
 {
     private readonly HttpClientService _httpClientService;
 
@@ -14,24 +14,35 @@ public class MainViewModel
 
     public ObservableCollection<Pokémons> PokémonCollection { get; set; }
 
-    public ICommand LoadMoreCommand { get; }
-    public ICommand SearchCommand { get; }
-
     public MainViewModel(HttpClientService httpClientService)
     {
         _httpClientService = httpClientService;
 
         IsLoading = false;
         IsVisible = false;
+
         PokémonCollection = new ObservableCollection<Pokémons>();
 
         GetPokémons();
-
-        LoadMoreCommand = new Command(async () => await LoadMoreCommandHandler());
-        SearchCommand = new Command(async () => await SearchCommandHandler());
     }
 
-    async Task LoadMoreCommandHandler()
+    private void GetPokémons()
+    {
+        try
+        {
+            var pokémons = _httpClientService.GetPokémons($"pokemon");
+            PokémonCollection = new ObservableCollection<Pokémons>(pokémons);
+        }
+        catch (Exception ex)
+        {
+            IsLoading = false;
+            Console.WriteLine(ex.Message);
+            PokémonCollection = new ObservableCollection<Pokémons>();
+        }
+    }
+
+    [RelayCommand]
+    private async Task Load()
     {
         IsLoading = true;
         IsVisible = true;
@@ -52,30 +63,24 @@ public class MainViewModel
         IsVisible = false;
     }
 
-    async Task SearchCommandHandler()
+    private void GetPokémonsWithLimit(int value = 20)
+    {
+        try
+        {
+            var pokémons = _httpClientService.GetPokémons($"pokemon/?offset={value}&limit={value}");
+            PokémonCollection = new ObservableCollection<Pokémons>(pokémons);
+        }
+        catch (Exception ex)
+        {
+            IsLoading = false;
+            Console.WriteLine(ex.Message);
+            PokémonCollection = new ObservableCollection<Pokémons>();
+        }
+    }
+
+    [RelayCommand]
+    private async Task Search()
     {
         await App.Current.MainPage.Navigation.PushAsync(new Views.SearchPage());
-    }
-
-    public void GetPokémons()
-    {
-        GetPokémonsWithLimit();
-    }
-
-    public void GetPokémonsWithLimit(int value = 20)
-    {
-        {
-            try
-            {
-                var pokémons = _httpClientService.GetPokémons($"pokemon/?offset=0&limit={value}");
-                PokémonCollection = new ObservableCollection<Pokémons>(pokémons);
-            }
-            catch (Exception ex)
-            {
-                IsLoading = false;
-                Console.WriteLine(ex.Message);
-                PokémonCollection = new ObservableCollection<Pokémons>();
-            }
-        }
     }
 }
