@@ -1,0 +1,85 @@
+﻿using System.Collections.ObjectModel;
+using System.Text.Json;
+using System.Windows.Input;
+using Pokédex.Models;
+
+namespace Pokédex.ViewModels;
+
+internal class MainViewModel
+{
+    private readonly JsonSerializerOptions _jsonSerializerOptions;
+
+    public bool IsLoading { get; set; }
+    public bool IsVisible { get; set; }
+
+    public ObservableCollection<Pokémons> PokémonCollection { get; set; }
+
+    public ICommand LoadMoreCommand { get; }
+    public ICommand SearchCommand { get; }
+
+    public MainViewModel()
+    {
+        _jsonSerializerOptions = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+
+        IsLoading = false;
+        IsVisible = false;
+        PokémonCollection = new ObservableCollection<Pokémons>();
+
+        GetPokémons();
+
+        LoadMoreCommand = new Command(async () => await LoadMoreCommandHandler());
+        SearchCommand = new Command(async () => await SearchCommandHandler());
+    }
+
+    async Task LoadMoreCommandHandler()
+    {
+        IsLoading = true;
+        IsVisible = true;
+        int value = PokémonCollection.Count + 20;
+
+        var pokémonList = new ObservableCollection<Pokémons>();
+
+        await Task.Run(() =>
+        {
+            pokémonList = GetPokémonsWithLimit(value);
+            PokémonCollection.Clear();
+            foreach (var pokemon in pokémonList)
+            {
+                PokémonCollection.Add(pokemon);
+            }
+        });
+        IsLoading = false;
+        IsVisible = false;
+    }
+
+    async Task SearchCommandHandler()
+    {
+        await App.Current.MainPage.Navigation.PushAsync(new Views.SearchPage());
+    }
+
+    public void GetPokémons()
+    {
+        PokémonCollection = GetPokémonsWithLimit();
+    }
+
+    public ObservableCollection<Pokémons> GetPokémonsWithLimit(int value = 10)
+    {
+        var url = $"https://pokeapi.co/api/v2/pokemon/?offset=0&limit={value}";
+
+        using (var httpClient = new HttpClient())
+        {
+            try
+            {
+                var response = httpClient.GetStringAsync(url).Result;
+                var jsonResponse = JsonSerializer.Deserialize<PaginationModel>(response, _jsonSerializerOptions);
+                return new ObservableCollection<Pokémons>(jsonResponse.Results);
+            }
+            catch (Exception ex)
+            {
+                IsLoading = false;
+                Console.WriteLine(ex.Message);
+                return new ObservableCollection<Pokémons>();
+            }
+        }
+    }
+}
