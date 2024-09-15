@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Pokédex.Views.SearchPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Pokédex.ViewModels"
+    Title="SearchPage">
+    <ContentPage.BindingContext>
+        <vm:SearchViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Margin="15">
+            <SearchBar
+                Placeholder="Search Pokémon"
+                SearchCommand="{Binding SearchPokemonCommand}"
+                Text="{Binding FilterPokemon}" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    FontSize="Title"
+                    Text="{Binding Id}" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="Title"
+                    HorizontalOptions="End"
+                    Text="{Binding Type}" />
+            </Grid>
+
+            <Image
+                HorizontalOptions="FillAndExpand"
+                Source="{Binding Image}"
+                VerticalOptions="FillAndExpand" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                Text="{Binding Name}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
