@@ -1,13 +1,13 @@
 ﻿using System.Collections.ObjectModel;
-using System.Text.Json;
 using System.Windows.Input;
 using Pokédex.Models;
+using Pokédex.Service;
 
 namespace Pokédex.ViewModels;
 
-internal class MainViewModel
+public class MainViewModel
 {
-    private readonly JsonSerializerOptions _jsonSerializerOptions;
+    private readonly HttpClientService _httpClientService;
 
     public bool IsLoading { get; set; }
     public bool IsVisible { get; set; }
@@ -17,9 +17,9 @@ internal class MainViewModel
     public ICommand LoadMoreCommand { get; }
     public ICommand SearchCommand { get; }
 
-    public MainViewModel()
+    public MainViewModel(HttpClientService httpClientService)
     {
-        _jsonSerializerOptions = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+        _httpClientService = httpClientService;
 
         IsLoading = false;
         IsVisible = false;
@@ -41,7 +41,7 @@ internal class MainViewModel
 
         await Task.Run(() =>
         {
-            pokémonList = GetPokémonsWithLimit(value);
+            GetPokémonsWithLimit(value);
             PokémonCollection.Clear();
             foreach (var pokemon in pokémonList)
             {
@@ -59,26 +59,22 @@ internal class MainViewModel
 
     public void GetPokémons()
     {
-        PokémonCollection = GetPokémonsWithLimit();
+        GetPokémonsWithLimit();
     }
 
-    public ObservableCollection<Pokémons> GetPokémonsWithLimit(int value = 10)
+    public void GetPokémonsWithLimit(int value = 20)
     {
-        var url = $"https://pokeapi.co/api/v2/pokemon/?offset=0&limit={value}";
-
-        using (var httpClient = new HttpClient())
         {
             try
             {
-                var response = httpClient.GetStringAsync(url).Result;
-                var jsonResponse = JsonSerializer.Deserialize<PaginationModel>(response, _jsonSerializerOptions);
-                return new ObservableCollection<Pokémons>(jsonResponse.Results);
+                var pokémons = _httpClientService.GetPokémons($"pokemon/?offset=0&limit={value}");
+                PokémonCollection = new ObservableCollection<Pokémons>(pokémons);
             }
             catch (Exception ex)
             {
                 IsLoading = false;
                 Console.WriteLine(ex.Message);
-                return new ObservableCollection<Pokémons>();
+                PokémonCollection = new ObservableCollection<Pokémons>();
             }
         }
     }
