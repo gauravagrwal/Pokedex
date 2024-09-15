@@ -16,6 +16,8 @@
             <CollectionView
                 ItemsSource="{Binding PokémonCollection}"
                 ItemsUpdatingScrollMode="KeepLastItemInView"
+                RemainingItemsThreshold="2"
+                RemainingItemsThresholdReachedCommand="{Binding LoadCommand}"
                 SelectionMode="Single">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2" />
@@ -39,7 +41,6 @@
             </CollectionView>
 
             <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsVisible}" />
-            <Button Command="{Binding LoadMoreCommand}" Text="Load More Pokémons" />
 
         </VerticalStackLayout>
     </ScrollView>
