@@ -11,10 +11,6 @@
         <ToolbarItem Command="{Binding SearchCommand}" Text="Search" />
     </ContentPage.ToolbarItems>
 
-    <ContentPage.BindingContext>
-        <vm:MainViewModel />
-    </ContentPage.BindingContext>
-
     <ScrollView>
         <VerticalStackLayout>
             <CollectionView
