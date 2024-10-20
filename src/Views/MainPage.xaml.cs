@@ -1,9 +1,12 @@
+using Pokédex.ViewModels;
+
 namespace Pokédex.Views;
 
 public partial class MainPage : ContentPage
 {
-    public MainPage()
+    public MainPage(MainViewModel mainViewModel)
     {
         InitializeComponent();
+        BindingContext = mainViewModel;
     }
 }
