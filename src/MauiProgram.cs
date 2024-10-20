@@ -13,12 +13,28 @@ public static class MauiProgram
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-            });
+            })
+            .RegisterViews()
+            .RegisterViewModels();
 
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
 
         return builder.Build();
+    }
+
+    public static MauiAppBuilder RegisterViews(this MauiAppBuilder mauiAppBuilder)
+    {
+        mauiAppBuilder.Services.AddSingleton<Views.MainPage>();
+
+        return mauiAppBuilder;
+    }
+
+    public static MauiAppBuilder RegisterViewModels(this MauiAppBuilder mauiAppBuilder)
+    {
+        mauiAppBuilder.Services.AddSingleton<ViewModels.MainViewModel>();
+
+        return mauiAppBuilder;
     }
 }
