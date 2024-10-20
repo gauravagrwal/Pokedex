@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Json;
 using System.Text.Json;
+using Pokédex.Models;
 
 namespace Pokédex.Service;
 
@@ -37,5 +38,25 @@ public class HttpClientService
             Console.WriteLine(ex);
             return default;
         }
+    }
+
+    public IList<Pokémons> GetPokémons(string requestUri)
+    {
+        var pokémons = new List<Pokémons>();
+        try
+        {
+            var response = _httpClient.GetAsync(requestUri).Result;
+            var json = response.Content.ReadFromJsonAsync<PaginationModel>().Result;
+            foreach (var result in json.Results)
+            {
+                pokémons.Add(result);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+        }
+
+        return pokémons;
     }
 }
