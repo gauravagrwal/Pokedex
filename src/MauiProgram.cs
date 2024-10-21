@@ -28,6 +28,7 @@ public static class MauiProgram
     public static MauiAppBuilder RegisterServices(this MauiAppBuilder mauiAppBuilder)
     {
         mauiAppBuilder.Services.AddSingleton<Services.HttpClientService>();
+
         return mauiAppBuilder;
     }
 
