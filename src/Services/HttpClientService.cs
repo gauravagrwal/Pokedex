@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Json;
 using System.Text.Json;
 using Pokédex.Models;
+using Realms;
 
 namespace Pokédex.Services;
 

@@ -8,6 +8,7 @@ namespace Pokédex.ViewModels;
 public class MainViewModel
 {
     private readonly HttpClientService _httpClientService;
+    private readonly RealmService _realmService;
 
     public bool IsLoading { get; set; }
     public bool IsVisible { get; set; }
@@ -21,9 +22,10 @@ public class MainViewModel
     public IRelayCommand LoadMoreCommand { get; }
     public IRelayCommand SearchCommand { get; }
 
-    public MainViewModel(HttpClientService httpClientService)
+    public MainViewModel(HttpClientService httpClientService, RealmService realmService)
     {
         _httpClientService = httpClientService;
+        _realmService = realmService;
 
         IsLoading = false;
         IsVisible = false;
@@ -33,6 +35,31 @@ public class MainViewModel
 
         LoadMoreCommand = new RelayCommand(async () => await LoadMoreCommandHandler());
         SearchCommand = new RelayCommand(async () => await SearchCommandHandler());
+    }
+
+    private async Task GetResourceListAsync(string url)
+    {
+        try
+        {
+            var resourceLists = _realmService.FindResourceLists();
+            if (!resourceLists.Any())
+            {
+                var resourceList = await _httpClientService.GetResourceAsync<ResourceListsModel>(url);
+
+                if (resourceList == null)
+                    return;
+
+                ResourceList = resourceList;
+                _realmService..UpdateResourceListDataBase(_dbServiceResourceList, ResourceList);
+            }
+            else
+            {
+                //ResourceList = dbResourceList.FirstOrDefault();
+            }
+        }
+        catch (Exception ex)
+        {
+        }
     }
 
     private async Task LoadMoreCommandHandler()
